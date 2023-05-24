@@ -1,0 +1,21 @@
+is_randoplh_trigger = {
+	exists = character:randolph # Randolph
+	this = character:randolph # Randolph
+}
+is_elf = {
+	has_trait = elf
+}
+is_human = { 
+	NOT = {
+		has_trait = elf
+	}
+}
+is_halfhuman = { 
+	has_trait = halfelf
+}
+is_geneticheskii = {
+	has_trait = geneticheskii
+}
+is_genius = {
+	has_trait = intellect_good_3
+}

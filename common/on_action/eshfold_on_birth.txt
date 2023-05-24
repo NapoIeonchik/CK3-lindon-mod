@@ -1,0 +1,133 @@
+on_birth_child = {
+	on_actions = {
+		on_halfelf_birth
+		on_halfelfclean_birth
+		on_halfelfandelf_birth
+		on_elf_birth
+		on_geneticheskii_birth 
+		on_genius_birth
+	}
+}
+on_halfelf_birth = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:mother = { is_elf = yes }
+						scope:real_father = { is_human = yes }
+					}
+					AND = {
+						scope:mother = { is_human = yes }
+						scope:real_father = { is_elf = yes }
+					}
+				}
+			}
+			remove_race = yes
+			
+			random_list = { 
+				100 = { add_trait = halfelf }
+			}
+		}
+	}
+}
+on_genius_birth = {
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					scope:mother = { is_genius = yes }
+					scope:real_father = { is_genius = yes }
+				}
+			}
+			
+			random_list = { 
+				10 = { 
+					add_trait = geneticheskii
+					give_nickname = nick_genetical
+					remove_trait = intellect_good_3
+					remove_trait = intellect_good_2
+					remove_trait = intellect_good_1
+				}
+			}
+		}
+	}
+}
+on_halfelfandelf_birth = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:mother = { is_elf = yes }
+						scope:real_father = { is_halfhuman = yes }
+					}
+					AND = {
+						scope:mother = { is_halfhuman = yes }
+						scope:real_father = { is_elf = yes }
+					}
+				}
+			}
+			remove_race = yes
+
+			
+			random_list = { 
+				40 = { add_trait = halfelf }
+				60 = { add_trait = elf }
+			}
+		}
+	}
+}
+on_halfelfclean_birth = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:mother = { is_human = yes }
+						scope:real_father = { is_halfhuman = yes }
+					}
+					AND = {
+						scope:mother = { is_halfhuman = yes }
+						scope:real_father = { is_human = yes }
+					}
+				}
+			}
+			add_trait = halfelf
+			
+		}
+	}
+}
+on_elf_birth = {
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					scope:mother = { is_elf = yes }
+					scope:real_father = { is_elf = yes }
+				}
+			}	
+			random_list = { 
+				100 = { add_trait = elf }
+			}
+		}
+	}
+}
+on_geneticheskii_birth = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					scope:mother = { is_geneticheskii = yes }
+					scope:real_father = { is_geneticheskii = yes }
+				}
+			}	
+			random_list = { 
+				60 = { 
+					add_trait = geneticheskii 
+					give_nickname = nick_genetical
+				}
+			}
+		}
+	}
+}

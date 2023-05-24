@@ -1,0 +1,84 @@
+namespace = balian
+#####
+balian.0001 = {
+	type = character_event
+	title = balian.0001.t
+	desc = balian.0001.desc
+	theme = realm
+	left_portrait = {
+		character = scope:balian_uniter
+		animation = personality_honorable
+	}
+
+
+	immediate = { form_balian_scripted_effect = yes }
+
+	#Take the nickname.
+	option = {
+		name = balian.0001.a
+		give_nickname = nick_the_trojan
+		add_prestige = minor_prestige_gain
+	}
+	#No thanks on the nickname, more prestige instead please.
+	option = {
+		name = balian.0001.b
+		add_prestige = medium_prestige_gain
+	}
+}
+
+
+#Inform any players.
+balian.0002 = {
+	type = character_event
+	title = balian.0002.t
+	desc = balian.0002.desc
+	theme = realm
+	theme = diplomacy
+	left_portrait = {
+		character = scope:balian_uniter
+		animation = personality_dancin
+	}
+
+	option = {
+		name = { 
+			text = balian.0002.a
+		}
+	}
+}
+balian.0003 = {
+	type = character_event
+	title = balian.0003.t
+	desc = balian.0003.desc
+	theme = realm
+	left_portrait = {
+		character = scope:candidat_balian_uniter
+		animation = personality_honorable
+	}
+
+
+	#Take the nickname.
+	option = {
+		name = balian.0003.a
+		give_nickname = nick_the_trojan
+		add_prestige = medium_prestige_gain
+		add_pressed_claim = e_balian
+	}
+}
+
+balian.0004 = {
+	type = character_event
+	title = balian.0004.t
+	desc = balian.0004.desc
+	theme = realm
+	theme = diplomacy
+	left_portrait = {
+		character = scope:candidat_balian_uniter
+		animation = personality_honorable
+	}
+
+	option = {
+		name = { 
+			text = balian.0004.a
+		}
+	}
+}

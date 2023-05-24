@@ -1,0 +1,61 @@
+wok_can_marry_character_trigger = {   ######### took this one from WoK in order to test
+	trigger_if = { # Interspecies marriage handler
+		limit = {faith_prevents_interspecies_marriage = yes}
+		has_same_species_as = {TARGET = $CHARACTER$}
+	}
+	trigger_if = { # Things that can override canon spouse
+		limit = {
+			OR = {
+				$CHARACTER$ = {
+					any_relation = {
+						type = canon_spouse
+						is_married = no
+					}
+				}
+				any_relation = {
+					type = canon_spouse
+					is_married = no
+				}
+			}
+		}
+		OR = {
+			has_relation_canon_spouse = $CHARACTER$
+			trigger_if = {
+				limit = {is_betrothed = yes}
+				betrothed = $CHARACTER$
+			}
+			trigger_if = { # Done this way for tooltipping purposes
+				limit = {is_ai = no}
+				is_ai = no
+			}
+			trigger_if = { # Done this way for tooltipping
+				limit = {$CHARACTER$ = {is_ai = no}}
+				$CHARACTER$ = {is_ai = no}
+			}
+			trigger_if = {
+				limit = {exists = scope:actor}
+				scope:actor = {is_ai = no}
+			}
+			trigger_if = {
+				limit = {exists = matchmaker}
+				matchmaker = {is_ai = no}
+			}
+		}
+	}
+}
+wok_ai_wants_marriable_relations = {
+	is_ai = yes
+	uses_marriage_consent = yes
+	# has_marriable_canon_spouse = no
+	wok_has_marriable_relations = no	
+}
+wok_has_marriable_relations = {
+	save_temporary_scope_as = tmp_check
+	any_relation = {
+		type = friend
+		type = lover
+		type = soulmate
+		type = crush
+		could_marry_character_trigger = {CHARACTER = scope:tmp_check}
+	}
+}

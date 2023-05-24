@@ -1,0 +1,38 @@
+namespace = race
+scripted_trigger not_elf = {
+	culture = culture:elvish
+	NOT = { 
+		OR = {
+			has_trait = elf 
+			has_trait = halfelf
+		}
+	}
+}
+
+race.0001 = {
+	hidden = yes
+
+	trigger = {
+		is_from_ruler_designer = no
+		OR = {
+			not_elf = yes
+		}
+	}
+
+
+	immediate = {
+		#if = {
+		#	limit = {
+		#		not_valar = yes
+		#	}
+		#	death = natural
+		#}
+		if = {
+			limit = {
+				not_nazgul = yes
+			}
+			add_trait = elf
+		}
+	}
+
+}

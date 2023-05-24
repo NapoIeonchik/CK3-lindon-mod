@@ -1,0 +1,988 @@
+﻿name_list_paragonese = {
+
+	cadet_dynasty_names = {
+		{ "dynnp_de" "dynn_Bohun" }
+		{ "dynnp_de" "dynn_Vere" }
+		{ "dynnp_de" "dynn_Gand" }
+		"dynn_Myall"
+		{ "dynnp_de" "dynn_Turberville" }
+		{ "dynnp_de" "dynn_Holland" }
+		"dynn_Butler"
+		{ "dynnp_of" "dynn_Thornham" }
+		{ "dynnp_de" "dynn_Camville" }
+		"dynn_Breakspear"
+		{ "dynnp_of" "dynn_Itchington" }
+		{ "dynnp_of" "dynn_Northall" }
+		{ "dynnp_de" "dynn_Montagu" }
+		{ "dynnp_de" "dynn_Umfraville" }
+		"dynn_FitzPeter"
+		"dynn_Belles-mains"
+		{ "dynnp_of" "dynn_Warwick" }
+		"dynn_FitzAlan"
+		{ "dynnp_de" "dynn_Beauchamp" }
+		{ "dynnp_of" "dynn_Ilchester" }
+		{ "dynnp_de" "dynn_Raleigh" }
+		{ "dynnp_de" "dynn_Stratford" }
+		"dynn_Becket"
+		{ "dynnp_de" "dynn_la_Pole" }
+	}
+
+	dynasty_names = {
+		{ "dynnp_de" "dynn_Bohun" }
+		{ "dynnp_de" "dynn_Vere" }
+		{ "dynnp_de" "dynn_Gand" }
+		"dynn_Myall"
+		{ "dynnp_de" "dynn_Turberville" }
+		{ "dynnp_de" "dynn_Holland" }
+		"dynn_Butler"
+		{ "dynnp_of" "dynn_Thornham" }
+		{ "dynnp_de" "dynn_Camville" }
+		"dynn_Breakspear"
+		{ "dynnp_of" "dynn_Itchington" }
+		{ "dynnp_of" "dynn_Northall" }
+		{ "dynnp_de" "dynn_Montagu" }
+		{ "dynnp_de" "dynn_Umfraville" }
+		"dynn_FitzPeter"
+		"dynn_Belles-mains"
+		{ "dynnp_of" "dynn_Warwick" }
+		"dynn_FitzAlan"
+		{ "dynnp_de" "dynn_Beauchamp" }
+		{ "dynnp_of" "dynn_Ilchester" }
+		{ "dynnp_de" "dynn_Raleigh" }
+		{ "dynnp_de" "dynn_Stratford" }
+		"dynn_Becket"
+		{ "dynnp_de" "dynn_la_Pole" }
+	}
+	
+	# Does not exist in 1066 - is the result of cultural amalgamation between Saxon and Norman through events
+	male_names = {
+		14 = { # most common
+			William
+		}
+		8 = { # second most common
+			John
+		}
+		48 = { # other common names
+			Adam Geoffrey Henry Hugh Nicholas Peter Ralph Richard Robert Roger Simon Thomas Walter
+		}
+		30 = { # everything else
+			Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher David Edmund Edward Eric Eustace Fulk George Gerald Gilbert
+			Godfrey Gregory Guy Harold Humphrey Jocelyn Jordan Laurence Lionel Mark Martin Matthew Maurice Michael Paul Philip
+			Randolph Reginald Roderick Samuel Stephen Theobald Waleran
+		}
+		0 = { # translated versions of other culture names
+			Blethin Duncan Douglas Fergus Findlay Griffith Kenneth Patrick Teague Howell Meredith Owen Tristan Cecil Sweeney Cedric Merlin Sebastian Zachary
+		}
+		
+	}
+	female_names = {
+		Adela Adelaide Alice Amice Anne Aveline Beatrice Blanche Catherine Cecilia Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel
+		Isabella Joan Joanna Juliana Mahaut Margaret Mary Matilda Maud Philippa Sybilla
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	bastard_dynasty_prefix = "dynnp_fitz"
+
+	patronym_suffix_male = "dynnpat_suf_s"
+	patronym_suffix_female = "dynnpat_suf_s"
+	
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+	
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+		{ name = "mercenary_company_hawkwoods_band" }
+	}
+}
+name_list_eshfoldian = {
+
+	cadet_dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+
+	dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+	
+	male_names = {
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Gevis Albric Aldedramn
+		Andica Ansovald Arcambald Aregisel Arnegisel Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Legolas Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Walther Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Tenron Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Slogger Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Poison Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Loras Jeff Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Izamu Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert
+		Theoderic Theoric Theudebald Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari
+		Waltgaud Werinbert Wilbert Willichar Wolfari
+	}
+	female_names = {
+		Tessa Adallinda Adaltrude Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aldegonde Aliberta Alitrudis Ansegudis Ansegundis
+		Anstrude Arsindis Audofleda Audovera Austreberta Austrechild Balthild Begga Beretrude Bernegildis Bertenildis Berthefled Berthefried
+		Berthegund Berthildis Bertilla Bertrada Bladovildis Brunhild Burgundofara Celsa Celsovildis Cesaria Chlodosind Chlothsinda Clotild Creada
+		Dagena Eldesendis Ermengardis Ermengildis Ermensindis Eustadiola Faileuba Faregildis Fastrada Framberta Fredegunde Frolaica Frotberga
+		Frotlildis Frotlina Galswinth Gaudildis Gautlindis Genovefa Gersvinda Gertrude Gisela Glodesind Goiswinth Gotberga Gundrada Halderudis
+		Harildis Hildegarde Hildegardis Hildesendis Hiltrude Illegardis Ingitrude Ingohildis Ingunde Itta Landina Lanthechilde Lantsida Leubast Leubovera
+		Leutberga Leutgardis Liutgarde Madelgarde Magnatrude Marcatrude Marcovefa Martinga Monegund Morberga Radegund Rictrude Rigunth
+		Rosamund Rothaide Rotrude Ruothilde Rusticula Sadalberga Siclehildis Sigalsis Theodelinda Theoderada Ultrogotha Vuldretrada Waltrude
+
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_son"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}
+}
+
+name_list_elvish  = {
+	dynasty_names = {
+		dynn_Pattensen
+		dynn_Schneider
+		dynn_Theodericing
+		dynn_Richfriding
+		dynn_Abonid
+		dynn_Smeldiging
+		dynn_Unwanid
+		dynn_Hessing
+	}
+	
+	male_names = {
+		Abrahil  Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Ailbert Albric Aldedramn
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Dagobert Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Gaudulf Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Hartmut Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Magneric Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Merogais Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Ragambald Ragena Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Sunno  Tancred  Teotbert Tetbert 
+		Theoderic Theoric 
+	}
+	female_names = {
+		Adallinda Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aldegonde Aliberta Alitrudis Ansegudis Ansegundis
+		Anstrude Arsindis Audofleda Audovera Austreberta Austrechild Begga Beretrude Bernegildis Bertenildis Berthefled Berthefried
+		Berthegund Berthildis Bertilla Bertrada Bladovildis Brunhild Burgundofara Celsa Celsovildis Cesaria Chlodosind Chlothsinda Clotild Creada
+		Dagena Eldesendis Ermengardis Ermengildis Ermensindis Eustadiola Faileuba Faregildis Fastrada Framberta Fredegunde Frolaica Frotberga
+		Frotlildis Frotlina Galswinth Gaudildis Gautlindis Genovefa Gersvinda Gertrude Gisela Glodesind Goiswinth Gotberga Gundrada Halderudis
+		Harildis Hildegarde Hildegardis Hildesendis Hiltrude Illegardis Ingitrude Ingohildis Ingunde Itta Landina Lanthechilde Lantsida Leubast Leubovera
+		Leutberga Leutgardis Liutgarde Madelgarde Magnatrude Marcatrude Marcovefa Martinga Monegund Morberga Radegund Rictrude Rigunth
+		Rosamund Rothaide Rotrude Ruothilde Rusticula Sadalberga Siclehildis Sigalsis Theodelinda Theoderada Ultrogotha Vuldretrada Waltrude
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+
+	patronym_suffix_male = "dynnpat_suf_sunu"
+	patronym_suffix_female = "dynnpat_suf_sdohtar"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
+}
+
+name_list_mirkwoodian = {
+	cadet_dynasty_names = {
+		{ "dynnp_de" "dynn_Kald" }
+		{ "dynnp_de" "dynn_la_Haya" }
+		{ "dynnp_de" "dynn_Lindsay" }
+		{ "dynnp_de" "dynn_Loudoun" }
+		{ "dynnp_de" "dynn_Ramsay" }
+		{ "dynnp_of" "dynn_Angus" }
+		{ "dynnp_of" "dynn_Carrick" }
+		{ "dynnp_of" "dynn_Galloway" }
+		{ "dynnp_of" "dynn_Galloway" }
+		{ "dynnp_of" "dynn_Scotland" }
+		{ "dynnp_of" "dynn_Strathearn" }
+		{ "dynnp_of" "dynn_Tullibardine" }
+		dynn_Abernethy
+		dynn_Arbuthnot
+		dynn_Archil
+		dynn_Armstrong
+		dynn_Ballantyne
+		dynn_Cameron
+		dynn_Campbell
+		dynn_Camshron
+		dynn_Carrun
+		dynn_Cockburn
+		dynn_Lowden
+		dynn_Menteith
+		dynn_Murray
+		dynn_Olifard
+		dynn_Rannaire
+		dynn_Saint-Clair
+		dynn_Scoine
+		dynn_Strathearn
+		dynn_Turnbull
+		dynn_Wallace
+	}
+
+	dynasty_names = {
+		{ "dynnp_de" "dynn_Kald" }
+		{ "dynnp_de" "dynn_la_Haya" }
+		{ "dynnp_de" "dynn_Lindsay" }
+		{ "dynnp_de" "dynn_Loudoun" }
+		{ "dynnp_de" "dynn_Ramsay" }
+		{ "dynnp_of" "dynn_Tullibardine" }
+		dynn_Abernethy
+		dynn_Arbuthnot
+		dynn_Archil
+		dynn_Armstrong
+		dynn_Ballantyne
+		dynn_Bannock
+		dynn_Barclay
+		dynn_Blackadder
+		dynn_Borthwick
+		dynn_Bradnigh
+		dynn_Branain
+		dynn_Bruce
+		dynn_Buchan
+		dynn_Cameron
+		dynn_Campbell
+		dynn_Camshron
+		dynn_Carrun
+		dynn_Cockburn
+		dynn_Cosmungho
+		dynn_Craigies
+		dynn_Dean
+		dynn_Douglas
+		dynn_Errol
+		dynn_Forbes
+		dynn_Fothriff
+		dynn_Fraser
+		dynn_Friseal
+		dynn_Gillespie
+		dynn_Turnbull
+		dynn_Wallace
+	}
+	
+	male_names = {
+		Adoyre Aedan Alanorus Alef Alured Anaoc Aniud Argantbri Argantmoet Austol Arthur Adwen Canuac Cynog Cleder Clether Dilic Illick
+		Endelient Beli Bledros Bleidcum Bleidiud Brenci Breoc Brethoc Brithael Budic Budoc Budog Cado Cadoc Cadog Cador Cadwy Cantgueithen
+		Carantoc Catgutic Cawrdolli Cenmin Cingur Cinhoedl Comoere Conan Condor Conmonoc Conomor Conredeu Corwn Cuby Culmin Cybi Deroch Dofagan Donault
+		Doniert Donyarth Dungarth Dyfnwal Elid Elidius Eluid Enoder Erbin Erc Erth Euny Felec Fferferdyn
+		Fracan Fragan Frioc Geraint Gest Gradlon Gratcant Grifiud Gudwal Guentanet Guentigirn Guincum Guithrit Gurbodu Gurcant Gurcencor Gurci Gurcon Gurdilic
+		Gurguaret Gurguistl Gurheter Guriant Gurlouen Gurthcid Gwinear Gwreans Gorlois Haeloc Hedyn Hernam Herygh Hincomhal Hopkin Huwal Iarnguallon Ilcarthon Iliud
+		Inisian Iona Ithel Iudicael Iudnerth Jacut Judicael Judoc Judwal Ke Kea Kenan Kenstec Kybi Leucum Lide Loi Louenan Loumarch Lud Maban Madron
+		Madrun Madryn Mancus March Marchell Margh Mawgan Meigant Materiana Matuid Medrod Meglar Melor
+		Menefreda Merryn Maruan Meriadoc Meriasek Mermin Mevor Milcenoc Minefrida Minver Modron Mor Morcant Mordaf
+		Modred Morhaetho Mybbard Mylor Mynfreda Nectan Neot Ossne Oswallt Peran Petroc Piran Putrael Pyran Resmen Ricatus
+		Rinduran Riol Riotham Riwal Rolope Ronan Ruman Ryd Salenn Salomon Salwys Samsun Selevan Silin Sulian Sulien Tamalanc Talan
+		Tegwin Telent Terithien Tethion Teudar Teudaric Tewdwr Tomas Thetgo Tudec Tudi Tudinus Tudy Tysilio Ungust
+		Uny Uther Veffyne Vortegyn Wenheden Wensent Winnoc Wyllow Ynyr
+	}
+	female_names = {
+		Aedoc Anaguistl Anaudat Anauprost Arganteilin Artaca Breaca Breage Brevita Bryvyth Budoc Catguistl Ceingar Ceinguled Ceinwen Cenedion Cyfyw Dengel
+		Diuset Duihon Endelient Endellienta Endellion Enodoch Esyllt Etha Ewsannec Fuandrec Gloiucen Gloiumed Guelet Guenbrith Guencen
+		Guencenedl Guencor Guenguerthlon Guenguiu Guenmon Guenneret Halbiu Ia Ilcum Iofa Iseo Iseult Isode Isolde Isotta Isoude Itha
+		Iudhent Iudprost Izolda Keyne Louhelic Luncen Mabyn Maches Medguistl Meduil Meonre Milian Moruith Oncenedl Oncum Onguen Ordguydel Ourcen Ourdilic Perem Proscen
+		Prosguetel Rannoeu Rum Rumun Senara Sidwell Sulcen Sulleisoc Sulmed Tanguistl Tecla Tetha Veep Vepa Wenedoc Wenn Wenna
+		Yseult Zennor	
+	}
+	
+	dynasty_of_location_prefix = "dynnp_de"
+	
+	patronym_prefix_male = "dynnpat_pre_Mc"
+	patronym_prefix_female = "dynnpat_pre_Mc"
+	
+	
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 15
+	father_name_chance = 5
+	
+	pat_grm_name_chance = 30
+	mat_grm_name_chance = 15
+	mother_name_chance = 10
+
+	mercenary_names = {
+		{ name = mercenary_company_border_reivers }
+		{ name = mercenary_company_warband_of_the_great_hall }
+		{ name = mercenary_company_company_of_the_kings_son }
+	}
+}
+name_list_greintvaldian  = {
+
+	cadet_dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+
+	dynasty_names = {
+		"dynn_Hayles"
+		{ "dynnp_of" "dynn_Norfolk" }
+		"dynn_Rose"
+		"dynn_Dodington"
+		"dynn_Stawell"
+		"dynn_Huntingdon"
+		"dynn_Lockhart"
+		"dynn_Wuffing"
+		"dynn_Henry"
+		"dynn_Hastings"
+		"dynn_Puttoc"
+		{ "dynnp_of" "dynn_Anglo-Saxony" }
+		{ "dynnp_of" "dynn_Northampton" }
+		"dynn_A_theling"
+		"dynn_Moore"
+		"dynn_Fysche"
+		"dynn_Dall"
+		"dynn_Slee"
+		"dynn_Kiil"
+		"dynn_Mel"
+		"dynn_Holter"
+		"dynn_Randolph"
+		"dynn_Percy"
+		"dynn_Despencer"
+		"dynn_Bacon"
+		"dynn_Reresby"
+		"dynn_Cornwallis"
+		"dynn_Clifford"
+		"dynn_Carew"
+		"dynn_Maddock"
+		"dynn_Fortescue"
+		{ "dynnp_de" "dynn_Ros" }
+		"dynn_Howard"
+		"dynn_Maudit"
+		"dynn_Berkeley"
+		"dynn_Barton"
+		"dynn_Colvile"
+		"dynn_Grey"
+		"dynn_Darcy"
+		{ "dynnp_de" "dynn_Garlande" }
+		"dynn_Perry"
+		"dynn_Bethell"
+		"dynn_Perry"
+		"dynn_Borthwick"
+		{ "dynnp_de" "dynn_London" }
+		{ "dynnp_of" "dynn_Hereford" }
+		{ "dynnp_of" "dynn_Gloucester" }
+		{ "dynnp_of" "dynn_Oxford" }
+		{ "dynnp_of" "dynn_Salisbury" }
+		{ "dynnp_of" "dynn_Surrey" }
+		{ "dynnp_of" "dynn_Sussex" }
+		{ "dynnp_of" "dynn_Hampshire" }
+		{ "dynnp_of" "dynn_Dorset" }
+		{ "dynnp_of" "dynn_Somerset" }
+		{ "dynnp_of" "dynn_Devon" }
+		{ "dynnp_of" "dynn_Exeter" }
+		{ "dynnp_of" "dynn_Cumberland" }
+		{ "dynnp_of" "dynn_York" }
+		{ "dynnp_of" "dynn_Lancaster" }
+		{ "dynnp_of" "dynn_Chester" }
+		{ "dynnp_of" "dynn_Lincoln" }
+		{ "dynnp_of" "dynn_Leicester" }
+		{ "dynnp_of" "dynn_Derby" }
+		{ "dynnp_of" "dynn_Shrewsbury" }
+		{ "dynnp_of" "dynn_Northampton" }
+		{ "dynnp_of" "dynn_Bedford" }
+		{ "dynnp_of" "dynn_Norfolk" }
+		{ "dynnp_of" "dynn_Suffolk" }
+		"dynn_Crawford"
+		"dynn_Tynedale"
+		"dynn_Pudsey"
+		"dynn_Marshal"
+		"dynn_Rowe"
+		{ "dynnp_de" "dynn_Criel" }
+		"dynn_Ciesla"
+		"dynn_Ross"
+		"dynn_Wuffing"
+		"dynn_Beorming"
+		"dynn_Eorling"
+		"dynn_A_bbing"
+		"dynn_A_lling"
+		"dynn_Wintaling"
+	}
+	
+	male_names = {
+		Abrahil Abram Adalbald Adalbert Adalgari Adalgrim Aegidius Ageric Agilbert Agiulf Gevis Albric Aldedramn
+		Andica Ansovald Arcambald Aregisel Arnegisel Arnulf Ascaric Audovald Austregisel Autbert Autgari Autgeri
+		Avremar Badegisel Balduin Barnard Berald Bernard Berneri Bero Berold Berthefried Bertlin Bertram
+		Bertrand Burchard Karloman Ceslin Chararic Charibert Childebert Childeric Chilperic
+		Chlodomer Chlothar Chramnesind Clodio Clodion Clovis Creat Dagaric Legolas Drogo Eberulf Ebregisel Engilbert
+		Euric Everard Faroard Faroin Feremund Feroard Foroen Frobert Frotari Frothard Frothari Frotlaic Fulcari Fulcrad
+		Galteri Gararic Garivald Gaucelm Walther Gaujoin Gausbert Gausbold Gautmar Gauzbert Gedalbert Gedalca Genobaud Gerbert
+		Gerhard Gerold Gislari Gislevert Gocelm Godalbert Godomar Gozhelm Grimald Guadulf Gualtari Gualter Guillabert Guitard Gundobad
+		Gunthar Guntram Haldemar Tenron Hildebald Hildebold Hildegaud Hildevold Hildoin Hucbert Hugbert Imnachar Ingalbert
+		Ingomer Karl Lambert Lantbert Leudast Lothar Magnachar Slogger Mainard Mallobaudes Marachar Marcomer
+		Marell Martin Maurifi Meginhard Poison Merovech Munderic Niebelung Odelric Odolric Otbert Otgeri Otker Pepin Pharamond
+		Pippin Radulf Loras Jeff Ragenard Raginari Ragnachar Ragnald Ragno Raimbold Rainald Ramnulf Rathar
+		Raynold Reginari Ricchar Rignomer Roland Robert Rotbert Segoin Seguin Sicbald Sichar Sicland Sicleard Siclevold
+		Sigebald Sigebert Sigeric Sigismund Sigobert Sinop Sunnegisil Izamu Tancrad Tancred Tassilo Teotbert Tetbert Teutbald Teutbert
+		Theoderic Theoric Theudebald Theudemeres Theuderic Theudoald Theutbald Trutgaud Vuitard Vulfari Vulframn Vulvari
+		Waltgaud Werinbert Wilbert Willichar Wolfari
+	}
+	female_names = {
+		Tessa Adallinda Adaltrude Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aldegonde Aliberta Alitrudis Ansegudis Ansegundis
+		Anstrude Arsindis Audofleda Audovera Austreberta Austrechild Balthild Begga Beretrude Bernegildis Bertenildis Berthefled Berthefried
+		Berthegund Berthildis Bertilla Bertrada Bladovildis Brunhild Burgundofara Celsa Celsovildis Cesaria Chlodosind Chlothsinda Clotild Creada
+		Dagena Eldesendis Ermengardis Ermengildis Ermensindis Eustadiola Faileuba Faregildis Fastrada Framberta Fredegunde Frolaica Frotberga
+		Frotlildis Frotlina Galswinth Gaudildis Gautlindis Genovefa Gersvinda Gertrude Gisela Glodesind Goiswinth Gotberga Gundrada Halderudis
+		Harildis Hildegarde Hildegardis Hildesendis Hiltrude Illegardis Ingitrude Ingohildis Ingunde Itta Landina Lanthechilde Lantsida Leubast Leubovera
+		Leutberga Leutgardis Liutgarde Madelgarde Magnatrude Marcatrude Marcovefa Martinga Monegund Morberga Radegund Rictrude Rigunth
+		Rosamund Rothaide Rotrude Ruothilde Rusticula Sadalberga Siclehildis Sigalsis Theodelinda Theoderada Ultrogotha Vuldretrada Waltrude
+
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+
+	patronym_suffix_male = "dynnpat_suf_son"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_hengist_retinue" coat_of_arms = "mc_hengist_retinue" }
+		{ name = "mercenary_company_wakes_guard" coat_of_arms = "mc_wakes_guard" }
+		{ name = "mercenary_company_horsas_band" coat_of_arms = "mc_horsas_band" }
+	}
+}
+name_list_gentrualgonian = {
+
+	cadet_dynasty_names = {
+		{ "dynnp_von" "dynn_Swabia" }
+		{ "dynnp_von" "dynn_Berg-Schelklingen" }
+		{ "dynnp_von" "dynn_Hohenstauf" }
+		{ "dynnp_von" "dynn_Kirchberg" }
+		{ "dynnp_von" "dynn_WU_rttemberg" }
+		{ "dynnp_von" "dynn_TU_bingen" }
+		{ "dynnp_von" "dynn_Schwaben" }
+		{ "dynnp_von" "dynn_Tschudi" }
+		{ "dynnp_von" "dynn_Urslingen" }
+		{ "dynnp_von" "dynn_Neuchatel" }
+		{ "dynnp_von" "dynn_Schwyz" }
+		{ "dynnp_von" "dynn_Ulm" }
+		{ "dynnp_von" "dynn_Arbon" }
+		{ "dynnp_von" "dynn_Bucheck" }
+		{ "dynnp_von" "dynn_Genf" }
+		{ "dynnp_von" "dynn_Brunshorn" }
+	}
+
+	dynasty_names = {
+		{ "dynn_Wittelsbach" }
+		{ "dynnp_von" "dynn_Wittelsbach" }
+		{ "dynnp_von" "dynn_KA_rnten" }
+		{ "dynnp_von" "dynn_O_sterreich" }
+		{ "dynnp_von" "dynn_Otakar" }
+		{ "dynnp_von" "dynn_Tirol" }
+		{ "dynnp_von" "dynn_Berg-Schelklingen" }
+		{ "dynnp_von" "dynn_Genf" }
+		{ "dynnp_von" "dynn_Hohenstauf" }
+		{ "dynnp_von" "dynn_Kirchberg" }
+		{ "dynnp_von" "dynn_WU_rttemberg" }
+		{ "dynnp_von" "dynn_TU_bingen" }
+		{ "dynnp_von" "dynn_ZA_hringen" }
+		{ "dynn_Schauenburger" }
+		{ "dynn_Oeningen" }
+		{ "dynnp_von" "dynn_Eikenschild" }
+	}
+	
+	male_names = {
+		Abbondanzio Abbondio Abelardo Abelino Achille Adalberto Adelfo Adelmio Adelmo Adone
+		Adriano Agapito Agostino Aimone Alamanno Alarico Albano Alberico Alberto Albino
+		Alboino Alcide Aldobrandino Aleardo Aleramo Alessandro Alessio Alighiero Alvise Ambrogio
+		Amedeo Anastasio  Andrea Angelo Annibale Anselmo Antonino Antonio Antoniotto Arcibaldo
+		Arderico Armando Arnolfo  Arrigo Arsenio Artemio Ascanio Astorre Atenolfo Attilio
+		Augusto Aurelio Ausilio Ausonio Averado Azzo Azzone Baldassarre Baldovino Barnaba
+		Bartolomeo Basilio Bassiano Basso Battista Beltrano Benedetto Benvenuto Berardo BernabO_
+		Bernardo Berto Bertoldo Biagio Bonaventura Bonifacio Borso Bruno Bruto Buonconte
+		Buoso Callisto Camillo Candido Cangrande Carlo Cassio Castore Cataldo Catone
+		Cecco Cesare Chiaffredo Chiano Ciro Ciuccio Claudio Clemente Comita Conone
+		Cornelio Corradino Corrado Cosimo Cosma Costante Costantino Costanzo Cristoforo Damiano
+		Davide Demetrio Dioniso DomE_nico Durante Eduardo Elio Emmanuele Ennio Enrico
+		Enzio Enzo Ercole Eriprando Ermenegildo Ettore Eugenio Ezio Ezzelino Fabrizio
+		Fausto Federigo Felice Ferdinando Ferruccio Filippo Fiorello Flavio Folco Fortunato
+		Fosco Francesco Fresco Gabriele Gabrino Gaetano Galasso Galeazzo Galeotto Gaspare
+		Gastone Gelasio Gentile Geraldo Gerardo Germano Gerolamo Gherardo Giacinto Giacomo
+		Gian Gianfranco Gianleone Giano Giberto Gilberto Giolio Giordano Giorgio Giovanni
+		Giulio Giuseppe Goffredo Gregorio Gualtiero Guarnito Guerrino Guglielmo Guido Guidone
+		Guigliadore Iacopo Igino Innocenzo Ippolito Isnardo Jacopo Lamberto Landolfo Landone
+		Lanfranco Lattanzio Lazzarino Lazzaro Lealdo Leonardo Leone Leonello Leopoldo Libero
+		Lionello Livio Lodovico Lorenzo Luca Luchino Lucio Luigi Malacresta Manfredo
+		Manuele Marco Mariano Marino Mario Marsiglio Martino Massimo Mastino Matteo
+		Merigo Michelangelo Michele Napoleone Nazareno Nestore NiccolO_ Nicola Nino Nolfo
+		Oberto Obizzino Obizzo Oddone Omero Onorio Oreste Orlando Ottavio Ottobono
+		Ottone Pagano Pancrazio Pandolfo Paolo Pasquale Patrizio Pellegrino Pericle Pietro
+		Pio Prospero Rafaello Radul Raimondo Rainero Raineri Riccardo Rinaldo Rizzardo
+		Roberto Rodolfo Rolando Rosso Ruggiero Salinguerra Salvatore Salvestro Sante Saverio
+		Sciarra Sebastiano Secondotto Serafino Sergio Sesto Settimio Severino Severo Silvano
+		Silvestro Simone Simonetto Sinibaldo Sinucello Sozzo Spinetto Stefano Stentore Taddeo
+		Tedaldo Tedice Teodoro Tibaldo Tiziano Tommaso Torgodorio Torquato Ubaldo Uberto
+		Ugo Ugoccione Ugolino Umberto Urbano Valentino Vincentello Vincenzo Virginio
+		Vitale Vittore Vittorio
+	}
+	female_names = {
+		Abelina Adalberta Adalgisa Adelaida Adelasia Adelia Adriana Agalina Agnese Agostina
+		Albina Alda Alessandra Alfonsina Alisia Aloisia Amalia Ambrosia Anastasia Anna
+		Antonella Antonia Argentina Augusta Aurelia Ausilia Ausonia Beatrice Benedetta Benilde
+		Berenice Berta Bianca Bona Brunilde Camilla Candida Caracosa Carla Carola
+		Caterina Cecilia Clara Claudia Clorinda Clotilde Constanza Cornelia Delinda Dora
+		Edda Elena Eleonora Elisa Elisabetta Ermenegilda Eudossia Eugenia Fausta Felicia
+		Felicita Filippa Filomena Flavia Flora Fortunata Fosca Francesca Froizza Giacinta
+		Ginevra Giovanna Giuditta Giulia Giuseppa Ippolita Isabella Joscella Laura Lavinia
+		Leonide Letizia Lidia Livia Lodovica Lucia Lucinetta Lucrezia Maddalena Marcella
+		Margherita Maria Mariana Marietta Martina Matilda Micaela Nunzia Paola Patrizia
+		Renata Ricciarda Silvana Sofia Stefania Tiziana Tomasina Valentina Violante Virginia
+	}
+
+	dynasty_of_location_prefix = "dynnp_di"
+	
+	patronym_prefix_male = "dynnpat_pre_di"
+	patronym_prefix_female = "dynnpat_pre_di"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_compagnia_della_stella" coat_of_arms = "mc_compagnia_della_stella" }
+		{ name = "mercenary_company_black_band" }
+		{ name = "mercenary_company_condottiere_band" }	
+	}
+}
+name_list_necromancers = {
+
+	cadet_dynasty_names = {
+		"dynn_Dragutin"
+		"dynn_Srbija"
+		"dynn_Znaim"
+		"dynn_NemanjiC_"
+		"dynn_SokoloviC_"
+		"dynn_Thopia"
+		"dynn_Muzaka"
+		"dynn_Assen"
+		"dynn_Tich"
+		"dynn_Soimirovich"
+		"dynn_Balin"
+		"dynn_VukanoviC_"
+		"dynn_MrnjavceviC_"
+		"dynn_BrankoviC_"
+		"dynn_Uglesa"
+		"dynn_Hlapen"
+		"dynn_Blagai"
+		"dynn_Czobor"
+		"dynn_ProgonoviC_"
+		"dynn_Grot"
+		"dynn_Radoslav"
+		"dynn_Caradja"
+		"dynn_Prosigoj"
+		"dynn_GojnikoviC_"
+		"dynn_BranoviC_"
+		"dynn_PribisavljeviC_"
+		"dynn_KlonimiroviC_"
+		"dynn_Radomiros"
+		"dynn_TvrtkoviC_"
+		"dynn_Vrana"
+	}
+
+	dynasty_names = {
+		"dynn_Dragutin"
+		"dynn_Srbija"
+		"dynn_Znaim"
+		"dynn_NemanjiC_"
+		"dynn_SokoloviC_"
+		"dynn_Thopia"
+		"dynn_Muzaka"
+		"dynn_Assen"
+		"dynn_Tich"
+		"dynn_Soimirovich"
+		"dynn_Balin"
+		"dynn_VukanoviC_"
+		"dynn_MrnjavceviC_"
+		"dynn_BrankoviC_"
+		"dynn_Uglesa"
+		"dynn_Hlapen"
+		"dynn_Blagai"
+		"dynn_Czobor"
+		"dynn_ProgonoviC_"
+		"dynn_Grot"
+		"dynn_Radoslav"
+		"dynn_Caradja"
+		"dynn_Prosigoj"
+		"dynn_GojnikoviC_"
+		"dynn_BranoviC_"
+		"dynn_PribisavljeviC_"
+		"dynn_KlonimiroviC_"
+		"dynn_Radomiros"
+		"dynn_TvrtkoviC_"
+		"dynn_Vrana"
+	}
+	
+	male_names = {
+		Merek Carac Ulric Tybalt Borin Sadon Terrowin Rowan Forthwind Althalos Fendrel Brom Hadrian Benedict Gregory Peter Henry Frederick Walter Thomas 
+		Arthur Bryce Donald Leofrick Lief Barda Rulf Robin Gavin
+	}
+	female_names = {
+		Agata Barbara Lianka Desislava Dubravka Elena Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+		Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+		Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
+	}
+
+	dynasty_of_location_prefix = "dynnp_od"
+	
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_allemannic_guard" }
+	}
+}
+name_list_heraldian = {
+
+	cadet_dynasty_names = {
+		{ "dynnp_d_" "dynn_Merovingian" }
+		{ "dynnp_d_" "dynn_Aubergine" }
+
+	}
+
+	dynasty_names = {
+		"dynn_Dragutin"
+		"dynn_Srbija"
+		"dynn_Znaim"
+		"dynn_NemanjiC_"
+	}
+	
+	male_names = {
+		Merek Carac Ulric Tybalt Borin Sadon Terrowin Rowan Forthwind Althalos Fendrel Brom Hadrian Benedict Gregory Peter Henry Frederick Walter Thomas 
+		Arthur Bryce Donald Leofrick Lief Barda Rulf Robin Gavin
+	}
+	female_names = {
+		Tessa Adallinda Adaltrude Adaluildis Adelaidis Airsenda Albofleda Albrada Alda Aldegonde Aliberta Alitrudis Ansegudis Ansegundis
+		Anstrude Arsindis Audofleda Audovera Austreberta Austrechild Balthild Begga Beretrude Bernegildis Bertenildis Berthefled Berthefried
+		Berthegund Berthildis 
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+
+	
+
+	mercenary_names = {
+		{ name = "mercenary_company_allemannic_guard" }
+	}
+}

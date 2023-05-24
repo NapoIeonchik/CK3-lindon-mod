@@ -1,0 +1,62 @@
+﻿martial_shiza = {
+	icon = martial_positive
+	martial = 8
+}
+studying_shiza = {
+	icon = learning_positive
+	learning = 8
+}
+intrigue_shiza = {
+	icon = intrigue_positive
+	intrigue = 8
+}
+stewardship_shiza = {
+	icon = stewardship_positive
+	stewardship = 8
+}
+diplomacy_shiza = {
+	icon = diplomacy_positive
+	diplomacy = 8
+}
+balian_reforger = {
+	icon = martial_positive
+	martial = 3
+	diplomacy = 3
+	monthly_prestige = 2
+	prowess = 17
+	county_opinion_add = 30
+	tax_mult = 0.2
+	development_growth = 4
+	vassal_opinion = 30
+}
+candidat_balian_reforger = {
+	icon = martial_positive
+	martial = 3
+	diplomacy = 3
+	monthly_prestige = 1
+}
+# Harmony
+wok_victory_harmony_county_modifier = {
+	icon = dog_positive
+	fort_level = 4
+	monthly_county_control_change_factor = 0.16
+	development_growth_factor = 0.16
+	hostile_raid_time = 0.16
+}
+wok_victory_harmony_dynasty_modifier = {
+	icon = dog_positive
+	ignore_negative_culture_opinion = yes
+	ignore_different_faith_opinion = yes
+	faith_conversion_piety_cost_mult = -0.5
+	faith_creation_piety_cost_mult = -0.5
+	prowess_per_stress_level = 16
+	stewardship_per_stress_level = 16
+	stress_gain_mult = -0.16
+	stress_loss_mult = -0.16
+	short_reign_duration_mult = -0.16
+	vassal_limit = 16
+	positive_random_genetic_chance = 0.16
+	negative_random_genetic_chance = 0.16
+	fellow_vassal_opinion = 16
+	liege_opinion = 16
+}

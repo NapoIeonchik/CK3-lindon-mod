@@ -1,0 +1,35 @@
+#k_unlyud
+##d_unlyud ###################################
+###c_meneltarma
+9675 = {	#BOROV
+	culture = anlyudian
+	religion = catholic
+	holding = castle_holding
+}
+9676 = {	#BRAVIL
+	holding = city_holding
+}
+9677 = {	#BERIK
+	holding = castle_holding
+}
+9678 = {	#gora
+	culture = anlyudian
+	religion = catholic
+	holding = temple_holding
+}
+###c_moonstone
+9679 = {	#TREEGLADE
+	culture = anlyudian
+	religion = catholic
+	holding = castle_holding
+}
+9680 = {	#WALET
+	culture = anlyudian
+	religion = catholic
+	holding = castle_holding
+}
+9681 = {	#PIVO
+	culture = anlyudian
+	religion = catholic
+	holding = castle_holding
+}

@@ -1,0 +1,25 @@
+﻿l_english:
+ 
+ ### DED EVENTS ###
+ ded.0100.t:0 "Eshfold strikes back!"
+ ded.0100.desc:0 "Dragon Hammer - our ancient stronghold which was lost long ago. Now we've gathered enough power to strike back and reclaim what's ours by right! But we are not the only one hunting for it's treasures, baron of Einvald as well as Cockroach's Guild master are also seeking the right time to invade in those lands. Glory to Eshfold, For the King!"
+ ded.0100.a:0 "Execute orded 69!"
+ musk.0100.t:0 "Going North"
+ musk.0100.desc:0 "Dragon Hammer.. what a delightful place to visit! Land full of golden and iron mines... the land of deep forests and caves... the land of freedom and glory! And this land shall be mine!!"
+ musk.0100.a:0 "Execute orded 69!"
+ milton.0100.t:0 "For the Baron!"
+ milton.0100.desc:0 "Those bandits frome the Dragon Hammer keep.. those nasty bandits.. It's time for our revenge, time to burn that land down, time of the sword and axe."
+ milton.0100.a:0 "Execute orded 69!"
+ restore_bar_decision:0 "Restore Bar!"
+ restore_bar_decision_tooltip:0 "After many years of service, the true owners of Bar are goind to decide it's fate"
+ bar.0001.t:0 "Restoration of Bar"
+ bar.001.desc:0 "Long has the dynasty of von Shteiners waited to finally achieve their ancients goal.. the Unity of their domain and freedom from the tyrant king."
+ bar.0001.a:0 "They will remember my name forever!"
+ bar.0001.b:0 "My name may be forgotten, but my country will live forever!"
+ bar.0002.t:0 "Restoration of Bar!"
+ bar.0002.desc:0 "von Shteiner dynasty has achieved it's ancient goal to restore the Bar!"
+ bar.0002.a:0 "Glory to Bar!"
+ bar.0002.b:0 "Cursed will be this day!"
+ bar.0002.c:0 "Nah"
+ 
+

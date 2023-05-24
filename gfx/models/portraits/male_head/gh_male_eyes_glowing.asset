@@ -1,0 +1,119 @@
+entity = {
+	name = "gh_male_eyes_glowing_1_red_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_1_red_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_1_normal.dds"
+	}
+}
+
+entity = {
+	name = "gh_male_eyes_glowing_2_red_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_2_red_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_2_normal.dds"
+	}
+}
+
+entity = {
+	name = "gh_male_eyes_glowing_1_green_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_1_green_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_1_normal.dds"
+	}
+}
+
+entity = {
+	name = "gh_male_eyes_glowing_2_green_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_2_green_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_2_normal.dds"
+	}
+}
+
+entity = {
+	name = "gh_male_eyes_glowing_1_white_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_1_white_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_1_normal.dds"
+	}
+}
+
+entity = {
+	name = "gh_male_eyes_glowing_2_white_entity"
+	pdxmesh = "male_eyes_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = { 0.0 0.0 }
+			}
+		}
+	}
+	
+	meshsettings = {
+		name = "male_eyesShape"
+		index = 0
+		texture_diffuse = "gh_male_eyes_glowing_2_white_diffuse.dds"
+		texture_normal = "gh_male_eyes_glowing_2_normal.dds"
+	}
+}

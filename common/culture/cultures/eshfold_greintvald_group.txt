@@ -1,0 +1,150 @@
+einvaldian = {
+	color = { 0.2 0 0.4 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+		tradition_chanson_de_geste
+		tradition_roman_legacy 
+		tradition_hard_working 
+		tradition_einvald 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+bervian = {
+	color = { 1 1 0.5 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands
+		tradition_agrarian
+		tradition_pastoralists 
+		tradition_adaptive_skirmishing 
+		tradition_culinary_art
+		tradition_bervi 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+claimorean = {
+	color = { 0.9 0.3 0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chivalry
+		tradition_stand_and_fight
+		tradition_female_only_inheritance
+		tradition_maritime_mercantilism
+		tradition_martial_admiration
+		tradition_claimore 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+westvaldian = {
+	color = { 0.5 0.9 0.6 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_adaptive_skirmishing 
+		tradition_forest_fighters
+		tradition_longbow_competitions
+		tradition_hunters 
+		tradition_westvald 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+reinvaldian = {
+	color = { 0.4 0.4 0.5 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_ancient_miners
+		tradition_mountain_homes
+		tradition_equal_inheritance
+		tradition_metal_craftsmanship 
+		tradition_reinvald 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}

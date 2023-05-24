@@ -1,0 +1,490 @@
+witcher = {
+	index = 444
+	prowess = 25
+	health = 1
+	fertility = -0.25
+
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+	genetic = yes
+	physical = yes
+
+	birth = 0.5
+	random_creation = 0
+	
+	attraction_opinion = 10
+	tribal_government_opinion = -10
+	vassal_opinion = -5
+	same_opinion = 20
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_witcher_desc
+			}
+			desc = trait_witcher_character_desc
+		}
+	}
+}
+oldman = {
+	index = 445
+	prowess = -10
+	health = 1
+	fertility = -0.50
+	
+	life_expectancy = 25
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+	physical = yes
+	birth = 0
+
+	random_creation = 0
+	
+	attraction_opinion = -5
+	tribal_government_opinion = 10
+	vassal_opinion = 5
+	same_opinion = 20
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_oldman_desc
+			}
+			desc = trait_oldman_character_desc
+		}
+	}
+}
+necromancer = {
+	index = 446
+	prowess = 25
+	health = 3
+	fertility = -1
+	immortal = yes
+	
+	life_expectancy = 350
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+
+	random_creation = 0
+	
+	attraction_opinion = 25
+	tribal_government_opinion = -30
+	vassal_opinion = -25
+	same_opinion = -5
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_necromancer_desc
+			}
+			desc = trait_necromancer_character_desc
+		}
+	}
+}
+fire_mage = {
+	index = 447
+	flag = free_teleportation
+	prowess = 25
+	health = 1
+	enemy_hard_casualty_modifier = 1
+	hard_casualty_modifier = -1
+	drylands_advantage = 25
+	desert_advantage = 25
+	desert_mountains_advantage = 25
+	oasis_advantage = 25
+	hills_advantage = 25
+	mountains_advantage = 25
+
+	life_expectancy = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 100
+
+	random_creation = 0
+	
+	tribal_government_opinion = 30
+	vassal_opinion = 10
+	same_opinion = 10
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fire_mage_desc
+			}
+			desc = trait_fire_mage_character_desc
+		}
+	}
+}
+druid = {
+	index = 448
+	health = 1
+	mountains_advantage = 25
+	fertility = -0.45
+
+	life_expectancy = 125
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+
+	random_creation = 0
+	
+	tribal_government_opinion = 35
+	vassal_opinion = 10
+	same_opinion = 25
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_druid_desc
+			}
+			desc = trait_druid_character_desc
+		}
+	}
+}
+ajergus = {
+	index = 449
+	health = 2
+	prowess = 20
+	fertility = -0.8	
+
+	diplomacy = 6	
+	learning = 6
+	martial = 6
+	stewardship = 6
+
+	hostile_scheme_resistance_mult = 0.5
+	scheme_discovery_chance_mult = 0.7
+	
+	diplomatic_range_mult = 1
+
+	genetic = yes
+	physical = yes
+
+	birth=0
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+
+	random_creation = 0
+
+	negate_health_penalty_add = 50
+	dread_baseline_add = 15
+	dread_gain_mult = 0.3
+	stress_gain_mult = 0.8
+	flag = can_not_marry
+	flag = lower_chance_of_dying_in_combat
+	can_have_children = yes
+	life_expectancy = 30000
+	
+	tribal_government_opinion = 20
+	vassal_opinion = 5
+
+	monthly_prestige = 3
+	
+	knight_effectiveness_mult = 0.5
+	movement_speed = 0.1
+	siege_phase_time = -0.2
+	min_combat_roll = -1
+	light_cavalry_damage_mult = 0.1
+	light_cavalry_toughness_mult = 0.1
+	heavy_cavalry_damage_mult = 0.1
+	heavy_cavalry_toughness_mult = 0.1
+	men_at_arms_maintenance = -0.3
+	enemy_hard_casualty_modifier = 0.1
+	hard_casualty_modifier = -0.1
+
+	ruler_designer_cost = 380
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ajergus_desc
+			}
+			desc = trait_ajergus_character_desc
+		}
+	}
+}
+elf = {
+	index = 450
+	health = 3
+	mountains_advantage = 25
+	fertility = -0.7
+	stress_gain_mult = -0.9
+	
+	genetic = yes
+	
+	diplomacy = 4
+	learning = 4
+	martial = 3
+	stewardship = 4
+	
+	movement_speed = 1
+	
+	life_expectancy = 600
+	
+	both_parent_has_trait_inherit_chance = 1000
+	inbreeding_chance = -0.7
+	inherit_chance = 1000
+	birth = 0
+	random_creation = 0
+	monthly_lifestyle_xp_gain_mult = -0.3
+	monthly_prestige_gain_mult = -0.25
+	monthly_piety_gain_mult = -0.25
+	stress_loss_mult = -0.15
+	stress_gain_mult = -0.05
+	
+	same_opinion = 50
+	
+	ruler_designer_cost = 100
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_druid_desc
+			}
+			desc = trait_druid_character_desc
+		}
+	}
+}
+instasamka = {
+	index = 451
+	
+	diplomacy = 4
+	
+	birth = 0
+	random_creation = 0
+	
+	attraction_opinion = 50
+	
+	
+	ruler_designer_cost = 50
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_instasamka_desc
+			}
+			desc = trait_instasamka_character_desc
+		}
+	}
+}
+godkiller = {
+	index = 452
+	
+	martial = 2
+	prowess = 80
+	health = 1.5
+	general_opinion = -10
+	
+	
+	birth = 0
+	random_creation = 0
+		
+	
+	ruler_designer_cost = 50
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_godkiller_desc
+			}
+			desc = trait_godkiller_character_desc
+		}
+	}
+}
+fertilityboost = {
+
+	index = 453
+	years_of_fertility = 600	
+	birth = 0
+	random_creation = 0
+		
+	
+	ruler_designer_cost = 50
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fertilityboost_desc
+			}
+			desc = trait_fertilityboost_character_desc
+		}
+	}
+}
+eolymp = {
+
+	index = 454
+	
+	birth = 0
+	random_creation = 0
+	
+	learning = 10
+	vassal_opinion = 15
+	same_opinion = -20
+	prestige = 1.0
+	
+	ruler_designer_cost = 50
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_eolymp_desc
+			}
+			desc = trait_eolymp_character_desc
+		}
+	}
+}
+want_pizza = {
+
+	index = 455
+	
+	birth = 0
+	random_creation = 0
+	
+	same_opinion = 15
+	prestige = 0.25
+	
+	ruler_designer_cost = 0
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_want_pizza_desc
+			}
+			desc = trait_want_pizza_character_desc
+		}
+	}
+}
+halfelf = {
+	index = 456
+	health = 1
+	fertility = -0.25
+	stress_gain_mult = -0.1
+	
+	genetic = yes
+	
+	diplomacy = 2
+	learning = 2
+	stewardship = 1
+	
+	movement_speed = 0.15
+	
+	life_expectancy = 75
+	
+	both_parent_has_trait_inherit_chance = 1000
+	inbreeding_chance = -0.3
+	inherit_chance = 1000
+	birth = 0
+	random_creation = 0
+	
+	same_opinion = 15
+	
+	ruler_designer_cost = 50
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_halfelf_desc
+			}
+			desc = trait_halfelf_character_desc
+		}
+	}
+}
+marnaus_destroyed = {
+
+	index = 457
+	
+	birth = 0
+	random_creation = 0
+	
+	hostile_scheme_power_mult = -0.9
+	intrigue = -1000
+	prestige = 0.5
+	
+	ruler_designer_cost = 40
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_marnaus_destroyed_desc
+			}
+			desc = trait_marnaus_destroyed_character_desc
+		}
+	}
+}
+geneticheskii = {
+
+	index = 458
+	
+	birth = 0.15
+	random_creation = 0
+	learning = -3
+	diplomacy = -2
+	prowess = 4
+	genetic = yes
+	good = yes
+	physical = yes
+	
+	ruler_designer_cost = 40
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_geneticheskii_desc
+			}
+			desc = trait_geneticheskii_character_desc
+		}
+	}
+}

@@ -1,0 +1,109 @@
+namespace = anvasion
+###
+anvasion.1000 = {
+	type = character_event
+	title = anvasion.1000.t # Anlyud Invasion
+	desc = anvasion.1000.desc
+	theme = realm
+
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}	
+
+	immediate = {
+
+		play_music_cue = "mx_cue_crusade_starts"		
+		
+		hidden_effect = {				
+		
+			character:9999994 = { 
+			
+				# To add a pressed claim:			
+				add_pressed_claim = title:e_greintvald
+				add_prestige = 6000
+			}
+		}
+		anvasion_effect = yes
+		character:9999994 = { 
+		
+			spawn_army = {
+				uses_supply = yes
+				inheritable = no
+				name = sterlization_army_01_event_troops
+				levies = {
+					value = 15000
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 1
+				}
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = varangian_veterans 
+					stacks = 3
+				}
+				men_at_arms = {
+					type = bondi 
+					stacks = 5
+				}
+				men_at_arms = {
+					type = vigmen 
+					stacks = 5
+				}	
+				location = title:c_gora.title_province
+			}			
+		}
+
+	# Rather than defining all the traits and attributes of a character in the 'create_character' commmand, I use a template. 'template = PDXCON_synthetic_template'. Templates are located at /common/scripted_character_templates/00_PDXCON_synthetic_character_templates.txt
+		
+	}
+
+	# Gamers playing mods: unite against these Iron Men!
+
+	option = {
+		name = anvasion.1000.a
+		add_prestige = 1500
+		character:9999994 = {
+		
+			# To start a war:		
+			start_war = {
+				casus_belli = invasion_war
+				target = title:e_greintvald.holder
+				target_title = title:k_scotland
+			}
+		}
+	}
+
+	after = {	
+		set_global_variable = {
+			name = variable_war_is_over
+			value = yes
+		}
+		custom_tooltip = anvasion.1000.after.tt
+	}
+	
+}
+
+#Inform any players.
+anvasion.2000 = {
+	type = character_event
+	title = anvasion.2000.t
+	desc = anvasion.2000.desc
+	theme = realm
+	theme = diplomacy
+	left_portrait = {
+		character = scope:anvader
+		animation = personality_dancin
+	}
+
+	option = {
+		name = { 
+			text = anvasion.2000.a
+		}
+	}
+}

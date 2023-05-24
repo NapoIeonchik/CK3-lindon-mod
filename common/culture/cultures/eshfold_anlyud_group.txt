@@ -1,0 +1,22 @@
+anlyudian = {
+	color = { 0.2 0 0.4 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_anlyudian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_anlyud_blood 
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		100 = anlyud_ethnicity 
+	}	
+}

@@ -1,0 +1,4 @@
+hetman_mace = { # Hetman's Mace
+	icon = "artefact_icons_unique_hetman_mace.dds"
+	asset = ep1_western_mace_01_a_portrait_entity  
+}

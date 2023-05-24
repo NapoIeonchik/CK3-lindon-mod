@@ -1,0 +1,7 @@
+wants_pizza_trigger = {
+	has_trait = want_pizza
+}
+
+doesnt_want_pizza_trigger = {
+		has_trait = temperate
+}

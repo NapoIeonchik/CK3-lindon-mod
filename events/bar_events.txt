@@ -1,0 +1,66 @@
+namespace = bar
+#####
+bar.0001 = {
+	type = character_event
+	title = bar.0001.t
+	desc = bar.001.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+
+	immediate = { restore_bar_decision_scripted_effect = yes }
+
+	#Take the nickname.
+	option = {
+		name = bar.0001.a
+		give_nickname = nick_the_trojan
+		add_prestige = minor_prestige_gain
+	}
+	#No thanks on the nickname, more prestige instead please.
+	option = {
+		name = bar.0001.b
+		add_prestige = medium_prestige_gain
+	}
+}
+
+
+#Inform any players.
+bar.0002 = {
+	type = character_event
+	title = bar.0002.t
+	desc = bar.0002.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	option = {
+		name = { #Brythonic peoples are happy.
+			trigger = {
+				has_religion = religion:silversword_religion
+				NOT = { has_title = title:k_france }
+			}
+			text = bar.0002.a
+		}
+		name = { #Anglo-Saxons, the English, & the monarch of England are outraged.
+			trigger = {
+				OR = {
+					has_title = title:k_france
+				}
+			}
+			text = bar.0002.b
+		}
+		name = { #Noone else especially cares.
+			trigger = {
+				NOR = {
+					has_title = title:k_france
+				}
+			}
+			text = bar.0002.c
+		}
+	}
+}

@@ -1,0 +1,320 @@
+tradition_einvald = {
+	category = combat
+	layers = {
+		0 = martial
+		1 = western
+		4 = viking.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+
+	can_pick = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	parameters = {
+		unlock_maa_einvaldian_knights = yes
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					any_in_list = {
+						list = traits
+						this = flag:ethos_bellicose
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			# Gotta be a heavily coastal culture not to get a surcharge.
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+tradition_bervi = {
+	category = combat
+	layers = {
+		0 = martial
+		1 = western
+		4 = viking.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	
+	parameters = {
+		unlock_maa_bervian_pikemen = yes
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					any_in_list = {
+						list = traits
+						this = flag:ethos_bellicose
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			# Gotta be a heavily coastal culture not to get a surcharge.
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+tradition_reinvald = {
+	category = combat
+	layers = {
+		0 = martial
+		1 = western
+		4 = viking.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	
+	parameters = {
+		unlock_maa_white_shields = yes
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					any_in_list = {
+						list = traits
+						this = flag:ethos_bellicose
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			# Gotta be a heavily coastal culture not to get a surcharge.
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+tradition_claimore = {
+	category = combat
+	layers = {
+		0 = martial
+		1 = western
+		4 = viking.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	
+	parameters = {
+		unlock_maa_claimorean_dogs = yes
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					any_in_list = {
+						list = traits
+						this = flag:ethos_bellicose
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			# Gotta be a heavily coastal culture not to get a surcharge.
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+tradition_westvald = {
+	category = combat
+	layers = {
+		0 = martial
+		1 = western
+		4 = viking.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_greintvaldian
+	}
+	
+	parameters = {
+		unlock_maa_westvald_hunters = yes
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					any_in_list = {
+						list = traits
+						this = flag:ethos_bellicose
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			# Gotta be a heavily coastal culture not to get a surcharge.
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}

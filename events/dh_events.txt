@@ -1,0 +1,64 @@
+namespace = dh
+######
+dh.0100 = { 
+	type = character_event
+	title = ded.0100.t
+	desc = ded.0100.desc
+	theme = dread
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	option = {
+		name = ded.0100.a
+		add_pressed_claim = d_gwynedd
+		add_prestige = 2500
+		start_war = {
+			casus_belli = invasion_war
+			target = title:d_gwynedd.holder
+			target_title = title:d_gwynedd
+		}
+	}
+}
+####
+dh.0101 = { 
+	type = character_event
+	title = musk.0100.t
+	desc = musk.0100.desc
+	theme = anger
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	option = {
+		name = musk.0100.a
+		add_pressed_claim = d_gwynedd
+		add_prestige = 2500
+		start_war = {
+			casus_belli = invasion_war
+			target = title:d_gwynedd.holder
+			target_title = title:d_gwynedd
+		}
+	}
+}
+####
+dh.0102 = { 
+	type = character_event
+	title = milton.0100.t
+	desc = milton.0100.desc
+	theme = greintvald_battle_theme
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	option = {
+		name = milton.0100.a
+		add_pressed_claim = d_gwynedd
+		add_prestige = 2500
+		start_war = {
+			casus_belli = invasion_war
+			target = title:d_gwynedd.holder
+			target_title = title:d_gwynedd
+		}
+	}
+}

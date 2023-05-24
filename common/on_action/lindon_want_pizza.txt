@@ -1,0 +1,6 @@
+# Increases stress every year
+yearly_playable_pulse = {
+	events = {
+		pizza.0001
+	}
+}

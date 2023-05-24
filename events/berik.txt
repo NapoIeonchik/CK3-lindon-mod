@@ -1,0 +1,26 @@
+namespace = berik_event
+####
+berik_event.0100 = {  
+	title = berik_event.0100.t
+	desc = berik_event.0100.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	
+	option = { 
+		name = berik_event.0100.a	
+		custom_tooltip = berik_event.0100.a.tt
+		set_relation_lover = character:avelina
+		add_trait = fire_mage
+	}
+	option = { 
+		name = berik_event.0100.b # 
+		custom_tooltip = berik_event.0100.b.tt
+		add_character_modifier = {
+			modifier = candidat_balian_reforger 
+			years = 400
+		}
+	}
+}

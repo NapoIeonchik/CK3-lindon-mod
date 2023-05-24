@@ -1,0 +1,12 @@
+set_spouse = {
+	corresponding = set_spouse
+	title_grant_target = yes
+	hidden = yes
+	opposites = {
+		rival
+		nemesis
+		bully
+		victim
+	}
+	#fertility = 1.5
+}

@@ -1,0 +1,10 @@
+@msg_good_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_positive"
+@msg_bad_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_negative"
+
+lindon_pizza_want = {
+	icon = "icon_stress_gain"
+	title = lindon_msg_pizza
+	desc = event_message_effect_and_text
+	style = bad
+	soundeffect = @msg_bad_soundeffect
+}

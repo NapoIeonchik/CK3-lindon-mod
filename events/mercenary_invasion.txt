@@ -1,0 +1,103 @@
+namespace = mercenary
+###
+mercenary.1400 = {
+	type = character_event
+	title = mercenary.1400.t # Mercenary Invasion
+	desc = mercenary.1400.desc
+	theme = realm
+
+	left_portrait = {
+		character = title:d_mercenary.holder
+		animation = personality_bold
+		#war_attacker
+	}
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}	
+
+	immediate = {
+
+		play_music_cue = "mx_cue_crusade_starts"		
+		
+		hidden_effect = {				
+		
+			character:lury_ly = { 
+			
+# To add a pressed claim:			
+				add_pressed_claim = title:k_france
+				add_pressed_claim = title:k_aquitane
+				add_prestige = 6000
+			}
+		}
+		
+		character:lury_ly = { 
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change_synth_c
+				add_claim_on_loss = no
+			}
+			title:c_zeeland = {
+				change_title_holder = {
+					holder = character:lury_ly
+					change = scope:change_synth_c
+					take_baronies = yes
+				}
+			}
+				
+			resolve_title_and_vassal_change = scope:change_synth_c
+			
+			spawn_army = {
+				uses_supply = yes
+				inheritable = no
+				name = sterlization_army_01_event_troops
+				levies = {
+					value = 5000
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 5
+				}
+				men_at_arms = {
+					type = house_guard
+					stacks = 12
+				}	
+				men_at_arms = {
+					type = armored_horsemen
+					stacks = 15
+				}
+				
+				location = title:c_aachen.title_province
+			}			
+		}
+
+# Rather than defining all the traits and attributes of a character in the 'create_character' commmand, I use a template. 'template = PDXCON_synthetic_template'. Templates are located at /common/scripted_character_templates/00_PDXCON_synthetic_character_templates.txt
+		
+	}
+
+# Gamers playing mods: unite against these Iron Men!
+
+	option = {
+		name = mercenary.1400.option.a
+		add_prestige = 1500
+		character:lury_ly = {
+		
+# To start a war:		
+			start_war = {
+				casus_belli = claim_cb
+				target = title:k_france.holder
+				claimant = character:lury_ly
+			}
+		}
+	}
+
+	after = {	
+		set_global_variable = {
+			name = variable_war_is_over
+			value = yes
+		}
+		custom_tooltip = mercenary.1400.after.tt
+	}
+	
+}

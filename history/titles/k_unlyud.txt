@@ -1,0 +1,11 @@
+k_unlyud = {
+	1060.2.2 = {
+		holder = 9999994#
+	}
+	1066.1.1 = { change_development_level = 8 }
+}
+d_unlyud = {
+	1060.2.2 = {
+		holder = 9999994#
+	}
+}

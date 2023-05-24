@@ -1,0 +1,35 @@
+namespace = pizza
+
+#
+# 0001. Character stress increases due to low amount of pizza in stomach
+#
+
+pizza.0001 = {
+	hidden = yes
+
+	trigger = {
+		is_ai = no
+		is_adult = yes
+		wants_pizza_trigger = yes
+	}
+	
+	immediate = {
+
+		send_interface_message = {
+			type = lindon_pizza_want
+			right_icon = this
+
+			add_stress = {
+
+				value = minor_stress_impact_loss 	
+				multiply = -1
+				if = {
+					limit = {
+						wants_pizza_trigger = yes
+					}
+					multiply = 2
+				}
+			}
+		}
+	}
+}

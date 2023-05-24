@@ -1,0 +1,4 @@
+remove_race = { 
+	remove_trait = elf
+	remove_trait = halfelf
+}

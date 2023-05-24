@@ -1,0 +1,607 @@
+k_eshfold = {
+	color = { 65 110 31 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_ile_de_france
+}
+k_noldor = {
+	color = { 0 154 255 }
+	capital = c_gowrie 
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	d_noldor = {
+			color = { 0 130 199 }
+			color2 = { 255 255 255 }
+
+			capital = c_meneltarma  # The Last Resort
+
+
+			c_meneltarma = {
+				color = { 0 105 131 }
+				color2 = { 255 255 255 }
+
+
+				b_meneltarma = {
+					province = 9661
+
+					color = { 180 90 0 }
+					color2 = { 255 255 255 }
+				}
+				b_meneltarma_uno = {
+					province = 9662
+
+					color = { 180 90 0 }
+					color2 = { 255 255 255 }
+				}
+				b_meneltarma_dos = {
+					province = 9663
+
+					color = { 180 90 0 }
+					color2 = { 255 255 255 }
+				}
+				b_meneltarma_tres = {
+					province = 9664
+
+					color = { 180 90 0 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_moonstone = { 
+				color = { 30 120 90 }
+				color2 = { 255 255 255 }
+				
+				b_moonstone = { 
+					province = 9665
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_sunleaf = { 
+				color = { 200 250 255 }
+				color2 = { 255 255 255 }
+				
+				b_sunleaf = { 
+					province = 9666
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_dawnlight = { 
+				color = { 70 170 200 }
+				color2 = { 255 255 255 }
+				
+				b_dawnlight = { 
+					province = 9667
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_nightshade = { 
+				color = { 190 200 255 }
+				color2 = { 255 255 255 }
+				
+				b_nightshade = { 
+					province = 9668
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_starhaven = { 
+				color = { 200 250 255 }
+				color2 = { 255 255 255 }
+				
+				b_starhaven = { 
+					province = 9669
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_emeraldshore = { 
+				color = { 90 250 90 }
+				color2 = { 255 255 255 }
+				
+				b_emeraldshore = { 
+					province = 9670
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_shadowvale = { 
+				color = { 150 150 150 }
+				color2 = { 255 255 255 }
+				
+				b_shadowvale = { 
+					province = 9671
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_silverwillow = { 
+				color = { 130 130 130 }
+				color2 = { 255 255 255 }
+				
+				b_silverwillow = { 
+					province = 9672
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_aranthor = { 
+				color = { 200 200 200 }
+				color2 = { 255 255 255 }
+				
+				b_aranthor = { 
+					province = 9673
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_emberfall = { 
+				color = { 60 60 60 }
+				color2 = { 255 255 255 }
+				
+				b_emberfall = { 
+					province = 9674
+					
+					color = { 30 120 90 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+}
+k_unlyud = {
+	color = { 20 230 30 }
+	capital = c_gowrie 
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	d_western_unlyud = {
+		color = { 20 230 30 }
+		color2 = { 255 255 255 }
+
+		capital = c_meneltarma  # The Last Resort
+
+
+		c_borov = {
+			color = { 0 105 131 }
+			color2 = { 255 255 255 }
+
+
+			b_borov = {
+				province = 9675
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_bravil = {
+				province = 9676
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_berik = {
+				province = 9677
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_gora = {
+			color = { 0 105 131 }
+			color2 = { 255 255 255 }
+
+
+			b_gora = {
+				province = 9678
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_treeglade = {
+			color = { 0 105 131 }
+			color2 = { 255 255 255 }
+
+
+			b_truha = {
+				province = 9679
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_walet = {
+				province = 9680
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_pivo = {
+				province = 9681
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+	}	
+}		
+d_dragons_hammer = {
+	color = { 106 0 0 }
+	capital = c_cardiganshire 
+}
+d_silversword = {
+	color = { 65 110 31 }
+	capital = c_ile_de_france
+}
+d_guild = {
+	color = { 255 255 23 }
+	capital = c_ile_de_france
+}
+d_faceless = {
+	color = { 67 23 23 }
+	capital = c_dublin
+}
+d_mercenary = {
+	color = { 255 255 23 }
+	capital = c_ile_de_france
+}
+k_new_order = {
+	color = { 33 33 33 }
+	capital = c_holland
+}
+e_greintvald = {
+	color = { 50 52 98 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_shropshire
+	k_greintvald = {
+		color = { 50 52 98 }
+		landless = yes
+		de_jure_drift_disabled = no
+		always_follows_primary_heir = yes
+		capital = c_shropshire
+	}
+}	
+e_balian = {
+	color = { 102 0 0 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_dublin
+
+	k_paragon = {
+	color = { 122 121 123 }
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_dublin
+		d_meath = {
+			color = { 49 249 72 }
+			color2 = { 255 255 255 }
+				
+			capital = c_dublin # Dublin
+
+			c_dublin = {
+				color = { 55 250 85 }
+				color2 = { 255 255 255 }
+
+				cultural_names = {
+					name_list_norse = cn_dyflinn
+					name_list_norwegian = cn_dyflinn
+					name_list_irish = cn_dubhlinn
+					name_list_welsh = cn_dulyn
+				}
+					
+				b_dublin = {
+					province = 28
+
+					color = { 55 250 85 }
+					color2 = { 255 255 255 }
+						
+					cultural_names = {
+						name_list_norse = cn_dyflinn
+						name_list_norwegian = cn_dyflinn
+						name_list_irish = cn_dubhlinn
+						name_list_welsh = cn_dulyn
+					}
+				}
+				b_wicklow = {
+					province = 29
+
+					color = { 55 250 85 }
+					color2 = { 255 255 255 }
+						
+					cultural_names = {
+						name_list_irish = cn_cill_mhantain
+					}
+				}
+				b_kildare = { #Historical note: monastery
+					province = 30
+
+					color = { 55 250 85 }
+					color2 = { 255 255 255 }
+						
+					cultural_names = {
+						name_list_irish = cn_cill_dara
+					}
+				}
+				b_trim = { #historical note: monastery/important church
+					province = 31
+
+					color = { 55 250 85 }
+					color2 = { 255 255 255 }
+						
+					cultural_names = {
+						name_list_irish = cn_baile_atha_troim
+					}
+				}
+				b_drogheda = {
+					province = 32
+
+					color = { 55 250 85 }
+					color2 = { 255 255 255 }
+						
+					cultural_names = {
+						name_list_irish = cn_droichead_atha
+					}
+				}
+			}
+
+
+			c_athlone = {
+				color = { 40 230 65 }
+				color2 = { 255 255 255 }
+
+				b_athlone = {
+					province = 34
+
+					color = { 40 230 65 }
+					color2 = { 255 255 255 }
+				}
+				b_birr = { #Historical note: monastery
+					province = 33
+
+					color = { 40 230 65 }
+					color2 = { 255 255 255 }
+				}
+				b_uisneach = {
+					province = 36
+
+					color = { 40 230 65 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
+
+	k_guild = {
+		color = { 242 89 18 }
+		landless = yes
+		de_jure_drift_disabled = no
+		always_follows_primary_heir = yes
+		capital = c_vannes
+	}
+	k_bar = {
+		color = { 171 255 0 }
+		landless = yes
+		de_jure_drift_disabled = no
+		always_follows_primary_heir = yes
+		capital = c_bar
+	}
+	k_gentrualgon = {
+		color = { 23 172 73 }
+		de_jure_drift_disabled = no
+		always_follows_primary_heir = yes
+		capital = c_norfolk
+	
+		d_norfolk = { #East Anglia
+			color = { 200 90 0 }
+			color2 = { 255 255 255 }
+				
+			capital = c_norfolk # Norwich
+				
+			cultural_names = {
+				name_list_norse = cn_jarnamoda
+				name_list_norwegian = cn_jarnamoda
+			}
+
+			c_norfolk = {
+				color = { 210 100 0 }
+				color2 = { 255 255 255 }
+
+				cultural_names = {
+					name_list_norse = cn_jarnamoda
+					name_list_norwegian = cn_jarnamoda
+				}
+
+				b_norwich = {
+					province = 1522
+					color = { 210 100 0 }
+					color2 = { 255 255 255 }
+
+					cultural_names = {
+						name_list_norse = cn_jarnamoda
+						name_list_norwegian = cn_jarnamoda
+					}
+				}
+				b_thetford = {
+					province = 1523
+
+					color = { 210 100 0 }
+					color2 = { 255 255 255 }
+				}
+				b_walsingham = {
+					province = 1524
+
+					color = { 210 100 0 }
+					color2 = { 255 255 255 }
+				}
+				b_lynn = {
+					province = 1525
+
+					color = { 210 100 0 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_suffolk = {
+				color = { 215 125 10 }
+				color2 = { 255 255 255 }
+				
+				b_ipswich = {
+					province = 1518
+
+					color = { 215 125 10 }
+					color2 = { 255 255 255 }
+				}
+				b_sudbury = {
+					province = 1519
+
+					color = { 215 125 10 }
+					color2 = { 255 255 255 }
+				}
+				b_blything = {
+					province = 1520
+
+					color = { 215 125 10 }
+					color2 = { 255 255 255 }
+				}
+				b_beodericsworth = {
+					province = 1521
+
+					color = { 215 125 10 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_cambridgeshire = {
+				color = { 205 145 5 }
+				color2 = { 255 255 255 }
+
+				b_cambridge = {
+					province = 1534
+
+					color = { 205 145 5 }
+					color2 = { 255 255 255 }
+				}
+				b_radfield = {
+					province = 1535
+
+					color = { 205 145 5 }
+					color2 = { 255 255 255 }
+				}
+				b_papworth = {
+					province = 1536
+
+					color = { 205 145 5 }
+					color2 = { 255 255 255 }
+				}
+				b_ely = {
+					province = 1537
+
+					color = { 205 145 5 }
+					color2 = { 255 255 255 }
+
+					cultural_names = {
+						name_list_norse = cn_linn
+						name_list_norwegian = cn_linn
+					}
+				}
+			}
+		}
+	}
+	d_mirkwood = {
+		color = { 100 249 25 }
+		color2 = { 255 255 255 }
+				
+		capital = c_devon
+				
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:cornish
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+				
+		c_devon = {
+			color = { 170 60 10 }
+			color2 = { 255 255 255 }
+					
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:cornish
+					}
+					add = @better_than_the_alternatives_score
+				}
+			}
+					
+			b_exeter = {
+				province = 1569
+
+				color = { 170 60 10 }
+				color2 = { 255 255 255 }
+			}
+			b_totnes = {
+				province = 1570
+
+				color = { 170 60 10 }
+				color2 = { 255 255 255 }
+			}
+			b_okehampton = {
+				province = 1571
+
+				color = { 170 60 10 }
+				color2 = { 255 255 255 }
+			}
+			b_barnstaple = {
+				province = 1572
+
+				color = { 170 60 10 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_cornwall = {
+			color = { 150 55 5 }
+			color2 = { 255 255 255 }
+					
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:cornish
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+					
+
+			b_launceston = {
+				province = 1573
+
+				color = { 150 55 5 }
+				color2 = { 255 255 255 }
+			}
+			b_tintagel = {
+				province = 1574
+
+				color = { 150 55 5 }
+				color2 = { 255 255 255 }
+			}
+			b_helston = {
+				province = 1575
+
+				color = { 150 55 5 }
+				color2 = { 255 255 255 }
+			}
+		}
+	}
+}

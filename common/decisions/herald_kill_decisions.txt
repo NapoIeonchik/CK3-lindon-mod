@@ -1,0 +1,36 @@
+﻿highlander_immortals_hunt_immortals_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_highlander_immortals.dds"
+
+	desc = highlander_immortals_hunt_immortals_decision_desc
+
+	selection_tooltip = highlander_immortals_hunt_immortals_decision_tooltip
+
+	major = yes
+
+	cooldown = { years = 10 }
+
+	is_shown = {
+		exists = global_var:number_of_immortals
+		has_trait = godkiller
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	is_valid = {
+		gold >= 50
+	}
+
+	effect = {
+		custom_tooltip = highlander_immortals_hunt_immortals_decision_tooltip.tooltip
+		trigger_event = { id = hi_immortal_hunt.1 }
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+

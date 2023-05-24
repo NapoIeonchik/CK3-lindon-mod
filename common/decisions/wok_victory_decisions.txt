@@ -1,0 +1,43 @@
+﻿# Harmony
+claim_harmony_victory_decision = {
+	picture = "gfx/interface/illustrations/decisions/harmony2.dds"
+	major = yes
+	ai_check_interval = 0
+	is_shown = {
+		OR = {
+			has_variable = pretend_debug # debug_only = yes
+			AND = {
+				has_trait = godkiller
+			}
+		}
+	}
+	is_valid_showing_failures_only = {
+		is_available = yes
+	}
+	is_valid = {
+		dread = 0
+		tyranny = 0
+		sub_realm_size >= 6
+		
+		custom_description = {
+			domain_limit = domain_size
+		}
+		any_held_county = {
+			count = all
+			county_opinion > 6
+			development_level > 6
+			county_control > 99
+		}
+		days_of_continuous_peace >= 6
+	}
+	effect = {
+		add_trait = godkiller
+		house = {
+			every_house_member = {
+				custom = every_house_member
+				add_trait_force_tooltip = mistborn_allomancer
+			}
+		}
+		trigger = set_shardic_victory_effect 
+	}
+}

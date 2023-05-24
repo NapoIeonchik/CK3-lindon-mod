@@ -1,0 +1,226 @@
+title_high_count = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_paragon }
+}
+title_high_countess = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_paragon }
+}
+title_paragon_comendant = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { d_connacht }
+}
+title_paragon_comendantess = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { d_connacht }
+}
+title_paragon_burgomistress = {
+	type = character
+	tier = county
+	gender = female
+	special = holder
+	priority = 102
+	titles = { c_leinster}
+}
+title_paragon_burgomistr = {
+	type = character
+	tier = county
+	gender = male
+	special = holder
+	priority = 102
+	titles = { c_leinster }
+}
+title_guild_master = {
+	type = character
+	tier = county
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+title_guild_mistress = {
+	type = character
+	tier = county
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+
+title_guild_master_duke = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+title_guild_mistress_duke = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+
+title_guild_master_king = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+title_guild_mistress_king = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_guild }
+}
+title_druid = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { d_dragons_hammer }
+}
+title_druidess = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { d_dragons_hammer }
+}
+title_barman = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_bar }
+}
+title_barmistress = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_bar }
+}
+title_headman = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { d_mirkwood }
+}
+title_headwoman = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { d_mirkwood }
+}
+title_gentking = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_gentrualgon }
+}
+title_gentkingf = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_gentrualgon }
+}
+title_gentduke = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_gentrualgon }
+}
+title_gentdukef = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_gentrualgon }
+}
+title_greintduke = {
+	type = character
+	tier = duchy
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_greintvald }
+}
+title_greintdukef = {
+	type = character
+	tier = duchy
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_greintvald }
+}
+title_greintcount = {
+	type = character
+	tier = county
+	gender = male
+	special = holder
+	priority = 102
+	titles = { e_greintvald }
+}
+title_greintcountf = {
+	type = character
+	tier = county
+	gender = female
+	special = holder
+	priority = 102
+	titles = { e_greintvald }
+}
+title_paragon_baroness = {
+	type = character
+	tier = county
+	gender = female
+	special = holder
+	priority = 102
+	titles = { c_ailech }
+}
+title_paragon_baron = {
+	type = character
+	tier = county
+	gender = male
+	special = holder
+	priority = 102
+	titles = { c_ailech }
+}

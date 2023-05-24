@@ -1,0 +1,295 @@
+﻿k_france = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_eshfold.dds"
+	}
+}
+k_paragon = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_paragon.dds"
+	}
+}
+k_greintvald = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_greintvald.dds"
+	}
+}
+e_greintvald = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_greintvald.dds"
+	}
+}
+k_guild = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_guild.dds"
+	}
+}
+d_dragons_hammer = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_dragonhammer.dds"
+	}
+}
+k_bar = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_bar.dds"
+	}
+}
+d_mirkwood = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_mirkwood.dds"
+	}
+}
+k_gentrualgon = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_gentrualgon.dds"
+	}
+}
+k_noldor = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_noldor.dds"
+	}
+}
+e_balian = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_balion.dds"
+	}
+}
+d_hereford = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_bervi.dds"
+	}
+}
+d_york = {
+	pattern="pattern_checkers_02.dds"
+	color1=rgb { 144 17 0 }
+	color2=rgb { 133 15 0 }
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		color3=red
+		texture="ce_lion_passant_guardant.dds"
+		instance={
+			position={ 0.320000 0.700000 }
+			scale={ -0.430000 0.370000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce__empty_designer.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.400000 0.400000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_lion_passant_guardant.dds"
+		instance={
+			position={ 0.730000 0.290000 }
+			scale={ 0.420000 0.420000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 149 17 0 }
+		color2=blue_light
+		texture="ce_diagonal_stripes_01.dds"
+		instance={
+			position={ 0.270000 0.260000 }
+			scale={ 0.510000 0.510000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 162 19 0 }
+		color2=blue_light
+		texture="ce_bendy_10.dds"
+		instance={
+			position={ 0.760000 0.730000 }
+			scale={ 0.450000 0.450000 }
+		}
+
+	}
+}
+d_lancaster = {
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=black
+	color2=rgb { 0 95 98 }
+	color3=black
+	colored_emblem={
+		color1=black
+		color2=white
+		color3=white
+		texture="ce_leopard_passant_guardant.dds"
+		instance={
+			position={ 0.120000 0.530000 }
+			scale={ -0.710000 0.710000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.870000 0.540000 }
+			scale={ 0.680000 0.680000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_fleur.dds"
+		instance={
+			scale={ 0.500000 0.500000 }
+		}
+
+		instance={
+			position={ 0.720000 0.170000 }
+			scale={ 0.330000 0.330000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.300000 0.170000 }
+			scale={ 0.320000 0.320000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+d_lothian = {
+	pattern="pattern_horizontal_split_02.dds"
+	color1=rgb { 161 155 0 }
+	color2=rgb { 80 130 0 }
+	color3=blue
+	colored_emblem={
+		color1=black
+		texture="ce_shrub.dds"
+		instance={
+			position={ 0.500000 0.610000 }
+			scale={ 0.520000 0.520000 }
+			depth=2.010000
+			rotation=41
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.700000 0.180000 }
+			scale={ 0.320000 0.320000 }
+		}
+
+		instance={
+			position={ 0.320000 0.180000 }
+			scale={ 0.320000 0.320000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+d_western_isles = {
+	pattern="pattern_bend_01.dds"
+	color1=white
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=grey
+		color2=grey
+		color3=grey
+		texture="ce_eagle.dds"
+		instance={
+			position={ 0.740000 0.270000 }
+			scale={ 0.520000 0.520000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=grey
+		color2=grey
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.250000 0.730000 }
+			scale={ -0.370000 0.370000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_fleur.dds"
+		instance={
+			position={ 0.710000 0.710000 }
+			scale={ 0.400000 0.400000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.480000 0.480000 }
+			scale={ 0.420000 0.420000 }
+			depth=3.010000
+		}
+
+		instance={
+			position={ 0.260000 0.230000 }
+			scale={ 0.400000 0.400000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+
+

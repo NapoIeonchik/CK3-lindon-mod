@@ -1,0 +1,24 @@
+﻿
+
+namespace = eshfold_historical_artifacts
+# Generation of historical artifacts #
+
+#Historical artifacts generator at game start
+eshfold_historical_artifacts.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				current_date > 1066.1.1
+				exists = character:99993
+				character:99993 = { is_alive = yes } 
+			}
+			character:99993 = { 
+				create_artifact_hetman_mace_effect = { OWNER = this }
+			}
+		}
+	}
+}
+

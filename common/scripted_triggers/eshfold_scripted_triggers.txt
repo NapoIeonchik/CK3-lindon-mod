@@ -1,0 +1,3 @@
+are_greintvaldians = {
+	has_cultural_pillar = heritage_greintvaldian 
+}

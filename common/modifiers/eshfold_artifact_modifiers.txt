@@ -1,0 +1,12 @@
+hetman_mace_modifier = {
+	stress_loss_mult = 0.4
+	prowess = 43
+	martial = 4
+	dread_baseline_add = 15
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 1
+	same_culture_opinion = 10
+	enemy_hostile_scheme_success_chance_add = -30
+	court_grandeur_baseline_add = 16
+	character_capital_county_monthly_development_growth_add = 0.5
+}

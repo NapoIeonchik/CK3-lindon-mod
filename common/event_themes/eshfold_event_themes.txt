@@ -1,0 +1,23 @@
+﻿
+
+ @generic_event_theme_sound = "event:/SFX/Events/Themes/sfx_event_theme_type_generic"
+
+
+
+
+
+
+greintvald_battle_theme = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_martial.dds"
+	}
+	sound = {
+		reference = "file:/sound/milton_szadi_szadi.ogg"
+	}
+	background = {
+		event_background = greintvald_battle
+	}
+}
+
+
+

@@ -1,0 +1,33 @@
+restore_bar_decision_scripted_effect = {
+	save_scope_as = founder
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:k_bar = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	hidden_effect = {
+		title:d_bar = { set_de_jure_liege_title = title:k_bar }
+		if = {	#If owned, annex Somerset/Wessex.
+			limit = {
+				title:d_champagne = { holder = root }
+			}
+			title:d_champagne = { set_de_jure_liege_title = title:k_bar }
+		}
+		if = {	#If owned, annex Gloucestershire/Hwicce.
+			limit = {
+				title:d_burgundy = { holder = root }
+			}
+			title:d_burgundy = { set_de_jure_liege_title = title:k_bar }
+		}
+	}
+	custom_tooltip = restore_bar_decision_effects_de_jure_tt
+}
+

@@ -1,0 +1,53 @@
+use_oathgate_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_oathgates.dds" # decision_oathgates.dds"
+	ai_check_interval = 0
+	desc = use_oathgate_decision_desc
+	is_shown = {
+		is_ai = no
+		is_commanding_army = yes
+		has_trait = fire_mage
+	}
+	is_valid = {
+		is_commanding_army = yes
+		has_trait = fire_mage #is_radiant = yes
+		commanding_army = {
+			location = {
+				has_holding_type = dawncity_holding
+			}
+		}
+		trigger_if = {
+			limit = {
+				exists = var:si_selected_province
+			}
+			NOT = {
+				commanding_army.location = var:si_selected_province
+			}
+		}
+		trigger_else = {
+			always = no
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				exists = var:si_selected_province
+			}
+			commanding_army = {
+				if = {
+					limit = {
+						location = {
+							has_holding_type = dawncity_holding
+							exists = root.var:si_selected_province
+						}
+					}
+				}
+				subject = location.barony
+				object = root.var:si_selected_province.barony #title:b_Urithiru
+				set_army_location = title:b_shrewsbury.title_province #title:b_Urithiru.title_province
+			}
+			var:si_selected_province = {remove_variable = si_selecting_character}
+			remove_variable = si_selected_province
+		}
+	}
+	cooldown = {days = 10}
+}

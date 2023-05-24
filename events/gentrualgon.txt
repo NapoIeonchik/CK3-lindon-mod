@@ -1,0 +1,84 @@
+namespace = gent
+######
+gent.0100 = { 
+	type = character_event
+	title = gent.0100.t
+	desc = gent.0100.desc
+	theme = default 
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	option = { 
+		name = gent.0100.a	
+		trigger_event = {
+			id = gent.0101
+			days = { 100 200 }
+		}
+		character:leon_gent = { 
+			trigger_event = {
+				id = gent.0102
+			}
+		}
+	}
+}
+gent.0101 = { 
+	type = character_event
+	title = gent.0101.t
+	desc = gent.0101.desc
+	theme = war
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	immediate = {
+		character:riordan = { 
+			spawn_army = {
+				uses_supply = yes
+				inheritable = no
+				name = sterlization_army_01_event_troops
+				levies = {
+					value = 1000
+				}
+				men_at_arms = {
+					type = bombard
+					stacks = 1
+				}
+				men_at_arms = {
+					type = light_footmen 
+					stacks = 3
+				}	
+				men_at_arms = {
+					type = bowmen 
+					stacks = 3
+				}
+				
+				location = title:c_essex.title_province
+			}			
+		}
+	}
+	option = {
+		name = gent.0101.a
+		add_pressed_claim = title:k_gentrualgon
+		add_prestige = 1500
+		start_war = {
+			casus_belli = claim_cb
+			target = title:k_gentrualgon.holder
+			claimant = character:riordan
+		}
+	}
+}
+gent.0102 = { 
+	type = character_event
+	title = gent.0102.t
+	desc = gent.0102.desc
+	theme = default 
+	left_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	option = { 
+		name = gent.0102.a	
+	}
+}
+	

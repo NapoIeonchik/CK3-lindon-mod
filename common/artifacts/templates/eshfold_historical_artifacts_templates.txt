@@ -1,0 +1,17 @@
+﻿
+hetman_mace_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		always = yes
+	}
+	can_reforge = {
+		always = yes
+	}
+	fallback = {
+		powerful_vassal_opinion = 2
+	}
+	unique = yes
+}
+

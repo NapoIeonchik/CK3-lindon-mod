@@ -1,0 +1,7 @@
+on_wok_victory = { # Generic version
+	effect = {
+		switch = {
+			trigger = set_shardic_victory_effect
+		}
+	}
+}

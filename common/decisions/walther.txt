@@ -1,0 +1,90 @@
+restore_bar_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = restore_bar_decision_desc
+	selection_tooltip = restore_bar_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+		OR = {
+			OR = {
+				has_title = title:d_bar
+			}
+			dynasty = dynasty:2001329 	#The Bar royal house is always able to get away with these shenanigans.
+		}
+		OR = {	#Must be a culture at least traditionally interlinked with Cornwall.
+			dynasty = dynasty:2001329 	#The Bar royal house is at it again.
+		}
+		NOT = {	#You can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_bar
+			}
+		}
+		OR = {
+			has_government = feudal_government
+			has_government = republic_government
+			has_government = clan_government
+		}
+		highest_held_title_tier <= tier_duchy
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		prestige_level >= medium_prestige_level
+		has_title = title:d_bar
+		completely_controls = title:d_bar
+		any_realm_province = { #You must have some realm support for your claims.
+			religion = religion:silversword_religion
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			restore_bar_decision_scripted_effect = yes
+		}
+		save_scope_as = founder
+		trigger_event = {
+			id = bar.0001
+		}
+		#Notify other players.
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				is_within_diplo_range = { CHARACTER = root }
+			}
+			trigger_event = bar.0002
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_bar
+			}
+			set_global_variable = {
+				name = flag_restored_bar
+				value = root
+			}
+		}
+	}
+
+	cost = {
+		gold = 150
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

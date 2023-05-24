@@ -1,0 +1,39 @@
+marry_canon_spouse = {
+	save_scope_as = actor
+	#save_scope_as = secondary_actor
+	if = {
+		limit = {
+			any_relation = {
+				type = set_spouse
+			}
+		}
+		# save_scope_value_as = {
+		# 	name = marriage_hook
+		# 	value = no
+		# }
+		random_relation = {
+			type = set_spouse
+			limit = {
+				can_marry_character_trigger = {
+					CHARACTER = scope:actor
+				}
+			}
+			#save_scope_as = recipient
+			#save_scope_as = secondary_recipient
+			if = {
+				limit = {
+					OR = {
+						this = character:5791240510 # Ravena
+						this = character:9999999 # Muskuloso
+					}
+				}
+				marry_matrilineal = prev
+				if = {limit = {num_of_relation_soulmate = 0} set_relation_soulmate = prev}
+			}
+			else = {
+				marry = prev
+			}
+		}
+		#marriage_interaction_on_accept_effect = yes
+	}
+}

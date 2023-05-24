@@ -1,0 +1,80 @@
+destroy_marnaus_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_destroy_marnaus.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = destroy_marnaus_decision_desc
+	selection_tooltip = destroy_marnaus_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+		character:marnaus = { 
+			limit = {
+				is_alive = yes
+			}	
+		}
+		OR = {
+			culture = { has_cultural_pillar = heritage_greintvaldian}
+		}
+		NOT = {	#You can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_destroyed_marnaus
+			}
+		}
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		prestige_level >= medium_prestige_level
+		has_title = title:e_greintvald
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			destroy_marnaus_decision_scripted_effect = yes
+		}
+		save_scope_as = destroyer
+		trigger_event = {
+			id = marnaus.0001
+		}
+		#Notify other players.
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				is_within_diplo_range = { CHARACTER = root }
+			}
+			trigger_event = marnaus.0002
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_destroyed_marnaus
+			}
+			set_global_variable = {
+				name = flag_destroyed_marnaus
+				value = root
+			}
+		}
+	}
+
+	cost = {
+		gold = 500
+		prestige = 1000
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

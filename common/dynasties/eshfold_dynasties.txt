@@ -1,0 +1,325 @@
+2002326 = {	
+	name = "Cross"
+	culture = "french"
+}
+2001327 = {	
+	name = "Hayford"
+	culture = "french"
+}
+2001328 = {	
+	name = "Watkins"
+	culture = "french"
+}
+2001329 = {	
+	name = "von_Shteiner"
+	culture = "french"
+}
+2001330 = {	
+	name = "Shmidt"
+	culture = "french"
+}
+2001331 = {	
+	name = "Grads"
+	culture = "french"
+}
+2001332 = {	
+	name = "Mallice"
+	culture = "french"
+}
+2001333 = {	
+	name = "Marlow"
+	culture = "french"
+}
+2001334 = {	
+	name = "Lejimo"
+	culture = "french"
+}
+2001335 = {	
+	name = "Trent"
+	culture = "french"
+}
+2001336 = {	
+	name = "Egalion"
+	culture = "french"
+}
+2001337 = {	
+	name = "kendal_of_Stedvikk"
+	culture = "french"
+}
+2001338 = {	
+	name = "da_Ball"
+	culture = "french"
+}
+2001339 = {	
+	name = "Greenleaf"
+	culture = "french"
+}
+2001340 = {	
+	name = "la_Valett"
+	culture = "french"
+}
+2001341 = {	
+	name = "Woodensson"
+	culture = "french"
+}
+2001342 = {	
+	name = "Slogger"
+	culture = "french"
+}
+2001343 = {	
+	name = "ean_Krait_Morvud"
+	culture = "french"
+}
+2001344 = {	
+	name = "Sell"
+	culture = "french"
+}
+2001345 = {	
+	name = "Riverman"
+	culture = "french"
+}
+2001346 = {	
+	name = "Bairo"
+	culture = "french"
+}
+2001347 = {	
+	name = "the_Short_Karling"
+	culture = "french"
+}
+2001348 = {	
+	name = "Edo"
+	culture = "french"
+}
+2001349 = {	
+	name = "de_Leon"
+	culture = "french"
+}
+2001350 = {	
+	name = "Hrodwald"
+	culture = "french"
+}
+2001351 = {	
+	name = "Kazblager"
+	culture = "french"
+}
+2001352 = {	
+	name = "Lebovski"
+	culture = "french"
+}
+2001353 = {	
+	name = "Lurily"
+	culture = "french"
+}
+2001354 = {	
+	name = "Alex"
+	culture = "french"
+}
+2001355 = {	
+	name = "Smirnov"
+	culture = "french"
+}
+2001356 = {	
+	name = "Velenskii"
+	culture = "french"
+}
+2001357 = {	
+	name = "of_Lyria"
+	culture = "french"
+}
+2001358 = {	
+	name = "Cray_z"
+	culture = "french"
+}
+2001359 = {	
+	name = "Biba"
+	culture = "french"
+}
+2001360 = {	
+	name = "Anorvski"
+	culture = "french"
+}
+2001361 = {	
+	name = "Belohvostie"
+	culture = "french"
+}
+2001362 = {	
+	name = "de_Peyrac_Peyran"
+	culture = "french"
+}
+2001363 = {	
+	name = "de_Eldon"
+	culture = "french"
+}
+2001364 = {	
+	name = "da_White"
+	culture = "french"
+}
+2001365 = {	
+	name = "Krolov"
+	culture = "french"
+}
+2001366 = {	
+	name = "druid"
+	culture = "french"
+}
+2001367 = {	
+	name = "Dalban"
+	culture = "french"
+}
+2002368 = {	
+	name = "Ajergoose"
+	culture = "french"
+}
+2002369 = {	
+	name = "the_Liar"
+	culture = "french"
+}
+2002370 = {	
+	name = "Noldor"
+	culture = "french"
+}
+2002371 = {	
+	name = "of_Balion"
+	culture = "french"
+}
+2002372 = {	
+	name = "of_Odessa"
+	culture = "french"
+}
+2002373 = {	
+	name = "Boneless"
+	culture = "french"
+}
+2002374 = {	
+	name = "Tenebris"
+	culture = "french"
+}
+2002375 = {	
+	name = "Gruning"
+	culture = "french"
+}
+2002376 = {	
+	name = "Sikarius"
+	culture = "french"
+}
+2002377 = {	
+	name = "Menavlionov"
+	culture = "french"
+}
+2002378 = {	
+	name = "Lupercal"
+	culture = "french"
+}
+2002379 = {	
+	name = "Grif"
+	culture = "french"
+}
+2002380 = {	
+	name = "Gentrualii"
+	culture = "french"
+}
+2002381 = {	
+	name = "Despod"
+	culture = "french"
+}
+2002382 = {	
+	name = "Cooper"
+	culture = "french"
+}
+2002383 = {	
+	name = "Ghall"
+	culture = "french"
+}
+2002384 = {	
+	name = "d_Lyah"
+	culture = "french"
+}
+2002385 = {	
+	name = "Henrietta"
+	culture = "french"
+}
+2002386 = {	
+	name = "Predeina"
+	culture = "french"
+}
+2002387 = {	
+	name = "Belozerov"
+	culture = "french"
+}
+2002388 = {	
+	name = "Nutlis"
+	culture = "french"
+}
+2002389 = {	
+	name = "Galis"
+	culture = "french"
+}
+2002390 = {	
+	name = "Sheremet"
+	culture = "french"
+}
+2002391 = {	
+	name = "Nikolenko"
+	culture = "french"
+}
+2002392 = {	
+	name = "Didenko"
+	culture = "french"
+}
+2002393 = {	
+	name = "Shlyakhov"
+	culture = "french"
+}
+2002394 = {	
+	name = "de_Amelie"
+	culture = "french"
+	motto = dynn_de_Amelie_motto
+}
+2002395 = {	
+	name = "Vargas"
+	culture = "french"
+}
+2002396 = {	
+	name = "Tathariel"
+	culture = "french"
+}
+2002397 = {	
+	name = "Zin"
+	culture = "french"
+}
+2002398 = {	
+	name = "Varnuk"
+	culture = "french"
+}
+2002399 = {	
+	name = "di_Ashalet"
+	culture = "french"
+}
+2002340 = {	
+	name = "Pargaid"
+	culture = "french"
+}
+2002341 = {	
+	name = "Catz"
+	culture = "french"
+}
+2002342 = {	
+	name = "Bjork"
+	culture = "french"
+}
+2002343 = {	
+	name = "Zerin"
+	culture = "french"
+}
+2002344 = {	
+	name = "ith_Degerlan"
+	culture = "french"
+}
+2002345 = {	
+	name = "Klist"
+	culture = "french"
+}
+2002346 = {	
+	name = "von_Holshtein"
+	culture = "french"
+}

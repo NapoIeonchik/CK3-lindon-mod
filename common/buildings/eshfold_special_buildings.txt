@@ -1,0 +1,165 @@
+silversword_keep_paris = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_Gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		different_culture_opinion = 15
+		character_capital_county_monthly_development_growth_add = 0.5
+		monthly_piety = 0.7
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_prestige_gain_mult = 0.7
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		monthly_income = 4
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		tax_mult = 0.25
+		levy_size = 0.25
+		development_growth_factor = 0.5
+		development_growth = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+paragon_keep = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_Gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 600
+	
+	character_modifier = {
+		different_culture_opinion = 5
+		character_capital_county_monthly_development_growth_add = 0.8
+		monthly_piety = 0.2
+		monthly_dynasty_prestige_mult = 0.2
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_3
+		defender_holding_advantage = normal_building_advantage_tier_3
+		monthly_income = 2.5
+	}
+	county_modifier = {
+		tax_mult = 0.6
+		levy_size = 0.75
+		development_growth_factor = 0.8
+		development_growth = 0.8
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+esmerald_keep = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_Gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 600
+	
+	character_modifier = {
+		different_culture_opinion = 10
+		character_capital_county_monthly_development_growth_add = 0.8
+		monthly_dynasty_prestige_mult = 0.2
+	}
+	max_garrison = good_building_max_garrison_tier_3
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_3
+		defender_holding_advantage = normal_building_advantage_tier_3
+		monthly_income = 2.5
+	}
+	county_modifier = {
+		tax_mult = 0.6
+		levy_size = 0.75
+		development_growth = 1.7
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+kings_barn = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_kings_barn.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 600
+	
+	character_modifier = {
+		different_culture_opinion = -5
+		character_capital_county_monthly_development_growth_add = 0.3
+		monthly_dynasty_prestige_mult = 0.2
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_2
+		defender_holding_advantage = normal_building_advantage_tier_4
+		monthly_income = 1.5
+	}
+	county_modifier = {
+		levy_size = 1.25
+		development_growth = 1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}

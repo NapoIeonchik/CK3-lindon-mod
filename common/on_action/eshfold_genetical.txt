@@ -1,0 +1,19 @@
+on_gain_geneticheskii = {
+	trigger = {
+		has_trait = geneticheskii
+	}
+	effect = {
+		if = {
+			limit = {
+				has_trait = geneticheskii
+			}
+			give_nickname = nick_genetical
+
+		}
+		random_list  = {
+			100 = {
+				give_nickname = nick_genetical
+			}
+		}
+	}	
+}	

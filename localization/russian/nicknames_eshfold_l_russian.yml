@@ -1,0 +1,6 @@
+﻿l_russian:
+ ##
+ nick_badass:0 "Бадасс"
+ nick_lion_of_greintvald:0 "Лев Грейнтвальда"
+ nick_painter:0 "Художник"
+ nick_genetical:0 "[Select_CString(CHARACTER.IsFemale, 'Генетическая', 'Генетический' )]"

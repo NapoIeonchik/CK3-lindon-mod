@@ -1,0 +1,12 @@
+destroy_marnaus_decision_scripted_effect = {
+	save_scope_as = destroyer
+	character:marnaus = {
+		remove_trait = education_intrigue_4
+		intrigue = 0
+		stewardship = 5
+		add_trait = education_stewardship_3
+		add_trait = marnaus_destroyed
+	}
+	custom_tooltip = destroy_marnaus_decision_scripted_effect_desc
+}
+

@@ -1,0 +1,28 @@
+create_artifact_hetman_mace_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	$LOCATION$ = { save_scope_as = location }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = hetman_mace
+		description = hetman_mace_description
+		type = sword
+		visuals = hetman_mace
+		wealth = scope:wealth
+		quality = scope:quality
+		template = hetman_maces_template
+		modifier = hetman_mace_modifier
+		save_scope_as = newly_created_artifact
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = hetman_mace
+		save_scope_as = epic
+	}
+}

@@ -1,0 +1,207 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+##
+##
+innovation_undead_horde = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+
+	potential = {
+		AND = {
+			this = culture:necromancers 
+			}
+		}
+	
+	unlock_maa = undead_horde
+}
+innovation_paragon_guard = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @knight
+
+	potential = {
+		AND = {
+			this = culture:paragonese
+			}
+		}
+	
+	unlock_maa = paragon_guard
+}
+innovation_eshfold_knights = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @knight
+
+	potential = {
+		AND = {
+			this = culture:eshfoldian
+			}
+		}
+	
+	unlock_maa = eshfold_knights
+}
+innovation_elf_invasion = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @majesty_01
+
+	potential = {
+		OR = {
+			this = culture:elvish
+			this = culture:heraldian
+		}
+	}
+	
+	custom = elf_invasion_war_cb
+}
+innovation_mirkwood_brigands = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:mirkwoodian
+			}
+		}
+	
+	unlock_maa = mirkwood_brigands
+}
+innovation_greintvald_crossbowmen = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		OR = {
+			this = culture:greintvaldian
+			this = culture:einvaldian
+			this = culture:reinvaldian
+			this = culture:westvaldian
+			this = culture:bervian
+			this = culture:claimorean
+		}
+	}
+
+	unlock_maa = greintvald_crossbowmen
+	unlock_maa = claimorean_dogs
+	unlock_maa = white_shields
+	unlock_maa = westvald_hunters
+	unlock_maa = einvaldian_knights
+	unlock_maa = bervian_pikemen
+}
+innovation_gentrualii = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:gentrualgonian
+			}
+		}
+	
+	unlock_maa = gentrualii
+}
+innovation_elf_magi = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:elvish
+			}
+		}
+	
+	unlock_maa = elf_magi
+}
+innovation_claimorean_dogs = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:claimorean
+			}
+		}
+	
+	unlock_maa = claimorean_dogs
+}
+innovation_bervian_pikemen = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:bervian
+			}
+		}
+	
+	unlock_maa = bervian_pikemen
+}
+innovation_einvaldian_knights = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:einvaldian
+			}
+		}
+	
+	unlock_maa = einvaldian_knights
+}
+innovation_westvald_hunters = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:westvaldian
+			}
+		}
+	
+	unlock_maa = westvald_hunters
+}
+innovation_white_shields = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @weapons_and_armor_02
+
+	potential = {
+		AND = {
+			this = culture:reinvaldian
+			}
+		}
+	
+	unlock_maa = white_shields
+}

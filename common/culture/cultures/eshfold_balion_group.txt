@@ -1,0 +1,166 @@
+paragonese = {
+	color = { 0.3 0.3 0.4 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+		tradition_castle_keepers
+		tradition_longbow_competitions
+	}
+	
+	name_list = name_list_paragonese
+	
+	coa_gfx = { english_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}
+}
+mirkwoodian = {
+	color = hsv { 0.72 0.6 0.72 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_city_keepers
+		tradition_xenophilic
+		tradition_strong_kinship
+		tradition_kinship_through_blood
+	}
+	
+	name_list = name_list_mirkwoodian
+	
+	coa_gfx = { welsh_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+eshfoldian = {
+	color = color = { 0.6 0.6 0.2 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_west_germanic
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+	
+	name_list = name_list_eshfoldian
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+elvish = {
+	color = hsv {0.25 0.5 0.75 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_west_germanic
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance
+		tradition_chivalry
+		tradition_chanson_de_geste
+		tradition_parochialism
+		tradition_kinship_through_blood
+	}
+	
+	name_list = name_list_elvish
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		100 = elves_ethnicity
+	}	
+}
+greintvaldian = {
+	color = { 0.6 0.4 0.7 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
+gentrualgonian = {
+	color = { 0 0.7 0 }
+
+
+	
+	ethos = ethos_communal
+	heritage = heritage_west_germanic
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_mountain_homes
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_gentrualgonian 
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}

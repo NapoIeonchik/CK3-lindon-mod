@@ -1,0 +1,5 @@
+﻿l_english:
+ # Traditions
+ tradition_kinship_through_blood_name:0 "Kinship through Blood"
+ tradition_kinship_through_blood_desc:1 "Kinship and blood are inseparable in this culture and the company of close family is preferred over everyone else."
+ culture_parameter_allows_unrestricted_marriage:0 "Marriage between all family members is allowed and sexual relations between any family members will not give the incest [secret|E]"

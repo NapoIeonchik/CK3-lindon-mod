@@ -1,0 +1,44 @@
+﻿l_english:
+ 
+ ### DENETHOR EVENTS ###
+ gevis.0100.t:0 "Shiza is coming!"
+ gevis.0100.desc:0 "For quiet a long time now I've been thinking about starting a grand campaign against my liege.. But it must be madness! He gave me all that power, and I forever in debt... But wait.. with such power I can do whatever I want! And I will!"
+ gevis.0100.a:0 "I have to listen to the voices in my head.."
+ gevis.0100.a.tt:0 "It's certainly the right way to my greatness!"
+ gevis.0100.b:0 "Enough of this madness!"
+ gevis.0100.b.tt:0 "That must have been just a bad dream!"
+ gevis.0101.t:0 "Shiza is coming 2!"
+ gevis.0101.desc:0 "Now, when I have finally decided to strike against my liege I need to gather all my power and improve my skill.."
+ gevis.0101.a:0 "I will have to train twelve hours a day.."
+ gevis.0101.a.tt:0 "Puma shall be my master!"
+ gevis.0101.b:0 "I will have to train twelve hours a day.."
+ gevis.0101.b.tt:0 "Walther shall be my master!"
+ decision_gevis_shiza_start:0 "Something is burning deep inside me.."
+ decision_gevis_shiza_tooltip:0 "I have to find the answers"
+ decision_gevis_shiza_desc:0 "There's something deep inside me which I don't fully understand.. I think, our king might be the reason but I'm not entirely sure"
+ decision_gevis_shiza_confirm:0 "I need to do a little thinking.."
+ gevis.0102.t:0 "Shiza is coming 3!"
+ gevis.0102.desc:0 "Stewards.. Marshalls.. these are not the only skills I need to aquire"
+ gevis.0102.a:0 "Another twelve hours?.."
+ gevis.0102.a.tt:0 "Jozef will teach me intrigues!"
+ gevis.0102.b:0 "Another twelve hours?.."
+ gevis.0102.b.tt:0 "M'lady Tessa shall be my teacher!"
+ gevis.0103.t:0 "Finally! Time to do something!"
+ gevis.0103.desc:0 "Now when my Shiza route is almost completed I need to make few last things."
+ gevis.0103.a:0 "I'll visit my old friend! I heard he was a fire mage or something."
+ gevis.0103:0 "I heard that the mercenary band established in Aahen."
+ 
+ 
+ 
+ 
+ #######################################
+ #MERCENARY INVASION OF ESHFOLD##
+ #######################################
+ mercenary.1400.t:0 "Something is coming... I feel it in the water."
+ mercenary.1400.desc:0 "Our fellow neighbours in Jeronia are informing us that a huge horde of all kind of scum is heading towards our borders. But we will not tremble, if they want to challenge us than it's better for them to prepare to die."
+ mercenary.1400.option.a:0 "Great Swordsman, give us strength!"
+ mercenary.1400.after.tt:0 "We do not have much time left.."
+ 
+ 
+ 
+

@@ -1,0 +1,18 @@
+﻿language_greintvaldian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_greintvaldian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = heritage_greintvaldian }
+			multiply = 20
+		}
+	}
+	
+	color = english
+}
+

@@ -1,0 +1,43 @@
+@maleMin = 0.0
+@maleMax = 1.5
+@femaleMin = 0.0
+@femaleMax = 1.5
+@boyMin = 0.0
+@boyMax = 1.5
+@girlMin = 0.0
+@girlMax = 1.5
+
+morph_genes = {
+	gene_bs_ears_fantasy = {
+		ugliness_feature_categories = { head }
+		group = ears
+
+		vanilla_ears_fantasy = { 
+			index = 0 
+			male = {}
+			female = male
+			boy = male
+			girl = male
+		}
+
+		ears_fantasy = { 
+			index = 1 
+			male = { 
+				setting = { attribute = "bs_ears_fantasy"	value = { min = @maleMin max = @maleMax } age = age_preset_child_features	} 
+			}
+			female = { 
+				setting = { attribute = "bs_ears_fantasy"	value = { min = @femaleMin max = @femaleMax } age = age_preset_child_features	} 
+			}
+			boy = { 
+				setting = { attribute = "bs_ears_fantasy"	value = { min = @boyMin max = @boyMax } age = age_preset_child_features	} 
+			}
+			girl = { 
+				setting = { attribute = "bs_ears_fantasy"	value = { min = @girlMin max = @girlMax } age = age_preset_child_features	} 
+			}
+		}
+	}
+}
+
+
+
+

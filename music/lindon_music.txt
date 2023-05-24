@@ -1,0 +1,8 @@
+﻿
+in_taberna_ck2 = {
+	music = "file:/music/tolik_2021.ogg"
+	weight = 24
+	mood = yes
+	can_be_interrupted = yes 
+	#volume = 0.05
+}
