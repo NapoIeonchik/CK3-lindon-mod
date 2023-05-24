@@ -1,4 +1,4 @@
-version="v0.5"
+version="1.5"
 tags={
 	"Total Conversion"
 }
