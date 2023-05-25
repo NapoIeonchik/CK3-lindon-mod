@@ -132,4 +132,5 @@
  building_type_kings_barn:0 "Королевский Сарай"
  kings_barn:0 "Королевский Сарай"
  restore_bar_decision_scripted_effect:0 "Восстановить Бар"
- elves_ethnicity:0 "Эльфийская внешность"
+ elves_ethnicity:0 "Эльфийская"
+ anlyud_ethnicity:0 "Анлюдская"
