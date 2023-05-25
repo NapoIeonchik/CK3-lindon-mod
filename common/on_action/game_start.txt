@@ -450,6 +450,10 @@ on_game_start_after_lobby = {
 			limit = { culture = culture:elvish }
 			add_trait = elf
 		}
+		every_living_character = {
+			limit = { has_trait = geneticheskii }
+			add_nickname = nick_genetical
+		}
 		### GAME RULE: VIEW ON SAME-SEX RELATIONS
 		if = {
 			limit = { has_game_rule = accepted_same_sex_relations }
