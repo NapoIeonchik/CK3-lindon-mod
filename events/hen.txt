@@ -12,8 +12,8 @@ hen_event.0001 = {
 	option = { 
 		name = hen_event.0001.a	
 		custom_tooltip = hen_event.0001.a.tt
-		set_relation_lover = character:avelina
 		remove_trait = geneticheskii
+		give_nickname = nick_the_chivalrous 
 	}
 	option = { 
 		name = hen_event.0001.b  
