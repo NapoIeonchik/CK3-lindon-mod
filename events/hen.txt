@@ -1,0 +1,26 @@
+namespace = hen_event
+####
+hen_event.0001 = {  
+	title = hen_event.0001.t
+	desc = hen_event.0001.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	
+	option = { 
+		name = hen_event.0001.a	
+		custom_tooltip = hen_event.0001.a.tt
+		set_relation_lover = character:avelina
+		remove_trait = geneticheskii
+	}
+	option = { 
+		name = hen_event.0001.b  
+		custom_tooltip = hen_event.0001.b.tt
+		add_character_modifier = {
+			modifier = candidat_balian_reforger 
+			years = 400
+		}
+	}
+}
