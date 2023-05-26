@@ -158,6 +158,18 @@ on_game_start = {
 				}
 			}
 		}
+		character:hen  = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = hen_event.0001
+					days = 400
+				}
+			}
+		}
 		character:61222490 = { set_immortal_age = 25 }
 		character:finwes_girl = { set_immortal_age = 25 }
 		character:999998 = { set_immortal_age = 60 }

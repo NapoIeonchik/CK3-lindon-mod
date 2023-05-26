@@ -8,19 +8,20 @@ hen_event.0001 = {
 		character = root
 		animation = personality_honorable
 	}
-	
+
 	option = { 
 		name = hen_event.0001.a	
 		custom_tooltip = hen_event.0001.a.tt
-		remove_trait = geneticheskii
-		give_nickname = nick_the_chivalrous 
+		add_gold = 400
+		add_character_modifier = {
+			modifier = strong_blood 
+			years = 400
+		}
 	}
 	option = { 
 		name = hen_event.0001.b  
 		custom_tooltip = hen_event.0001.b.tt
-		add_character_modifier = {
-			modifier = candidat_balian_reforger 
-			years = 400
-		}
+		remove_trait = geneticheskii
+		give_nickname = nick_the_chivalrous 
 	}
 }
