@@ -67,6 +67,7 @@ anvasion.1000 = {
 
 	option = {
 		name = anvasion.1000.a
+		add_gold = 100
 		add_prestige = 1500
 		character:9999994 = {
 		
