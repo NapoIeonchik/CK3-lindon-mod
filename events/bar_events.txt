@@ -16,13 +16,13 @@ bar.0001 = {
 	#Take the nickname.
 	option = {
 		name = bar.0001.a
-		give_nickname = nick_the_trojan
+		give_nickname = nick_drunkard
 		add_prestige = minor_prestige_gain
 	}
 	#No thanks on the nickname, more prestige instead please.
 	option = {
 		name = bar.0001.b
-		add_prestige = medium_prestige_gain
+		add_prestige = large_prestige_gain
 	}
 }
 

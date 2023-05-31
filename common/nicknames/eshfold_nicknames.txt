@@ -7,3 +7,5 @@ nick_badass = {}
 nick_lion_of_greintvald = {}
 nick_painter = {}
 nick_genetical = {}
+nick_uniter = {}
+nick_drunkard = {}

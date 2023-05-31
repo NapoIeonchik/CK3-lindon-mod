@@ -16,7 +16,7 @@ balian.0001 = {
 	#Take the nickname.
 	option = {
 		name = balian.0001.a
-		give_nickname = nick_the_trojan
+		give_nickname = nick_uniter
 		add_prestige = minor_prestige_gain
 	}
 	#No thanks on the nickname, more prestige instead please.
