@@ -2813,7 +2813,10 @@ hen = {
 		}
 	}
 	dna = hen_dna
-	dynasty = 2002395
+	dynasty = 2001329
+	father = erich
+	mother = waltherina
+	dynasty_house = house_vargas
 	martial = 5
 	diplomacy = 3
 	intrigue = 9
@@ -2826,6 +2829,7 @@ hen = {
 	trait = compassionate
 	trait = content
 	trait = geneticheskii
+	trait = disinherited
 	disallow_random_traits = yes
 	1045.1.1 = {
 		birth = yes

@@ -2,3 +2,7 @@ house_muskuloso = {
 	name = "dynn_Muskuloso"
 	dynasty = 2001365	
 }
+house_vargas = {
+	name = "Vargas"
+	dynasty = 2001329	
+}
