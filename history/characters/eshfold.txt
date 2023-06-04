@@ -1702,6 +1702,7 @@ trumeranta = {
 	trait = elf
 	trait = education_martial_prowess_4
 	trait = twin
+	prowess = 20
 	766.2.8 = {
 		birth = yes
 		effect = {
@@ -3402,6 +3403,40 @@ el_cid = {
 	disallow_random_traits = yes
 	48.1.1 = {
 		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+frederik = {
+	name = "Frederik"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_beard_fp2_iberian_christian_02
+			custom_hair = male_hair_fp2_iberian_muslim_01
+		}
+	}
+	dynasty = 
+	martial = 5
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 6
+	learning = 6
+	religion = "catholic"
+	culture = bervian
+	trait = education_stewardship_4
+	trait = arbitrary
+	trait = brave
+	trait = diligent
+	prowess = 5
+	disallow_random_traits = yes
+	1044.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		effect = {
+			give_nickname = nick_the_brave
+		}
 	}
 	1101.1.1 = {
 		death = yes

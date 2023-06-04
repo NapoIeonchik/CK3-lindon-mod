@@ -369,7 +369,7 @@ c_hertfordshire = {
 	}
 	1066.1.1 = {
 		liege = k_england
-	holder = 131 # Ealdgyth the Fair
+		holder = 131 # Ealdgyth the Fair
 	}
 	1066.10.14 = {
 		holder = 140 #William the Conqueror
@@ -1845,7 +1845,7 @@ c_huntingdonshire = {
 		liege = "d_hereford"
 	}
 	1066.1.2 = {
-		holder = 198 #Waltheof Siwardsson
+		holder = frederik #Waltheof Siwardsson
 	}
 	1076.1.1 = {
 		holder = 199 #Maud, Countess of Huntington
@@ -1987,7 +1987,7 @@ c_hereford = {
 		holder = 5644 #Eadwin
 	}
 	1066.1.1 = {
-		holder = 82040
+		holder = frederik
 	}
 	1066.10.14 = {
 		liege = "k_england"

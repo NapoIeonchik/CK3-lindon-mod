@@ -323,3 +323,7 @@
 	name = "von_Holshtein"
 	culture = "french"
 }
+2002347 = {	
+	name = "Frederikovich"
+	culture = "french"
+}
