@@ -3416,7 +3416,7 @@ frederik = {
 			custom_hair = male_hair_fp2_iberian_muslim_01
 		}
 	}
-	dynasty = 
+	dynasty = 2002347
 	martial = 5
 	diplomacy = 4
 	intrigue = 4

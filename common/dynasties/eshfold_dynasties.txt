@@ -324,6 +324,6 @@
 	culture = "french"
 }
 2002347 = {	
-	name = "Frederikovich"
+	name = "ze_Brave"
 	culture = "french"
 }
