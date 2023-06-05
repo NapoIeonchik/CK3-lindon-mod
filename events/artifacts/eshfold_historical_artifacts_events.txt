@@ -10,13 +10,12 @@ eshfold_historical_artifacts.0001 = {
 
 	immediate = {
 		if = {
-			limit = {
-				current_date > 1066.1.1
-				exists = character:99993
-				character:99993 = { is_alive = yes } 
-			}
+			#limit = {
+				#exists = character:99993
+				#character:99993 = { is_alive = yes } 
+			#}
 			character:99993 = { 
-				create_artifact_hetman_mace_effect = { OWNER = this }
+				create_artifact_count_mace_effect = { OWNER = this }
 			}
 		}
 	}

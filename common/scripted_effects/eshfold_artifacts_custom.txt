@@ -1,4 +1,4 @@
-create_artifact_hetman_mace_effect = {
+create_artifact_count_mace_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
 	$LOCATION$ = { save_scope_as = location }
@@ -9,11 +9,11 @@ create_artifact_hetman_mace_effect = {
 	create_artifact = {
 		name = hetman_mace
 		description = hetman_mace_description
-		type = sword
+		type = regalia
 		visuals = hetman_mace
 		wealth = scope:wealth
 		quality = scope:quality
-		template = hetman_maces_template
+		template = count_mace_template 
 		modifier = hetman_mace_modifier
 		save_scope_as = newly_created_artifact
 		save_scope_as = newly_created_artifact
@@ -22,7 +22,7 @@ create_artifact_hetman_mace_effect = {
 
 	scope:newly_created_artifact = {
 		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = hetman_mace
+		set_variable = count_mace
 		save_scope_as = epic
 	}
 }

@@ -15,3 +15,23 @@ hetman_mace_template = {
 	unique = yes
 }
 
+
+count_mace_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		AND = {
+			has_title = title:k_paragon
+			has_title = title:c_dublin
+		}
+	}
+	can_reforge = {
+		culture = { has_cultural_pillar = heritage_greintvaldian }
+	}
+
+	fallback = {
+		powerful_vassal_opinion = 2
+	}
+	unique = yes
+}
