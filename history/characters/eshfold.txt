@@ -3444,7 +3444,14 @@ frederik = {
 }
 konstantin = {
 	name = "Konstantin"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = no_hair
+			custom_beards = male_empty
+		}
+	}
 	dynasty = 2002348
+	dna = padub_dna
 	martial = 7
 	diplomacy = 4
 	intrigue = 5
@@ -3464,6 +3471,42 @@ konstantin = {
 	1050.1.1 = {
 		effect = {
 			give_nickname = nick_the_hedgehog
+		}
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+adalar = {
+	name = "Adalar"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = male_hair_western_07
+			custom_beards = male_beard_fp2_iberian_christian_02
+		}
+	}
+	dynasty = 2002349
+	dna = adalar_dna
+	martial = 8
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	learning = 6
+	religion = "catholic"
+	culture = claimorean
+	trait = education_martial_4
+	trait = just
+	trait = brave
+	trait = diligent
+	prowess = 5
+	trait = blademaster_2
+	disallow_random_traits = yes
+	1041.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		effect = {
+			give_nickname = nick_stormblessed
 		}
 	}
 	1101.1.1 = {

@@ -7,3 +7,4 @@
  nick_uniter:0 "[Select_CString(CHARACTER.IsFemale, 'Объединительница', 'Объединитель' )]"
  nick_drunkard:0 "[Select_CString(CHARACTER.IsFemale, 'Алкашиха', 'Алкаш' )]"
  nick_the_hedgehog:0 "[Select_CString(CHARACTER.IsFemale, 'Ежиха', 'Ёж' )]"
+ nick_stormblessed:0 "[Select_CString(CHARACTER.IsFemale, 'Благословенная Бурей', 'Благословенный Бурей' )]"
