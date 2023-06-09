@@ -978,6 +978,7 @@ c_angus = {
 	}
 	1058.1.1 = {
 		holder = harald
+		liege = "d_lothian"
 	}
 	1093.1.1 = {
 		holder = 986
@@ -1126,6 +1127,7 @@ c_mearns = {
 	}
 	1058.1.1 = {
 		holder = harald
+		liege = "d_lothian"
 	}
 	1093.1.1 = {
 		holder = 986
