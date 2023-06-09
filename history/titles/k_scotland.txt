@@ -977,7 +977,7 @@ c_angus = {
 		holder = 6006
 	}
 	1058.1.1 = {
-		holder = hen
+		holder = harald
 	}
 	1093.1.1 = {
 		holder = 986
@@ -1125,7 +1125,7 @@ c_mearns = {
 		holder = 6006
 	}
 	1058.1.1 = {
-		holder = hen
+		holder = harald
 	}
 	1093.1.1 = {
 		holder = 986

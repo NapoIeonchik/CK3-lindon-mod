@@ -335,3 +335,7 @@
 	name = "Stormblessed"
 	culture = "french"
 }
+2002350 = {	
+	name = "Hardrada"
+	culture = "french"
+}

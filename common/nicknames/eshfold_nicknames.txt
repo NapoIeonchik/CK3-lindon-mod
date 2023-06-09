@@ -11,3 +11,4 @@ nick_uniter = {}
 nick_drunkard = {}
 nick_the_hedgehog = {}
 nick_stormblessed = {}
+nick_ironfoot = {}

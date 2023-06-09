@@ -3513,3 +3513,32 @@ adalar = {
 		death = yes
 	}
 }
+harald = {
+	name = "Harald"
+	dynasty = 2002350
+	martial = 5
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	learning = 6
+	religion = "catholic"
+	culture = westvaldian
+	trait = education_stewardship_4
+	trait = arrogant
+	trait = brave
+	trait = stubborn
+	prowess = 5
+	trait = blademaster_2
+	disallow_random_traits = yes
+	1041.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		effect = {
+			give_nickname = nick_ironfoot
+		}
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
