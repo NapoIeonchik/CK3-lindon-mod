@@ -36,3 +36,57 @@ race.0001 = {
 	}
 
 }
+race.0002 = { #Ruler Design Elf Age Set
+	title = elven_racial.0102.t
+	desc = elven_racial.0102.desc
+	theme = realm
+		
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = {
+		hidden_effect = {
+			initialise_elven_holdings = yes
+			change_government = elven_government
+		}
+	}
+
+	option = { # Third Age
+		name = elven_racial.0102.a
+		custom_tooltip = {
+			text = elven_racial.0102.a.tt
+			set_age = { 20 60 }
+		}
+	}
+
+	option = { # Second Age
+		name = elven_racial.0102.b
+		custom_tooltip = {
+			text = elven_racial.0102.b.tt
+			set_age = { 100 220 }
+		}
+	}
+
+	option = { # First Age
+		name = elven_racial.0102.c
+		custom_tooltip = {
+			text = elven_racial.0102.c.tt
+			set_age = { 250 400 }
+		}
+	}
+
+	option = { # Age of the Trees
+		name = elven_racial.0102.d
+		custom_tooltip = {
+			text = elven_racial.0102.d.tt
+			set_age = 600
+		}
+	}
+	option = { # Unchanged
+		name = elven_racial.0102.e
+		custom_tooltip = elven_racial.0102.e.tt
+	}
+}
+

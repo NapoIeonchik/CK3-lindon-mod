@@ -1,0 +1,26 @@
+namespace = waltherina_event
+####
+waltherina_event.0001 = {  
+	title = waltherina_event.0001.t
+	desc = waltherina_event.0001.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = flirtation
+	}
+
+	right_portrait = {
+		character = character:erich
+		animation = flirtation_left 
+	}
+
+	lower_center_portrait = {
+		character = character:999992
+		animation = flirtation 
+	}
+
+	option = { 
+		name = waltherina_event.0001.a	
+		custom_tooltip = waltherina_event.0001.a.tt
+	}
+}

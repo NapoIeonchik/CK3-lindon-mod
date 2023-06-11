@@ -170,6 +170,24 @@ on_game_start = {
 				}
 			}
 		}
+		character:waltherina  = {
+			if = {
+				character:erich = {
+					limit = {
+						is_alive = yes
+					}
+				}
+				character:999992 = {
+					limit = {
+						is_alive = yes
+					}
+				}
+				trigger_event = {
+					id = waltherina_event.0001
+					days = 100
+				}
+			}
+		}
 		character:61222490 = { set_immortal_age = 25 }
 		character:finwes_girl = { set_immortal_age = 25 }
 		character:999998 = { set_immortal_age = 60 }
@@ -458,6 +476,13 @@ on_game_start = {
 # Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
 on_game_start_after_lobby = {
 	effect = {
+		every_player = {
+			limit = { 
+				is_elf = yes
+				is_from_ruler_designer = yes
+			}
+			trigger_event = race.0002
+		}
 		every_living_character = {
 			limit = { culture = culture:elvish }
 			add_trait = elf

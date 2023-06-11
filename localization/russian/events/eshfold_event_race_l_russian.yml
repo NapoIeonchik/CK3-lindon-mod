@@ -1,0 +1,15 @@
+﻿l_russian:
+ 
+ ### ELVEN EVENT ###
+ elven_racial.0102.t:0 "The Undying Elves"
+ elven_racial.0102.desc:0 "The elves have dwelled in earth for many an age, ever since they awoke by the clear water of lohness. From mighty victories to valiant defeats, the fortunes of the Firstborn have waxed and waned as the ages of the world have passed.\n\nWhy, I can remember it so clearly, as if it was yesterday - my first years in..."
+ elven_racial.0102.a:0 "...the era of dwindling, the third age."
+ elven_racial.0102.a.tt:0 "Your age is between 20 and 60 Years."
+ elven_racial.0102.b:0 "...the long summer of the second age."
+ elven_racial.0102.b.tt:0 "Your age is between 100 and 220 Years."
+ elven_racial.0102.c:0 "...the high valour of the first age."
+ elven_racial.0102.c.tt:0 "Your age is between 250 and 400 Years."
+ elven_racial.0102.d:0 "...the starlight before the rising of the Sun, the Years of The Tree."
+ elven_racial.0102.d.tt:0 "Your age is set to 600 Years"
+ elven_racial.0102.e:0 "I shouldn’t get so pretentious, at [ROOT.Char.GetAge] years I’m practically a babe still!"
+ elven_racial.0102.e.tt:0 "Your age remains what was set in the ruler designer"
