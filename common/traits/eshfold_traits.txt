@@ -182,12 +182,14 @@ ajergus = {
 
 	genetic = yes
 	physical = yes
+	no_prowess_loss_from_age = yes
 
 	birth=0
 	#inherit_chance = 25
 	#both_parent_has_trait_inherit_chance = 50
 
 	random_creation = 0
+
 
 	negate_health_penalty_add = 50
 	dread_baseline_add = 15
@@ -246,6 +248,7 @@ elf = {
 	movement_speed = 1
 	
 	life_expectancy = 600
+	no_prowess_loss_from_age = yes
 	
 	both_parent_has_trait_inherit_chance = 1000
 	inbreeding_chance = -0.7
@@ -413,6 +416,7 @@ halfelf = {
 	movement_speed = 0.15
 	
 	life_expectancy = 75
+	no_prowess_loss_from_age = yes
 	
 	both_parent_has_trait_inherit_chance = 1000
 	inbreeding_chance = -0.3
