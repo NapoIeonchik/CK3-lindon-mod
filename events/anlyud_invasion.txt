@@ -75,7 +75,7 @@ anvasion.1000 = {
 			start_war = {
 				casus_belli = invasion_war
 				target = title:e_greintvald.holder
-				target_title = title:k_scotland
+				target_title = title:k_harsia
 			}
 		}
 	}

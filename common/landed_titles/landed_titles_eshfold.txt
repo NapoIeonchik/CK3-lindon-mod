@@ -886,6 +886,13 @@ e_greintvald = {
 				}
 			}
 		}
+	}
+	k_harsia = {
+		color = { 150 152 198 }
+		landless = yes
+		de_jure_drift_disabled = no
+		always_follows_primary_heir = yes
+		capital = c_inner_hebrides
 		d_western_isles = {
 			color = { 225 120 30 }
 
