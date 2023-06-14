@@ -27,10 +27,9 @@
 		
 		animation = personality_rational
 
-		#	Bébinn (aunt) ID: 166126
 		character = {
-			name = "1_legolas_dna_data"
-			relation = "BOOKMARK_RELATION_AUNT"
+			name = "2_legolas_dna_data"
+			relation = "BOOKMARK_RELATION_SISTER"
 			dynasty = 2002326
 			type = female
 			birth = 1045.1.1
