@@ -97,7 +97,7 @@
  		complexion={ "complexion_1" 232 "complexion_3" 95 }
  		gene_height={ "normal_height" 119 "normal_height" 123 }
  		gene_bs_body_type={ "body_fat_head_fat_full" 124 "body_fat_head_fat_medium" 137 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 116 "body_shape_rectangle_full" 0 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 14 "body_shape_rectangle_full" 0 }
  		gene_bs_bust={ "bust_clothes" 91 "bust_shape_4_full" 138 }
  		gene_age={ "old_3" 37 "old_4" 124 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 220 "avg_spacing_lower_thickness" 114 }
