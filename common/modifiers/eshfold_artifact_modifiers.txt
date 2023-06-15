@@ -1,6 +1,6 @@
 hetman_mace_modifier = {
 	stress_loss_mult = 0.4
-	prowess = 43
+	prowess = 10
 	martial = 4
 	dread_baseline_add = 15
 	monthly_dynasty_prestige_mult = 0.05

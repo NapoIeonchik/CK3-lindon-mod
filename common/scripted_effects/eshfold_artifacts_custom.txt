@@ -18,7 +18,7 @@ create_artifact_count_mace_effect = {
 			type = created
 			date = 1050.1.1
 			recipient = character:99993 #Fëanor
-			location = province:28 #tirion
+			location = province:28 #paragon
 		}
 		modifier = hetman_mace_modifier
 		save_scope_as = newly_created_artifact
