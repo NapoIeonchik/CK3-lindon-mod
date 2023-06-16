@@ -3259,9 +3259,10 @@ erich = {
 			custom_hair = male_hair_mena_02
 		}
 	}
-	dynasty = 2002346 
+	dynasty = 2002382 
 	sexuality = heterosexual
 	dna = erich_dna
+	father = randolph_grandgrandson
 	martial = 4
 	diplomacy = 6
 	intrigue = 6
@@ -3647,6 +3648,72 @@ greze = {
 		}
 	}
 	1101.1.1 = {
+		death = yes
+	}
+}
+randolph_son = {
+	name = "Randolph"
+	dynasty = 2002382
+	father = randolph
+	martial = 13
+	diplomacy = 15
+	intrigue = 6
+	stewardship = 13
+	learning = 14
+	religion = "silversword"
+	culture = heraldian
+	trait = education_stewardship_4
+	trait = brave
+	trait = diligent
+	trait = gregarious
+	950.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+randolph_grandson = {
+	name = "Randolph"
+	dynasty = 2002382
+	father = randolph_son
+	martial = 13
+	diplomacy = 15
+	intrigue = 6
+	stewardship = 13
+	learning = 14
+	religion = "silversword"
+	culture = heraldian
+	trait = education_stewardship_4
+	trait = brave
+	trait = diligent
+	trait = gregarious
+	970.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+randolph_grandgrandson = {
+	name = "Randolph"
+	dynasty = 2002382
+	father = randolph_grandson
+	martial = 13
+	diplomacy = 15
+	intrigue = 6
+	stewardship = 13
+	learning = 14
+	religion = "silversword"
+	culture = heraldian
+	trait = education_stewardship_4
+	trait = brave
+	trait = diligent
+	trait = gregarious
+	1000.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
 		death = yes
 	}
 }
