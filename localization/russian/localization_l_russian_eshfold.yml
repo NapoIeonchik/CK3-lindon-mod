@@ -140,3 +140,5 @@
  restore_bar_decision_scripted_effect:0 "Восстановить Бар"
  elves_ethnicity:0 "Эльфийская"
  anlyud_ethnicity:0 "Анлюдская"
+ court_moderator_court_position:0 "Младший Советник"
+ court_moderator_court_position_desc:0 "Младший советник это человек который помогает Императору в его великих деяниях.. Когда не старадают невесть чем само собой."
