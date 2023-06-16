@@ -158,6 +158,18 @@ on_game_start = {
 				}
 			}
 		}
+		character:99994  = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = eshfold_historical_artifacts.0001
+					days = 1
+				}
+			}
+		}
 		character:hen  = {
 			if = {
 				limit = {
