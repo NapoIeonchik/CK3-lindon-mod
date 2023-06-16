@@ -2767,7 +2767,7 @@ c_dunbar = {
 		liege = "d_lothian"
 	}
 	1066.1.1 = {
-		holder = hen
+		holder = konstantin
 	}
 	1073.1.1 = {
 		holder = 203019
@@ -2812,7 +2812,7 @@ c_teviotdale = {
 		liege = "d_lothian"
 	}
 	1066.1.2 = {
-		holder = hen
+		holder = konstantin
 	}
 	1087.1.1 = {
 		holder = 963

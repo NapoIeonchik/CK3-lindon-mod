@@ -862,7 +862,7 @@ c_lancashire = {
 		holder = 90027
 	}
 	1066.9.15 = {
-		holder = konstantin #Alexandr
+		holder = 9999993 #Alexandr
 		liege = "e_greintvald"
 	}
 	1072.1.1 = {
@@ -978,7 +978,7 @@ c_cheshire = {
 		holder = 163102
 	}
 	1066.9.15 = {
-		holder = konstantin #konstantin
+		holder = 9999993 #konstantin
 		liege = "e_greintvald"
 	}
 	1066.1.2 = {
