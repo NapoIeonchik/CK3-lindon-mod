@@ -101,7 +101,7 @@
 	salary = {
 		round = no
 		gold = {
-			value = medium_court_position_salary
+			value = 1.8
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
 				limit = {
@@ -127,6 +127,7 @@
 	}
 	base_employer_modifier = {
 		courtier_and_guest_opinion = 10
+		vassal_opinion = 5
 	}
 	
 	scaling_employer_modifiers = {

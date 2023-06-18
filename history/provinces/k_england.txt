@@ -3,7 +3,7 @@
 ###c_middlesex
 1527 = {	#Edmonton / London
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	769.1.1 = {
 		special_building_slot = the_tower_of_london_01
@@ -64,7 +64,7 @@
 ###c_bedford
 1538 = {	#Bedford
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -86,7 +86,7 @@
 ###c_hertfordshire
 1531 = {	#Berkhamsted
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -105,7 +105,7 @@
 ###c_buckinghamshire
 1551 = {	#Buckingham
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -131,7 +131,7 @@
 ###c_northumberland
 1609 = {	#Bamburgh
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	122.1.1 = {
 		special_building = evalberg_palace
@@ -158,7 +158,7 @@
 ###c_durham
 1606 = {	# 1606 - Durham
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -176,7 +176,7 @@
 ###c_cumberland
 1635 = {	#Carlisle
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	122.1.1 = {
 		special_building = hadrians_wall_01
@@ -212,7 +212,7 @@
 ###c_lancashire
 1639 = {	#Lancaster
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = einvaldian
@@ -228,7 +228,7 @@
 ###c_westmorland
 1637 = {	#Kendal
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = einvaldian
@@ -241,7 +241,7 @@
 ###c_cheshire
 1643 = {	#Chester
 	culture = einvaldian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	767.1.1 = {
 		special_building = offas_dyke_01
@@ -263,7 +263,7 @@
 ###c_derby
 1621 = {	#Derby
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -292,7 +292,7 @@
 ###c_north_riding
 1595 = {	# York
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -325,7 +325,7 @@
 ###c_east_riding
 1588 = {	#Pocklington
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = claimorean
@@ -344,7 +344,7 @@
 ###c_west_riding
 1591 = {	#Leeds
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = claimorean
@@ -375,7 +375,7 @@
 ###c_lincolnshire
 1583 = {	#Lincoln
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -483,7 +483,7 @@
 ###c_warwickshire
 1603 = {	#Warwick
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -500,7 +500,7 @@
 ###c_leicestershire
 1615 = {	#Leicester
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -520,7 +520,7 @@
 ###c_nottinghamshire
 1618 = {	#Nottingham
 	culture = claimorean
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -539,7 +539,7 @@
 ###c_staffordshire
 1627 = {	#Stafford
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -556,7 +556,7 @@
 ###c_worcestershire
 1624 = {	#Worcester
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -573,7 +573,7 @@
 ###c_huntingdonshire
 1541 = {	#Hustingstone
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -589,7 +589,7 @@
 ###c_northamptonshire
 1600 = {	#Northampton
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = bervian
@@ -605,7 +605,7 @@
 ###c_shropshire
 1646 = {	#Shrewshbury
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	767.1.1 = {
 		special_building = offas_dyke_01
@@ -631,7 +631,7 @@
 ###c_gloucestershire
 1580 = {	#Gloucester
 	culture = bervian
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	767.1.1 = {
 		#special_building = offas_dyke_01
@@ -653,7 +653,7 @@
 ###c_wiltshire
 1561 = {	#Salisbury
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	2.1.1 = {
 		special_building = stonehenge_01
@@ -679,7 +679,7 @@
 ###c_oxfordshire
 1558 = {	#Oxford
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -695,7 +695,7 @@
 ###c_berkshire
 1555 = {	#Reading
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -715,7 +715,7 @@
 ###c_kent
 1502 = {	#Dover
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -747,7 +747,7 @@
 ###c_surrey
 1510 = {	#Chertsey
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -766,7 +766,7 @@
 ###c_sussex
 1506 = {	#Lewes
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -786,7 +786,7 @@
 ###c_hampton
 1544 = {	#Winchester
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -821,7 +821,7 @@
 ###c_isle_of_wight
 1549 = {	#Carisbrooke
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -831,7 +831,7 @@
 ###c_dorset
 1565 = {	#Wareham
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -853,7 +853,7 @@
 ###c_somerset
 1576 = {	#Bath
 	culture = anglo_saxon
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1100.11.11 = {
 		culture = english
@@ -876,7 +876,7 @@
 ###c_devon
 1569 = {	#Exeter
 	culture = cornish
-	religion = catholic
+	religion = three
 	holding = castle_holding
 	1200.1.1 = {
 		culture = english
@@ -901,7 +901,7 @@
 ###c_cornwall
 1573 = {	#Launceston
 	culture = cornish
-	religion = catholic
+	religion = three
 	holding = castle_holding
 }
 1574 = {	#Tintagel

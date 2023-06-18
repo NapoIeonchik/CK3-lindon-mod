@@ -4,6 +4,37 @@
 # Christian #
 #############
 
+# Holy Three
+evalberg = {
+	county = c_northumberland
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	flag = jerusalem_conversion_bonus # +20% County Conversion
+}
+
+claimore = {
+	county = c_north_riding
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.10
+		monthly_county_control_change_factor = 0.05
+	}
+}
+
+bervi = {
+	county = c_warwickshire
+
+	character_modifier = {
+		religious_vassal_opinion = 5
+		county_opinion_add = 10
+		stewardship = 1
+		diplomacy = 1
+	}
+}
+
+
 # Silversword
 
 paris = {
