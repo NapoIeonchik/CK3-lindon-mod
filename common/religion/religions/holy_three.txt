@@ -220,7 +220,7 @@ holy_three = {
 
 	faiths = {
 		three = {
-			color = { 0.7 0.3 0.5 }
+			color = { 0.5 0.5 0.6 }
 			religious_head = d_holy_three
 			graphical_faith = "three_gfx"
 			
