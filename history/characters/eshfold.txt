@@ -3275,7 +3275,7 @@ erich = {
 	trait = diligent
 	trait = wrathful
 	trait = patient
-	1048.1.1 = {
+	1039.1.1 = {
 		birth = yes
 	}
 	1066.1.1 = {
@@ -3459,7 +3459,7 @@ konstantin = {
 	stewardship = 7
 	learning = 6
 	religion = "three"
-	culture = einvaldian
+	culture = westvaldian
 	trait = education_stewardship_4
 	trait = just
 	trait = trusting

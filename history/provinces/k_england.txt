@@ -875,8 +875,8 @@
 ##d_cornwall ###################################
 ###c_devon
 1569 = {	#Exeter
-	culture = cornish
-	religion = three
+	culture = mirkwoodian
+	religion = guild
 	holding = castle_holding
 	1200.1.1 = {
 		culture = english
@@ -900,8 +900,8 @@
 
 ###c_cornwall
 1573 = {	#Launceston
-	culture = cornish
-	religion = three
+	culture = mirkwoodian
+	religion = guild
 	holding = castle_holding
 }
 1574 = {	#Tintagel

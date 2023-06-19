@@ -81,7 +81,7 @@ mirkwood_brigands = {
 	}
 	counters = {
 		heavy_infantry = 1
-		bowmen = 1
+		archers = 1
 		pikemen = 1
 	}
 	

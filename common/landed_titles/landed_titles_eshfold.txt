@@ -262,13 +262,13 @@ e_greintvald = {
 	landless = yes
 	de_jure_drift_disabled = no
 	always_follows_primary_heir = yes
-	capital = c_shropshire
+	capital = c_northumberland
 	k_greintvald = {
 		color = { 50 52 98 }
 		landless = yes
 		de_jure_drift_disabled = no
 		always_follows_primary_heir = yes
-		capital = c_shropshire
+		capital = c_northumberland
 		
 		
 		d_lancaster = {
