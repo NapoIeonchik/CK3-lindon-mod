@@ -51,7 +51,7 @@
 		title = e_greintvald
 		government = feudal_government
 		culture = einvaldian
-		religion = catholic
+		religion = three
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		position = { 280 100 }
 		
