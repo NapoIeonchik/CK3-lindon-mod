@@ -3717,3 +3717,25 @@ randolph_grandgrandson = {
 		death = yes
 	}
 }
+godi = {
+	name = "Godislav"
+	dynasty = 2002351
+	martial = 5
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 8
+	learning = 6
+	religion = "three"
+	culture = einvaldian
+	trait = education_diplomacy_4
+	trait = diligent
+	trait = gregarious
+	trait = fickle
+	disallow_random_traits = yes
+	1038.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}

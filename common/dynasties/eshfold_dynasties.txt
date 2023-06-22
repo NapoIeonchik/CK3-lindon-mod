@@ -339,3 +339,7 @@
 	name = "Hardrada"
 	culture = "french"
 }
+2002351 = {	
+	name = "Alternid"
+	culture = "french"
+}

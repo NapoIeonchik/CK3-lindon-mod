@@ -224,3 +224,35 @@ title_paragon_baron = {
 	priority = 102
 	titles = { c_ailech }
 }
+title_harsia_king = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_harsia }
+}
+title_harsia_queen = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_harsia }
+}
+title_unlyud_chief = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_unlyud }
+}
+title_unlyud_chiefess = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_unlyud }
+}
