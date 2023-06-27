@@ -1,0 +1,24 @@
+﻿
+breast_enlarger = {
+	usage = game
+	
+	holder_of_breast = {
+		dna_modifiers = {
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 5.0
+				template = bust_default
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+			 	add = 200
+				any_equipped_character_artifact = {
+					has_variable = silicon_breasts
+				}
+			}
+		}
+	}
+}

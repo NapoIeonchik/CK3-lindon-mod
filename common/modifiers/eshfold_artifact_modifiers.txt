@@ -10,3 +10,8 @@ hetman_mace_modifier = {
 	court_grandeur_baseline_add = 16
 	character_capital_county_monthly_development_growth_add = 0.5
 }
+silicon_implants_modifier = {
+	stress_loss_mult = 0.15
+	monthly_prestige = 0.35
+	attraction_opinion = 30
+}

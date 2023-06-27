@@ -35,3 +35,20 @@ count_mace_template = {
 	}
 	unique = yes
 }
+
+silicon_template = {
+	can_equip = {
+		is_female = yes
+	}
+	can_benefit = {
+		is_female = yes
+	}
+	can_reforge = {
+		culture = { has_cultural_pillar = heritage_greintvaldian }
+	}
+
+	fallback = {
+		powerful_vassal_opinion = 2
+	}
+	unique = yes
+}

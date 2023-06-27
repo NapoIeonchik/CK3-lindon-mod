@@ -31,3 +31,38 @@ create_artifact_count_mace_effect = {
 		equip_artifact_to_owner = yes
 	}
 }
+create_artifact_silicon_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = silicon_implants
+		description = silicon_implants_description
+		creator = character:99993 #Fëanor
+		type = regalia
+		visuals = silicon_implants
+		wealth = scope:wealth
+		quality = scope:quality
+		template = silicon_template 
+		history = {
+			type = created
+			date = 1050.1.1
+			recipient = character:99993 #Fëanor
+			location = province:28 #paragon
+		}
+		modifier = silicon_implants_modifier
+		save_scope_as = silicon_breasts
+		decaying = no
+	}
+
+	scope:silicon_breasts = {
+		save_scope_as = epic
+		set_variable = {
+			name = silicon_breasts
+			value = yes
+		}
+	}
+}

@@ -580,6 +580,14 @@ historical_artifacts.0023 = {
 			title:k_paragon.holder = { 
 				create_artifact_count_mace_effect = { OWNER = this }
 			}
+		}	
+		if = {
+			limit = {
+				exists = title:d_york.holder
+			}
+			title:d_york.holder = { 
+				create_artifact_silicon_effect = { OWNER = this }
+			}
 		}
 	}
 }
