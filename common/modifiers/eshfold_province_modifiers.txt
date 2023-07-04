@@ -1,0 +1,7 @@
+elven_refugees_modifier = {
+	icon = outdoors_negative
+	build_speed = -0.5
+	build_gold_cost = 0.2
+	tax_mult = -0.5
+	levy_size = -0.5
+}

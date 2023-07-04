@@ -52,6 +52,10 @@
 	culture = elvish
 	religion = catholic
 	holding = castle_holding
+	special_building_slot = argentiera_mines_01
+	1000.1.1 = {
+		special_building = argentiera_mines_01
+	}
 }
 9672 = {	#SILVERWILLOW
 	culture = elvish

@@ -1,0 +1,68 @@
+define_elven_refugee_lands = {
+	title:c_meneltarma = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}	
+	}
+	title:c_moonstone = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_sunleaf = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_dawnlight = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_nightshade = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_starhaven = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_emeraldshore = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_shadowvale = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_silverwillow = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_aranthor = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+	title:c_emberfall = {
+		add_county_modifier = {
+			modifier = elven_refugees_modifier 
+			years = 25
+		}
+	}
+}

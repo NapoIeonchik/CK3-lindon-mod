@@ -15,6 +15,7 @@
  stewardship_shiza:0 "Совет Шизы по управлению"
  balian_reforger:0 "Восстановитель Империи"
  candidat_balian_reforger:0 "Хочет восстановить Империю"
+ elven_refugees_modifier:0 "Осколки эльфийской цивилизации"
  trait_necromancer:0 "Некромант"
  trait_necromancer_desc:0 "Этот человек нашел секрет договечия.. но не заплатил ли он слишком большую цену?"
  trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нашел секрет вечной жизни.. но не заплатил ли он слишком большую цену?"
