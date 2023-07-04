@@ -291,5 +291,13 @@ d_western_isles = {
 	}
 
 }
+k_harsia = { 
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_harsia.dds"
+	}
+}
 
 
