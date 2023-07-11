@@ -235,7 +235,7 @@ elf = {
 	index = 450
 	health = 3
 	mountains_advantage = 25
-	fertility = -0.7
+	fertility = -0.45
 	stress_gain_mult = -0.9
 	
 	genetic = yes
