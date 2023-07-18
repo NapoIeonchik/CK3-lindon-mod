@@ -1,0 +1,67 @@
+#k_andor
+##d_andor ###################################
+###c_caemlyn
+9683 = {	#CAEMLYN
+	culture = elvish
+	religion = catholic
+	holding = castle_holding
+}
+9684 = {	#INNER CITY
+	holding = city_holding
+}
+9686 = {	#OUTER CITY
+	culture = elvish
+	religion = catholic
+	holding = city_holding
+}
+9687 = {	#WHITEBRIDGE
+	culture = elvish
+	religion = catholic
+	holding = castle_holding
+}
+9688 = {	#FARED
+	culture = elvish
+	religion = catholic
+	holding = city_holding
+}
+9689 = {	#WHITECHURCH
+	culture = elvish
+	religion = catholic
+	holding = church_holding
+}
+9690 = {	#MERCER
+	culture = elvish
+	religion = catholic
+	holding = city_holding
+}
+9691 = {	#MATTON
+	culture = elvish
+	religion = catholic
+	holding = church_holding
+}
+9692 = {	#EMOND
+	culture = elvish
+	religion = catholic
+	holding = city_holding
+}
+9693 = {	#ARRYNGIL
+	culture = elvish
+	religion = catholic
+	holding = castle_holding
+}
+9694 = {	#WILLING
+	culture = elvish
+	religion = catholic
+	holding = castle_holding
+}
+9695 = {	#HAM
+	culture = elvish
+	religion = catholic
+	holding = city_holding
+}
+9696 = {	#BAREMOND
+	culture = elvish
+	religion = catholic
+	holding = church_holding
+}
+

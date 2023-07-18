@@ -1891,3 +1891,125 @@ e_balian = {
 		}
 	}
 }
+k_andor = {
+	color = { 182 17 17 }
+	capital = c_gowrie 
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	d_andor = {
+		color = { 220 7 7 }
+		color2 = { 255 255 255 }
+
+		capital = c_caemlyn  # The Last Resort
+
+
+		c_caemlyn = {
+			color = { 233 22 22 }
+			color2 = { 255 255 255 }
+
+
+			b_caemlyn = {
+				province = 9683
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_inner_city = {
+				province = 9684
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_outer_city = {
+				province = 9686
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_whitebridge = {
+			color = { 247 135 135 }
+			color2 = { 255 255 255 }
+
+
+			b_whitebridge = {
+				province = 9687
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_fared = {
+				province = 9688
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_whitechurch = {
+				province = 9689
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_mercer = {
+			color = { 209 74 74 }
+			color2 = { 255 255 255 }
+
+
+			b_mercer = {
+				province = 9690
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_matton = {
+				province = 9691
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_emond = {
+				province = 9692
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_arryngil = {
+			color = { 197 37 37 }
+			color2 = { 255 255 255 }
+
+
+			b_arryngil = {
+				province = 9693
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_willing = {
+			color = { 226 33 3 }
+			color2 = { 255 255 255 }
+
+
+			b_willing = {
+				province = 9694
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_ham = {
+				province = 9695
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_baremond = {
+				province = 9696
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+	}	
+}
