@@ -2,66 +2,102 @@
 ##d_andor ###################################
 ###c_caemlyn
 9683 = {	#CAEMLYN
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = castle_holding
 }
 9684 = {	#INNER CITY
 	holding = city_holding
 }
 9686 = {	#OUTER CITY
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = city_holding
 }
 9687 = {	#WHITEBRIDGE
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = castle_holding
 }
 9688 = {	#FARED
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = city_holding
 }
 9689 = {	#WHITECHURCH
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = church_holding
 }
 9690 = {	#MERCER
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = city_holding
 }
 9691 = {	#MATTON
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = church_holding
 }
 9692 = {	#EMOND
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = city_holding
 }
 9693 = {	#ARRYNGIL
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = castle_holding
 }
 9694 = {	#WILLING
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = castle_holding
 }
 9695 = {	#HAM
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = city_holding
 }
 9696 = {	#BAREMOND
-	culture = elvish
-	religion = catholic
+	culture = andorian
+	religion = three
 	holding = church_holding
 }
+9697 = {	#BAERLON
+	culture = andorian
+	religion = three
+	holding = castle_holding
+}
+9698 = {	#PORTTON
+	culture = andorian
+	religion = three
+	holding = city_holding
+}
+9699 = {	#BARING
+	culture = andorian
+	religion = three
+	holding = city_holding
+}
+9700 = {	#CARRYG
+	culture = andorian
+	religion = three
+	holding = castle_holding
+}
+9701 = {	#DIMOND
+	culture = andorian
+	religion = three
+	holding = church_holding
+}
+9702 = {	#GODI
+	culture = andorian
+	religion = three
+	holding = castle_holding
+}
+9703 = {	#DIGO
+	culture = andorian
+	religion = three
+	holding = city_holding
+}
+
 

@@ -164,3 +164,30 @@ gentrualgonian = {
 		25 = caucasian_dark_hair
 	}
 }
+andorian = {
+	color = color = { 0.9 0.3 0.1 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_west_germanic
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+	
+	name_list = name_list_eshfoldian
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		45 = caucasian_blond
+		25 = caucasian_ginger
+		10 = caucasian_brown_hair
+		15 = caucasian_dark_hair
+	}	
+}

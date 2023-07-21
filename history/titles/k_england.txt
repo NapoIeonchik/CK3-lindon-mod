@@ -859,10 +859,10 @@ c_lancashire = {
 	}
 	1066.1.1 = {
 		liege = "d_lancaster"
-		holder = 90027
+		holder = godi
 	}
 	1066.9.15 = {
-		holder = 9999993 #Alexandr
+		holder = godi #Alexandr
 		liege = "e_greintvald"
 	}
 	1072.1.1 = {

@@ -1,0 +1,36 @@
+k_andor = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+	1066.1.1 = { change_development_level = 10 }
+}
+d_andor = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}
+c_caemlyn = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}
+c_whitebridge = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}
+c_mercer = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}
+c_arryngil = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}
+c_willing = {
+	1060.2.2 = {
+		holder = morgaise #Finwe
+	}
+}

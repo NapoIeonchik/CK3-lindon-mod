@@ -2011,5 +2011,73 @@ k_andor = {
 				color2 = { 255 255 255 }
 			}
 		}
-	}	
+	}
+	d_baerlon = {
+		color = { 220 7 7 }
+		color2 = { 255 255 255 }
+
+		capital = c_baerlon  # The Last Resort
+
+
+		c_baerlon = {
+			color = { 233 22 22 }
+			color2 = { 255 255 255 }
+
+
+			b_baerlon = {
+				province = 9697
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_portton = {
+				province = 9698
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_baring = {
+				province = 9699
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_carryg = {
+			color = { 233 22 22 }
+			color2 = { 255 255 255 }
+
+
+			b_carryg = {
+				province = 9700
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_dimond = {
+				province = 9701
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+		c_godi = {
+			color = { 233 22 22 }
+			color2 = { 255 255 255 }
+
+
+			b_godi = {
+				province = 9702
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+			b_digo = {
+				province = 9703
+
+				color = { 180 90 0 }
+				color2 = { 255 255 255 }
+			}
+		}
+	}
 }

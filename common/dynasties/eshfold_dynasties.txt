@@ -343,3 +343,7 @@
 	name = "Alternid"
 	culture = "french"
 }
+2002352 = {	
+	name = "Trakand"
+	culture = "french"
+}
