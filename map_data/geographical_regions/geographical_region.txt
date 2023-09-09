@@ -69,6 +69,8 @@ world_europe_west_britannia = {
 		d_albany d_the_isles d_galloway d_western_isles d_lothian d_moray
 		#Ireland
 		d_meath d_ulster d_connacht d_leinster d_munster
+		#Noldor
+		d_noldor
 	}
 }
 world_europe_west_germania = {

@@ -3260,7 +3260,7 @@ erich = {
 		}
 	}
 	dynasty = 2002382 
-	sexuality = heterosexual
+	sexuality = homosexual
 	dna = erich_dna
 	father = randolph_grandgrandson
 	martial = 4
@@ -3720,6 +3720,7 @@ randolph_grandgrandson = {
 godi = {
 	name = "Godislav"
 	dynasty = 2002351
+	sexuality = asexual
 	martial = 5
 	diplomacy = 8
 	intrigue = 5
@@ -3735,7 +3736,7 @@ godi = {
 	1038.1.1 = {
 		birth = yes
 	}
-	1050.1.1 = {
+	1090.1.1 = {
 		death = yes
 	}
 }
@@ -3757,6 +3758,30 @@ morgaise = {
 	trait = temperate
 	trait = beauty_good_2
 	1045.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+vergil = {
+	name = "Vergil"
+	father = godi
+	dynasty = 2002351
+	martial = 6
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 6
+	learning = 5
+	religion = "three"
+	culture = einvaldian 
+	trait = education_martial_2
+	trait = brave
+	trait = compassionate
+	trait = temperate
+	trait = legitimized_bastard
+	1050.1.1 = {
 		birth = yes
 	}
 	1100.1.1 = {
