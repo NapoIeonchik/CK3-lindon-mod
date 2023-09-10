@@ -3063,7 +3063,7 @@ balistalin = {
 slime_cat = {
 	name = "Daniel"
 	dynasty = 2002341
-	sexuality = heterosexual
+	sexuality = homosexual
 	martial = 5
 	diplomacy = 0
 	intrigue = 8
@@ -3783,6 +3783,40 @@ vergil = {
 	trait = legitimized_bastard
 	1050.1.1 = {
 		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+boris_blade = {
+	name = "Boris"
+	dna = boris_dna
+	sexuality = bisexual
+	martial = 5
+	diplomacy = 0
+	intrigue = 8
+	stewardship = 4
+	learning = 10
+	religion = "three"
+	culture = einvaldian
+	trait = education_learning_3
+	trait = arrogant
+	trait = gregarious
+	trait = cynical
+	trait = fickle
+	1049.1.1 = {
+		birth = yes
+		portrait_override = {
+			portrait_modifier_overrides = {
+				custom_hair = hair_ep2_western_01
+				custom_beards = male_beard_fp1_05
+			}
+		}
+	}
+	1066.1.1 = {
+		effect = {
+			set_relation_lover = character:slime_cat
+		}
 	}
 	1100.1.1 = {
 		death = yes
