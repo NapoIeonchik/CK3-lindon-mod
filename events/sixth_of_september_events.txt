@@ -1,0 +1,44 @@
+namespace = sixth_of_september
+#####
+sixth_of_september.0001 = {
+	type = character_event
+	title = sixth_of_september.0001.t
+	desc = sixth_of_september.001.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = scope:destroyer
+		animation = personality_dancin
+	}
+
+
+	immediate = { destroy_sixth_of_september_decision_scripted_effect = yes }
+
+	#Take the nickname.
+	option = {
+		name = sixth_of_september.0001.a
+		add_prestige = medium_prestige_gain
+	}
+}
+
+
+#Inform any players.
+sixth_of_september.0002 = {
+	type = character_event
+	title = sixth_of_september.0002.t
+	desc = sixth_of_september.0002.desc
+	theme = diplomacy
+	left_portrait = {
+		character = scope:bitch
+		animation = personality_dancin
+	}
+
+	option = {
+		name = { 
+			trigger = {
+				has_title = title:c_shropshire
+				NOT = { has_title = title:k_greintvald }
+			}
+			text = sixth_of_september.0002.a
+		}
+	}
+}

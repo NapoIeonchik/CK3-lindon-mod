@@ -308,41 +308,41 @@ mongol_invasion = {
 	}
 }
 
-#random_harm = {
-	#	
-	#categories = {
-		#difficulty health
-	#}
-	#	
-	#default = harm_dangerous
-	#
-	#harm_dangerous = {}
-	#
-	#harm_illusion_of_safety = {}
-	#
-	#harm_safe = {}
-	#
-	#harm_tragic = {}
-	#
-	#harm_spiteful = {}
-	#
-	#harm_tragically_spiteful = {}
-#}
+random_harm = {
+		
+	categories = {
+		difficulty health
+	}
+		
+	default = harm_dangerous
+	
+	harm_dangerous = {}
+	
+	harm_illusion_of_safety = {}
+	
+	harm_safe = {}
+	
+	harm_tragic = {}
+	
+	harm_spiteful = {}
+	
+	harm_tragically_spiteful = {}
+}
 
-#random_harm_target = {
-	#	
-	#categories = {
-		#difficulty health
-	#}
-	#	
-	#default = harm_target_all
-	#
-	#harm_target_all = {}
-	#	
-	#harm_target_player_only = {}
-	#	
-	#harm_target_ai_only = {}
-#}
+random_harm_target = {
+		
+	categories = {
+		difficulty health
+	}
+		
+	default = harm_target_all
+	
+	harm_target_all = {}
+		
+	harm_target_player_only = {}
+		
+	harm_target_ai_only = {}
+}
 
 random_nickname_frequency = {
 	
@@ -585,6 +585,27 @@ same_sex_marriage = {
 	}
 
 	accepted_same_sex_marriage = {
+		flag = blocks_achievements
+	}
+}
+
+adoption = {
+	
+	categories = {
+		game_modes
+	}
+	
+	default = default_adoption
+
+	no_adoption = {
+
+	}
+
+	default_adoption = {
+
+	}
+
+	adoption_always_allowed = {
 		flag = blocks_achievements
 	}
 }

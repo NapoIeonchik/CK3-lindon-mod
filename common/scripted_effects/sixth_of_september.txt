@@ -1,0 +1,27 @@
+destroy_sixth_of_september_decision_scripted_effect = {
+	save_scope_as = bitch
+	if = { 
+		character:waltherina = { 
+			limit = {
+				is_alive = yes
+			}	
+		}
+		character:waltherina = {
+			death = { killer = 9999993 death_reason = death_vanished }
+		}
+	}
+	else_if = { 
+		character:godi = { 
+			limit = {
+				is_alive = yes
+			}	
+		}
+		character:godi = {
+			death = { killer = 9999993 death_reason = death_vanished }
+		}
+	}
+	
+	
+	custom_tooltip = destroy_sixth_of_september_decision_scripted_effect_desc
+}
+
