@@ -33,7 +33,6 @@ sixth_of_september_decision = {
 	}
 
 	is_valid = {
-		is_independent_ruler = yes
 		prestige_level >= medium_prestige_level
 		has_title = title:e_greintvald
 	}
@@ -71,7 +70,7 @@ sixth_of_september_decision = {
 	}
 
 	cost = {
-		gold = 2000
+		prestige = 1500
 	}
 
 	ai_potential = {
@@ -79,6 +78,6 @@ sixth_of_september_decision = {
 	}
 
 	ai_will_do = {
-		base = 100
+		base = 50
 	}
 }
