@@ -243,7 +243,7 @@ westvald_hunters = {
 	high_maintenance_cost = { gold = 0.6 }
 	
 	stack = 110
-	damage = 45
+	damage = 30
 	toughness = 24
 	pursuit = 30
 	screen = 30
@@ -306,10 +306,10 @@ bervian_pikemen = {
 	high_maintenance_cost = { gold = 0.7 }
 	
 	stack = 200
-	damage = 15
+	damage = 12
 	toughness = 40
 	pursuit = 10
-	screen = 30
+	screen = 20
 	terrain_bonus = {
 		plains = { damage = 10 }
 		drylands = { damage = 10 }
@@ -324,4 +324,34 @@ bervian_pikemen = {
 	}
 	allowed_in_hired_troops = no
 	icon = bervian_pikemen
+}
+wheelchairs = {
+	can_recruit = { culture = { has_cultural_parameter = unlock_maa_wheelchairs } }
+	type = skirmishers
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 1.5 }
+	high_maintenance_cost = { gold = 3.5 }
+	
+	stack = 30
+	damage = 70
+	toughness = 30
+	pursuit = 30
+	screen = 30
+	
+	terrain_bonus = {
+		plains = { damage = 30 }
+		drylands = { damage = 30 }
+		hills = { damage = -20 }
+		mountains = { damage = -30 }
+		desert_mountains = { damage = -20 }
+		wetlands = { damage = -30 toughness = -15 pursuit = -5 }
+	}
+	counters = {
+		heavy_infantry = 1
+		skirmishers = 1
+		archers = 1
+	}
+	
+	allowed_in_hired_troops = no
+	icon = wheelchairs
 }

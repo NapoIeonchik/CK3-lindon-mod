@@ -13,7 +13,7 @@ tradition_einvald = {
 		has_cultural_pillar = heritage_greintvaldian
 	}
 	parameters = {
-		unlock_maa_einvaldian_knights = yes
+		unlock_maa_wheelchairs = yes
 	}
 	
 	cost = {

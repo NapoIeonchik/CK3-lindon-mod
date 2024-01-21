@@ -174,8 +174,8 @@ innovation_einvaldian_knights = {
 	potential = {
 		AND = {
 			this = culture:einvaldian
-			}
 		}
+	}
 	
 	unlock_maa = einvaldian_knights
 }

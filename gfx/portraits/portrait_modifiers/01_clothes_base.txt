@@ -125,7 +125,6 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
     }
 
 
-
 ## DDE HRE ##
 
     dde_hre_commoners = {
@@ -723,6 +722,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = dde_abbasid
                 }   
             }
+			modifier = {
+				add = -36 # Slightly lower if iranian is valid
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = fp3_iranian
+				}
+			}
         }
     }
 
@@ -744,6 +749,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = dde_abbasid
                 } 
             }
+			modifier = {
+				add = -36 # Slightly lower if iranian is valid
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = fp3_iranian
+				}
+			}
         }
     }
 
@@ -809,6 +820,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = mena
                 }  
             }
+			modifier = {
+				add = -36 # Slightly lower if iranian is valid
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = fp3_iranian
+				}
+			}
         }
     }
 
@@ -830,6 +847,12 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
                     CULTURE_INPUT = mena
                 } 
             }
+			modifier = {
+				add = -36 # Slightly lower if iranian is valid
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = fp3_iranian
+				}
+			}
         }
     }
 
@@ -963,7 +986,52 @@ clothes_base = { # The lowest priority group of clothes with triggers based on r
             }
         }
     }
+
+ ## FP3 IRANIAN ##
+
+fp3_iranian_low_nobles = {
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = clothes
+            template = fp3_iranian_low_nobility_clothes
+            range = { 0 1 } # For the randomness to work correctly
+        }
+    }   
+    weight = {
+        base = 0
+        court_fashion_level_4_modifier = { INPUT_PARAMETER = fp3_iranian }
+        modifier = {
+            add = 51 # Slightly higher
+            portrait_low_nobles_clothing_trigger = { 
+                CULTURE_INPUT = fp3_iranian
+            }
+        }
+    }
+}
+
+fp3_iranian_high_nobles = {
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = clothes
+            template = fp3_iranian_high_nobility_clothes
+            range = { 0 1 } # For the randomness to work correctly
+        }
+    }       
+    weight = {
+        base = 0
+        court_fashion_level_5_modifier = { INPUT_PARAMETER = fp3_iranian } 
+        modifier = {
+            add = 51 # Slightly higher
+            portrait_high_nobles_clothing_trigger = { 
+                CULTURE_INPUT = fp3_iranian
+            } 
+        }
+    }
+}
     
+
 ## FP2 Fate of Iberia ##
 
     fp2_iberian_christian_commoners = {

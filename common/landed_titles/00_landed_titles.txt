@@ -384,19 +384,6 @@ e_timurids = {
 }
 
 #Jewish Religious Heads
-d_rabbinism = {
-	color = { 0 80 255 }
-
-	definite_form = yes
-	ruler_uses_title_name = no
-	landless = yes
-	no_automatic_claims = yes
-	always_follows_primary_heir = yes
-	destroy_if_invalid_heir = yes
-
-	capital = c_jerusalem
-}
-
 d_karaism = {
 	color = { 0 100 255 }
 	definite_form = yes
@@ -405,7 +392,7 @@ d_karaism = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
-
+	can_be_named_after_dynasty = no
 	capital = c_jerusalem
 }
 
@@ -417,7 +404,7 @@ d_haymanot = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
-
+	can_be_named_after_dynasty = no
 	capital = c_semien
 }
 
@@ -429,7 +416,7 @@ d_malabarism = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
-
+	can_be_named_after_dynasty = no
 	capital = c_jerusalem
 }
 
@@ -441,7 +428,7 @@ d_samaritan = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
-
+	can_be_named_after_dynasty = no
 	capital = c_jerusalem
 }
 
@@ -453,7 +440,7 @@ d_kabarism = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
-
+	can_be_named_after_dynasty = no
 	capital = c_jerusalem
 }
 
@@ -1175,11 +1162,8 @@ e_britannia = {
 			}
 
 			capital = c_northumberland # Bamburgh, Bernicia
-
-			
 		}
 
-		
 
 		d_gloucester = { # Hwicce
 			color = { 241 79 15 }
@@ -1984,8 +1968,6 @@ e_britannia = {
 			}
 
 			capital = c_gowrie # Perth/St Johnston
-
-			
 		}
 
 		d_the_isles = {
@@ -2057,10 +2039,7 @@ e_britannia = {
 					add = @better_than_the_alternatives_score
 				}
 			}
-
-			
 		}
-
 	}
 
 	k_ireland = {
@@ -6044,10 +6023,11 @@ e_germany = {
 }
 
 e_roman_empire = {
-	color = { 167 10 100 }
+	color = { 167 10 0 }
 
 	capital = c_roma # Rome
 	definite_form = yes
+	can_be_named_after_dynasty = no
 
 }
 

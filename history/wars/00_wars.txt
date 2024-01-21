@@ -1,3 +1,31 @@
+##################################################
+# 1066 WARS
+
+
+#Invasion of Paragon
+war = {
+	name = "war_1066_Necro_invasion_of_Paragon"
+	start_date = 1065.1.1
+	end_date = 1066.12.25
+	targeted_titles = {
+		k_paragon
+	}
+	casus_belli = invasion_war
+	attackers = { 999998 999999 9999991 9999992 }
+	defenders = { 99993 7568918232 75725346 }
+}
+war = {
+	name = "war_1066_Horus_Invasion_of_Paragon"
+	start_date = 1066.1.1
+	end_date = 1066.12.25
+	targeted_titles = {
+		k_frisia
+	}
+	casus_belli = invasion_war
+	attackers = { horus }
+	defenders = { 1316 }
+}
+
 # Harald's Claim on England
 war = {
 	name = "war_1066_Harald_Invasion"	# the name can be left out, will be generated then
@@ -83,7 +111,7 @@ war = {
 	start_date = 1066.9.10
 	end_date = 1067.5.22
 	targeted_titles = {
-		c_dakhina_desa c_kandy c_kotte c_trincomalee c_phiti c_jaffna
+		c_kotte c_trincomalee c_phiti c_jaffna
 	}
 	casus_belli = claim_cb
 	attackers = { 189029 }
@@ -102,6 +130,9 @@ war = {
 	}
 }
 
+##################################################
+# 867 WARS
+
 #Aghlabid Conquest of Sicily
 war = {
 	name = "war_867_Aghlabid_Conquest_of_Sicily"
@@ -113,7 +144,6 @@ war = {
 	casus_belli = ducal_conquest_cb
 	attackers = { 163096 }
 	defenders = { 1700 }
-
 }
 
 #Saffarid-Tahirid War
@@ -195,26 +225,78 @@ war = {
 		}
 	}
 }
-#Invasion of Paragon
+
+# Vimara Peres' conquest of Duchy of Porto
 war = {
-	name = "war_1066_Necro_invasion_of_Paragon"
-	start_date = 1065.1.1
-	end_date = 1066.12.25
-	targeted_titles = {
-		k_paragon
+	name = "war_867_Vimara_conquest_Portucale"
+	start_date = 867.1.1
+	end_date = 868.1.1
+	targeted_titles={
+		d_porto c_porto c_braganza
 	}
-	casus_belli = invasion_war
-	attackers = { 999998 999999 9999991 9999992 }
-	defenders = { 99993 7568918232 75725346 }
+	casus_belli = claim_cb
+	attackers = { 70019 }
+	defenders = { 73683 }
+	claimant = 142006
+	70019 = {
+		867.1.1 = {
+			location = 1784
+		}
+	}
 }
+
+# Andalusian Mid-9th Century Rebellion
 war = {
-	name = "war_1066_Horus_Invasion_of_Paragon"
-	start_date = 1066.1.1
-	end_date = 1066.12.25
+	name = "war_Andalusian_Rebellion"
+	start_date = 866.1.1 # Originally 853.1.1, but it caused the AI to auto-truce the conflict on game start
+	end_date = 868.1.1
 	targeted_titles = {
-		k_frisia
+		d_porto d_toledo
 	}
-	casus_belli = invasion_war
-	attackers = { horus }
-	defenders = { 1316 }
+	casus_belli = independence_faction_war
+	attackers = { 73931 surunbaqi0001 }
+	defenders = { 73683 }
+
+	73931 = {
+		867.1.1 = {
+			location = 1919
+		}
+	}
+	surunbaqi0001 = {
+		867.1.1 = {
+			location = 1824
+		}
+	}
+	73683 = {
+		867.1.1 = {
+			location = 1995
+		}
+	}
 }
+
+#Azariqa rebellion 0f 866-896 in Mesopotamia
+war = {
+	name = "war_Azariqa_Rebellion"
+	start_date = 866.1.1 
+	end_date = 896.1.1
+	targeted_titles = {
+		k_jazira 
+	}
+	casus_belli = azariqa_rebellion_cb
+	attackers = { extra_kurds_0010 }
+	defenders = { 34014 } #Caliph al-Mutazz
+
+	extra_kurds_0010 = {
+		867.1.1 = {
+			location = 4774
+		}
+	}
+	34014 = {
+		867.1.1 = {
+			location = 4805
+		}
+	}
+}
+
+
+
