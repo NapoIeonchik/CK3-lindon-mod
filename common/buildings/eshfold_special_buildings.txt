@@ -208,3 +208,43 @@ evalberg_palace = {
 	
 	type = special
 }
+
+## icon_structure_wise_tree
+wise_tree = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_wise_tree.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = yes
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	cost_gold = 300
+	
+	character_modifier = {
+		character_capital_county_monthly_development_growth_add = 0.3
+		monthly_dynasty_prestige_mult = 0.2
+		monthly_piety = 2.0
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_2
+		defender_holding_advantage = normal_building_advantage_tier_4
+		monthly_income = 1.0
+	}
+	county_modifier = {
+		levy_size = 1.5
+	}
+	
+	ai_value = {
+		base = 1000
+	}
+	
+	type = special
+}

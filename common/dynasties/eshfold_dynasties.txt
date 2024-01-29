@@ -347,3 +347,7 @@
 	name = "Trakand"
 	culture = "french"
 }
+2002353 = {	
+	name = "los_Vorhan"
+	culture = "french"
+}

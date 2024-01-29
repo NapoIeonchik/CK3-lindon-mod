@@ -120,6 +120,10 @@
 	1000.1.1 = {
 		culture = westvaldian
 	}
+	1066.1.1 = {
+		special_building_slot = wise_tree
+		special_building = wise_tree
+	}
 	1153.1.1 = {
 		culture = westvaldian
 	}
