@@ -59,7 +59,7 @@ balian.0003 = {
 	#Take the nickname.
 	option = {
 		name = balian.0003.a
-		give_nickname = nick_the_trojan
+		give_nickname = nick_attempter
 		add_prestige = medium_prestige_gain
 		add_pressed_claim = e_balian
 	}

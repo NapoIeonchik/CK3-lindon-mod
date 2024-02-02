@@ -326,7 +326,17 @@ bervian_pikemen = {
 	icon = bervian_pikemen
 }
 wheelchairs = {
-	can_recruit = { culture = { has_cultural_parameter = unlock_maa_wheelchairs } }
+	can_recruit = { 
+		AND = {
+			culture = { has_cultural_parameter = unlock_maa_wheelchairs } 
+			OR = {
+				has_trait = maimed
+				has_trait = one_eyed
+				has_trait = one_legged
+				has_trait = disfigured
+			}
+		}
+	}
 	type = skirmishers
 	buy_cost = { gold = 100 }
 	low_maintenance_cost = { gold = 1.5 }

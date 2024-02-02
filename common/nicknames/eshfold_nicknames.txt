@@ -13,3 +13,4 @@ nick_the_hedgehog = {}
 nick_stormblessed = {}
 nick_ironfoot = {}
 nick_bobissa = {}
+nick_attempter = {}
