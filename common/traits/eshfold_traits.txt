@@ -631,3 +631,51 @@ lifestyle_prostitute = {
 		celibate = @neg_compat_high
 	}
 }
+
+
+fertility_decline  = {
+	icon = fertility_decline.dds
+	index = 460
+	
+	category = lifestyle
+	
+	
+	track = {
+	10 = {
+		fertility = -0.1
+	}
+	20 = {
+		fertility = -0.1
+	}
+	30 = {
+		fertility = -0.1
+	}
+	40 = {
+		fertility = -0.1
+	}
+	50 = {
+		fertility = -0.1
+	}
+	60 = {
+		fertility = -0.1
+	}
+	70 = {
+		fertility = -0.1
+	}
+	80 = {
+		fertility = -0.1
+	}
+}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fertility_decline_desc
+			}
+			desc = trait_fertility_decline_character_desc
+		}
+	}
+}

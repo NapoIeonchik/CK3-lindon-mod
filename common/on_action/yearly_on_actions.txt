@@ -7,6 +7,10 @@ yearly_global_pulse = {
 				id = race.0001
 				days = 1
 			}
+			trigger_event = {
+				id = race.0003
+				days = 1
+			}
 		}
 		# Visigothic culture split
 		## Deprecated; to reenable, remove always = no line & decomment the trigger_event section.

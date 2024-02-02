@@ -28,7 +28,19 @@ on_halfelf_birth = {
 			random_list = { 
 				100 = { add_trait = halfelf }
 			}
+			if = { 
+				limit = { 
+					scope:mother = {is_elf = yes } 
+				}
+				scope:mother = { 
+					add_trait_xp = {
+						trait = fertility_decline
+						value = 10
+					}
+				}
+			}
 		}
+		
 	}
 }
 on_genius_birth = {
@@ -75,6 +87,17 @@ on_halfelfandelf_birth = {
 				40 = { add_trait = halfelf }
 				60 = { add_trait = elf }
 			}
+			if = { 
+				limit = { 
+					scope:mother = {is_elf = yes } 
+				}
+				scope:mother = { 
+					add_trait_xp = {
+						trait = fertility_decline
+						value = 10
+					}
+				}	
+			}
 		}
 	}
 }
@@ -109,6 +132,17 @@ on_elf_birth = {
 			}	
 			random_list = { 
 				100 = { add_trait = elf }
+			}
+			if = { 
+				limit = { 
+					scope:mother = {is_elf = yes } 
+				}
+				scope:mother = { 
+					add_trait_xp = {
+						trait = fertility_decline
+						value = 10
+					}
+				}
 			}
 		}
 	}

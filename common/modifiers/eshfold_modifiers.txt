@@ -35,6 +35,7 @@ candidat_balian_reforger = {
 	diplomacy = 3
 	monthly_prestige = 1
 }
+
 # Harmony
 wok_victory_harmony_county_modifier = {
 	icon = dog_positive

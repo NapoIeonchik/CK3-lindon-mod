@@ -8,6 +8,13 @@ scripted_trigger not_elf = {
 		}
 	}
 }
+scripted_trigger not_fertility_declined = {
+	has_trait = elf
+	is_female = yes
+	NOT = { 
+		has_trait = fertility_decline
+	}
+}
 
 race.0001 = {
 	hidden = yes
@@ -32,6 +39,12 @@ race.0001 = {
 				not_nazgul = yes
 			}
 			add_trait = elf
+		}
+		if = {
+			limit = {
+				is_female = yes
+			}
+			add_trait = fertility_decline
 		}
 	}
 
@@ -88,5 +101,30 @@ race.0002 = { #Ruler Design Elf Age Set
 		name = elven_racial.0102.e
 		custom_tooltip = elven_racial.0102.e.tt
 	}
+}
+
+race.0003 = {
+	hidden = yes
+
+	trigger = {
+		is_from_ruler_designer = no
+		OR = {
+			not_fertility_declined = yes
+		}
+	}
+
+
+	immediate = {
+		#if = {
+		#	limit = {
+		#		not_valar = yes
+		#	}
+		#	death = natural
+		#}
+		if = {
+			add_trait = fertility_decline
+		}
+	}
+
 }
 
