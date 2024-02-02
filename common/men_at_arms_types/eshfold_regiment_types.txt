@@ -355,3 +355,32 @@ wheelchairs = {
 	allowed_in_hired_troops = no
 	icon = wheelchairs
 }
+rabbits = {
+	can_recruit = { culture = { has_cultural_pillar = heritage_greintvaldian } }
+	
+	type = skirmishers
+	buy_cost = { gold = 30 }
+	low_maintenance_cost = { gold = 0.1 }
+	high_maintenance_cost = { gold = 0.05 }
+	
+	stack = 200
+	damage = 5
+	toughness = 5
+	pursuit = 20
+	screen = 40
+	
+	terrain_bonus = {
+		plains = { damage = 5 }
+		drylands = { damage = 5 }
+		hills = { damage = 5 }
+		mountains = { damage = 5 }
+		desert_mountains = { damage = 5 }
+		wetlands = { damage = 5 }
+	}
+	counters = {
+		heavy_infantry = 1
+	}
+	
+	allowed_in_hired_troops = no
+	icon = rabbits
+}
