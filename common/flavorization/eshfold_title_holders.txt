@@ -176,13 +176,35 @@ title_gentdukef = {
 	priority = 102
 	titles = { k_gentrualgon }
 }
+title_greintking = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
+}
+title_greintqueen = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
+}
+title_greintkingdom_simple = {
+	type = title
+	tier = kingdom
+	priority = 102
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
+}
 title_greintduke = {
 	type = character
 	tier = duchy
 	gender = male
 	special = holder
 	priority = 102
-	titles = { k_greintvald }
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
 title_greintdukef = {
 	type = character
@@ -190,7 +212,7 @@ title_greintdukef = {
 	gender = female
 	special = holder
 	priority = 102
-	titles = { k_greintvald }
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
 title_greintcount = {
 	type = character
@@ -198,7 +220,7 @@ title_greintcount = {
 	gender = male
 	special = holder
 	priority = 102
-	titles = { e_greintvald }
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
 title_greintcountf = {
 	type = character
@@ -206,7 +228,7 @@ title_greintcountf = {
 	gender = female
 	special = holder
 	priority = 102
-	titles = { e_greintvald }
+	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
 title_paragon_baroness = {
 	type = character
@@ -255,4 +277,54 @@ title_unlyud_chiefess = {
 	special = holder
 	priority = 102
 	titles = { k_unlyud }
+}
+duke_feudal_male_greintvald = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
+}
+duke_feudal_female_greintvald = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
+}
+duchy_feudal_greintvald = {
+	type = title
+	tier = duchy
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
+}
+county_feudal_male_greintvald = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
+}
+county_feudal_female_greintvald = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
+}
+county_feudal_greintvald = {
+	type = title
+	tier = county
+	priority = 105
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_greintvaldian }
 }

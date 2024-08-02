@@ -1,0 +1,7 @@
+k_kerrandin = {
+	color = { 65 110 31 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_kerrandin
+}

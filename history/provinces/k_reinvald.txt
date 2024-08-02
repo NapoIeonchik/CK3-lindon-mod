@@ -1,0 +1,556 @@
+469 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+470 = {
+	holding = none
+}
+471 = {
+	holding = none
+}
+472 = {
+	holding = none
+}
+473 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+474 = {
+	holding = none
+}
+475 = {
+	holding = none
+}
+476 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+477 = {
+	holding = none
+}
+478 = {
+	holding = none
+}
+479 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+480 = {
+	holding = none
+}
+481 = {
+	holding = none
+}
+482 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+483 = {
+	holding = none
+}
+484 = {
+	holding = none
+}
+485 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+486 = {
+	holding = none
+}
+487 = {
+	holding = none
+}
+488 = {
+	holding = none
+}
+489 = {
+	holding = none
+}
+490 = {
+	holding = none
+}
+491 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+492 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+493 = {
+	holding = none
+}
+494 = {
+	holding = none
+}
+495 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+496 = {
+	holding = none
+}
+497 = {
+	holding = none
+}
+498 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+499 = {
+	holding = none
+}
+500 = {
+	holding = none
+}
+501 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+502 = {
+	holding = none
+}
+503 = {
+	holding = none
+}
+504 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+505 = {
+	holding = none
+}
+506 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+507 = {
+	holding = none
+}
+508 = {
+	holding = none
+}
+509 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+510 = {
+	holding = none
+}
+511 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+512 = {
+	holding = none
+}
+513 = {
+	holding = none
+}
+514 = {
+	holding = none
+}
+515 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+516 = {
+	holding = none
+}
+517 = {
+	holding = none
+}
+518 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+519 = {
+	holding = none
+}
+520 = {
+	holding = none
+}
+521 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+522 = {
+	holding = none
+}
+523 = {
+	holding = none
+}
+524 = {
+	holding = none
+}
+525 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+526 = {
+	holding = none
+}
+527 = {
+	holding = none
+}
+528 = {
+	holding = none
+}
+529 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+530 = {
+	holding = none
+}
+531 = {
+	holding = none
+}
+532 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+533 = {
+	holding = none
+}
+534 = {
+	holding = none
+}
+535 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+536 = {
+	holding = none
+}
+537 = {
+	holding = none
+}
+538 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+539 = {
+	holding = none
+}
+540 = {
+	holding = none
+}
+541 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+542 = {
+	holding = none
+}
+543 = {
+	holding = none
+}
+544 = {
+	holding = none
+}
+545 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+546 = {
+	holding = none
+}
+547 = {
+	holding = none
+}
+548 = {
+	holding = none
+}
+549 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+550 = {
+	holding = none
+}
+551 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+552 = {
+	holding = none
+}
+553 = {
+	holding = none
+}
+554 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+555 = {
+	holding = none
+}
+556 = {
+	holding = none
+}
+557 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+558 = {
+	holding = none
+}
+559 = {
+	holding = none
+}
+560 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+561 = {
+	holding = none
+}
+562 = {
+	holding = none
+}
+563 = {
+	holding = none
+}
+564 = {
+	holding = none
+}
+565 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+566 = {
+	holding = none
+}
+567 = {
+	holding = none
+}
+568 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+569 = {
+	holding = none
+}
+570 = {
+	holding = none
+}
+571 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+572 = {
+	holding = none
+}
+573 = {
+	holding = none
+}
+574 = {
+	holding = none
+}
+575 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+576 = {
+	holding = none
+}
+577 = {
+	holding = none
+}
+578 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+579 = {
+	holding = none
+}
+580 = {
+	holding = none
+}
+581 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+582 = {
+	holding = none
+}
+583 = {
+	holding = none
+}
+584 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+585 = {
+	holding = none
+}
+586 = {
+	holding = none
+}
+587 = {
+	holding = none
+}
+588 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+589 = {
+	holding = none
+}
+590 = {
+	holding = none
+}
+591 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+592 = {
+	holding = none
+}
+593 = {
+	holding = none
+}
+594 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+595 = {
+	holding = none
+}
+596 = {
+	holding = none
+}
+597 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+598 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+599 = {
+	holding = none
+}
+600 = {
+	holding = none
+}
+601 = {
+	holding = none
+}
+602 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+603 = {
+	holding = none
+}
+604 = {
+	holding = none
+}
+605 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+606 = {
+	holding = none
+}
+607 = {
+	holding = none
+}
+663 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+664 = {
+	holding = none
+}
+665 = {
+	holding = none
+}
+666 = {
+	holding = none
+}
+667 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+668 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+669 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+670 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+671 = {
+	holding = none
+}
+672 = {
+	holding = none
+}
+673 = {
+	culture = reinvaldian
+	religion = three
+	holding = castle_holding
+}
+674 = {
+	holding = none
+}
+675 = {
+	holding = none
+}

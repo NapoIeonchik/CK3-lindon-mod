@@ -1,0 +1,14 @@
+namespace = global_news 
+
+global_news.0001 = {
+	type = character_event
+	window = fullscreen_event
+	title = global_news.0001.t
+	desc = global_news.0001.desc
+	theme = crown
+	override_background = { reference = pravar_scam }
+	
+	option = { 
+		name = global_news.0001.a 
+	}
+}

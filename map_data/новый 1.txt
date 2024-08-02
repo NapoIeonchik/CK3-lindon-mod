@@ -1,0 +1,91 @@
+
+
+
+
+	d_bervi1 = {
+		color = { 249 238 0 }
+			
+		capital = c_bervi4
+			
+		c_bervi4 = {
+			color = { 249 238 0 }
+				
+			b_test10 = {
+				province = 19
+				
+				color = { 22 107 181 }
+			}
+			b_test11 = {
+				province = 20
+					
+				color = { 22 107 181 }
+			}
+			b_test12 = {
+				province = 21
+					
+				color = { 22 107 181 }
+			}
+		}
+		c_bervi5 = {
+			color = { 249 238 0 }
+				
+			b_test13 = {
+				province = 22
+					
+				color = { 22 107 181 }
+			}
+			b_test14 = {
+				province = 23
+					
+				color = { 22 107 181 }
+			}
+			b_test15 = {
+				province = 24
+					
+				color = { 22 107 181 }
+			}
+		}
+		c_bervi6 = {
+			color = { 249 238 0 }
+				
+			b_test16 = {
+				province = 25
+					
+				color = { 22 107 181 }
+			}
+			b_test17 = {
+				province = 26
+					
+				color = { 22 107 181 }
+			}
+			b_test18 = {
+				province = 27
+					
+				color = { 22 107 181 }
+			}
+			b_test19 = {
+				province = 28
+					
+				color = { 22 107 181 }
+			}
+		}
+		c_bervi7 = {
+			color = { 249 238 0 }
+				
+			b_test19 = {
+				province = 29
+					
+				color = { 22 107 181 }
+			}
+			b_test20 = {
+				province = 30
+					
+				color = { 22 107 181 }
+			}
+			b_test21 = {
+				province = 31
+					
+				color = { 22 107 181 }
+			}
+		}
+	}	

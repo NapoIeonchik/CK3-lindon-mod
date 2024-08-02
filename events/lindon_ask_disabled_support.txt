@@ -1,0 +1,28 @@
+namespace = disabled_support
+
+disabled_support.0001 = {
+	type = character_event
+	title = disabled_support.t
+	desc = disabled_support.desc
+	theme = crown
+	left_portrait = {
+		character = scope:recipient
+		animation = personality_dancin
+	}
+
+	
+	option = {
+		name = disabled_support.a
+		add_character_modifier = {
+			modifier = disabled_monthly_support_sponsor 
+		}
+		scope:recipient = {
+			add_character_modifier = {
+				modifier = disabled_monthly_support_recipient 
+			}
+		}
+	}
+	option = {
+		name = disabled_support.b
+	}
+}

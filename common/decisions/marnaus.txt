@@ -78,3 +78,117 @@ destroy_marnaus_decision = {
 		base = 100
 	}
 }
+
+
+
+recreate_kerrandin = {
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+
+	major = yes				
+	ai_goal = yes 				
+
+	sort_order = 255			
+
+	is_shown = { 
+        is_landed = yes
+		is_imprisoned = no
+        primary_title ?= {
+            tier == tier_duchy
+        }
+        culture = {
+            OR = {
+                this = culture:kerrandinian
+                any_parent_culture_or_above = {
+                    this = culture:kerrandinian
+                }
+            }
+        }
+ 		NOT = {
+ 			is_target_in_global_variable_list = {
+ 				name = unavailable_unique_decisions
+ 				target = flag:flag_formed_kingdom_of_kerrandin
+ 			}
+ 		}     
+    }				
+    
+	is_valid = { 
+        prestige_level >= 2        
+
+        custom_tooltip = {
+            text = DATAW_unite_clayne_tribes_conquest_tooltip_trig
+
+            ruler_owns_kerrandin_counties >= 90_percent_of_kerrandin_land
+        }             
+    }
+
+	cost = {						
+		gold = 200
+		prestige = 1000        
+	}
+
+	effect = { 
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+		}
+		title:k_kerrandin = {
+			change_title_holder = {
+				holder = root
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change        
+        add_character_flag = united_kerrandin # unique death loc
+        hidden_effect = {
+			create_title_and_vassal_change = {
+				type = conquest_claim
+				save_scope_as = change_two
+				#add_claim_on_loss = yes
+			}
+			#every_ally = {
+			#	change_liege = {
+			#		liege = root
+			#		change = scope:change_two
+			#	}
+			#}
+			resolve_title_and_vassal_change = scope:change_two    
+
+            every_ruler = {
+                limit = {
+                    culture = {
+                        OR = {
+                            this = culture:kerrandinian
+                            any_parent_culture_or_above = {
+                                this = culture:kerrandinian
+                            }
+                        }
+                    }
+                }
+                primary_title = {
+                    remove_variable = kerrandinian_land_owned
+                }
+                remove_global_variable = kerrandinian_land_total
+            }
+
+            set_culture = culture:kerrandinian
+
+        }                    
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_formed_kingdom_of_kerrandin
+		}
+		set_global_variable = {
+			name = flag_formed_kingdom_of_kerrandin
+			value = scope:founder
+		}
+
+
+        #trigger_event = DATAW_major_decision.0003        
+    }			
+
+	ai_potential = { 
+        always = yes
+    }			
+	ai_will_do = { base = 100 }		
+}

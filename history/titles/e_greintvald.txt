@@ -1,6 +1,0 @@
-e_greintvald = {
-	1060.1.1 = { change_development_level = 8 }
-	1061.1.1 = {
-		holder = 9999993
-	}
-}

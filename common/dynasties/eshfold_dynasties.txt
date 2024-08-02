@@ -189,6 +189,7 @@
 2002373 = {	
 	name = "Boneless"
 	culture = "french"
+	motto = dynn_Boneless_motto
 }
 2002374 = {	
 	name = "Tenebris"
@@ -349,5 +350,17 @@
 }
 2002353 = {	
 	name = "los_Vorhan"
+	culture = "french"
+}
+2002354 = {	
+	name = "fon_Croix"
+	culture = "french"
+}
+2002355 = {	
+	name = "von_Reinvald"
+	culture = "french"
+}
+2002356 = {	
+	name = "Durand"
 	culture = "french"
 }

@@ -224,11 +224,12 @@ holy_three = {
 			religious_head = d_holy_three
 			graphical_faith = "three_gfx"
 			
-			holy_site = claimore
-			holy_site = evalberg
-			holy_site = cologne
-			holy_site = kent
-			holy_site = bervi
+			
+			#holy_site = claimore
+			#holy_site = evalberg
+			#holy_site = cologne
+			#holy_site = kent
+			#holy_site = bervi
 			
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian

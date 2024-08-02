@@ -16,6 +16,8 @@
  balian_reforger:0 "Восстановитель Империи"
  candidat_balian_reforger:0 "Хочет восстановить Империю"
  elven_refugees_modifier:0 "Осколки эльфийской цивилизации"
+ disabled_monthly_support_recipient:0 "Пенсия"
+ disabled_monthly_support_sponsor:0 "Спонсорская деятельность"
  trait_necromancer:0 "Некромант"
  trait_necromancer_desc:0 "Этот человек нашел секрет договечия.. но не заплатил ли он слишком большую цену?"
  trait_necromancer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] нашел секрет вечной жизни.. но не заплатил ли он слишком большую цену?"
@@ -101,6 +103,9 @@
  trait_fertility_decline_desc:0 "Модификатор показывающий уровень плодовитости"
  trait_fertility_decline_character_desc:0 " "
  trait_fertility_decline_track:0 " "
+ trait_artificial_intelligence:0 "Искуственный интеллект"
+ trait_artificial_intelligence_desc:0 "Продукт интересных людей и безумных ученых."
+ trait_artificial_intelligence_character_desc:0 " [ROOT.GetCharacter.GetFirstNameNoTooltip] искуственный интеллект!"
  
  
  

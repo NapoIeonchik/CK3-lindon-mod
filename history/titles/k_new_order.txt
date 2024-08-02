@@ -1,8 +1,0 @@
-k_new_order  = {
-	650.9.15 = {
-		holder = horus
-	}
-}
-
-
-

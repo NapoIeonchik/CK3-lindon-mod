@@ -1,0 +1,819 @@
+247 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+248 = {
+	holding = none
+}
+249 = {
+	holding = none
+}
+250 = {
+	holding = none
+}
+251 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+	1066.1.1 = {
+		special_building_slot = wise_tree	
+		special_building = wise_tree
+	}
+}
+252 = {
+	holding = none
+}
+253 = {
+	holding = none
+}
+254 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+255 = {
+	holding = none
+}
+256 = {
+	holding = none
+}
+257 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+258 = {
+	holding = none
+}
+259 = {
+	holding = none
+}
+260 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+261 = {
+	holding = none
+}
+262 = {
+	holding = none
+}
+263 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+264 = {
+	holding = none
+}
+265 = {
+	holding = none
+}
+266 = {
+	holding = none
+}
+267 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+268 = {
+	holding = none
+}
+269 = {
+	holding = none
+}
+270 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+271 = {
+	holding = none
+}
+272 = {
+	holding = none
+}
+273 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+274 = {
+	holding = none
+}
+275 = {
+	holding = none
+}
+276 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+277 = {
+	holding = none
+}
+278 = {
+	holding = none
+}
+279 = {
+	holding = none
+}
+280 = {
+	holding = none
+}
+281 = {
+	holding = none
+}
+282 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+283 = {
+	holding = none
+}
+284 = {
+	holding = none
+}
+285 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+286 = {
+	holding = none
+}
+287 = {
+	holding = none
+}
+288 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+289 = {
+	holding = none
+}
+290 = {
+	holding = none
+}
+291 = {
+	holding = none
+}
+292 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+293 = {
+	holding = none
+}
+294 = {
+	holding = none
+}
+295 = {
+	holding = none
+}
+296 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+297 = {
+	holding = none
+}
+298 = {
+	holding = none
+}
+299 = {
+	holding = none
+}
+300 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+301 = {
+	holding = none
+}
+302 = {
+	holding = none
+}
+303 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+304 = {
+	holding = none
+}
+305 = {
+	holding = none
+}
+306 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+307 = {
+	holding = none
+}
+308 = {
+	holding = none
+}
+309 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+310 = {
+	holding = none
+}
+311 = {
+	holding = none
+}
+312 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+313 = {
+	holding = none
+}
+314 = {
+	holding = none
+}
+315 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+316 = {
+	holding = none
+}
+317 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+318 = {
+	holding = none
+}
+319 = {
+	holding = none
+}
+320 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+321 = {
+	holding = none
+}
+322 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+323 = {
+	holding = none
+}
+324 = {
+	holding = none
+}
+325 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+326 = {
+	holding = none
+}
+327 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+328 = {
+	holding = none
+}
+329 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+330 = {
+	holding = none
+}
+331 = {
+	holding = none
+}
+332 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+333 = {
+	holding = none
+}
+334 = {
+	holding = none
+}
+335 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+336 = {
+	holding = none
+}
+337 = {
+	holding = none
+}
+338 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+339 = {
+	holding = none
+}
+340 = {
+	holding = none
+}
+341 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+342 = {
+	holding = none
+}
+343 = {
+	holding = none
+}
+344 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+345 = {
+	holding = none
+}
+346 = {
+	holding = none
+}
+347 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+348 = {
+	holding = none
+}
+349 = {
+	holding = none
+}
+350 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+351 = {
+	holding = none
+}
+352 = {
+	holding = none
+}
+353 = {
+	holding = none
+}
+354 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+355 = {
+	holding = none
+}
+356 = {
+	holding = none
+}
+357 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+358 = {
+	holding = none
+}
+359 = {
+	holding = none
+}
+360 = {
+	holding = none
+}
+361 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+362 = {
+	holding = none
+}
+363 = {
+	holding = none
+}
+364 = {
+	holding = none
+}
+365 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+366 = {
+	holding = none
+}
+367 = {
+	holding = none
+}
+368 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+369 = {
+	holding = none
+}
+370 = {
+	holding = none
+}
+371 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+372 = {
+	holding = none
+}
+373 = {
+	holding = none
+}
+374 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+375 = {
+	holding = none
+}
+376 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+377 = {
+	holding = none
+}
+378 = {
+	holding = none
+}
+379 = {
+	holding = none
+}
+380 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+381 = {
+	holding = none
+}
+382 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+383 = {
+	holding = none
+}
+384 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+385 = {
+	holding = none
+}
+386 = {
+	holding = none
+}
+387 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+388 = {
+	holding = none
+}
+389 = {
+	holding = none
+}
+390 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+391 = {
+	holding = none
+}
+392 = {
+	holding = none
+}
+393 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+394 = {
+	holding = none
+}
+395 = {
+	holding = none
+}
+396 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+397 = {
+	holding = none
+}
+398 = {
+	holding = none
+}
+399 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+400 = {
+	holding = none
+}
+401 = {
+	holding = none
+}
+402 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+403 = {
+	holding = none
+}
+404 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+405 = {
+	holding = none
+}
+406 = {
+	holding = none
+}
+407 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+408 = {
+	holding = none
+}
+409 = {
+	holding = none
+}
+410 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+411 = {
+	holding = none
+}
+412 = {
+	holding = none
+}
+413 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+414 = {
+	holding = none
+}
+415 = {
+	holding = none
+}
+416 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+417 = {
+	holding = none
+}
+418 = {
+	holding = none
+}
+419 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+420 = {
+	holding = none
+}
+421 = {
+	holding = none
+}
+422 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+423 = {
+	holding = none
+}
+424 = {
+	holding = none
+}
+425 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+426 = {
+	holding = none
+}
+427 = {
+	holding = none
+}
+428 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+429 = {
+	holding = none
+}
+430 = {
+	holding = none
+}
+431 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+432 = {
+	holding = none
+}
+433 = {
+	holding = none
+}
+434 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+435 = {
+	holding = none
+}
+436 = {
+	holding = none
+}
+437 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+438 = {
+	holding = none
+}
+439 = {
+	holding = none
+}
+440 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+441 = {
+	holding = none
+}
+442 = {
+	holding = none
+}
+442 = {
+	holding = none
+}
+443 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+444 = {
+	holding = none
+}
+445 = {
+	holding = none
+}
+446 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+447 = {
+	holding = none
+}
+448 = {
+	holding = none
+}
+449 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+450 = {
+	holding = none
+}
+451 = {
+	holding = none
+}
+452 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+453 = {
+	holding = none
+}
+454 = {
+	holding = none
+}
+455 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+456 = {
+	holding = none
+}
+457 = {
+	holding = none
+}
+458 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+459 = {
+	holding = none
+}
+460 = {
+	holding = none
+}
+461 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+462 = {
+	holding = none
+}
+463 = {
+	holding = none
+}
+464 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+465 = {
+	holding = none
+}
+466 = {
+	holding = none
+}
+467 = {
+	culture = claimorean
+	religion = three
+	holding = castle_holding
+}
+468 = {
+	holding = none
+}

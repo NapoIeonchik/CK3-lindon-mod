@@ -88,6 +88,35 @@ claimorean = {
 		35 = caucasian_dark_hair
 	}	
 }
+kerrandinian = {
+	color = { 0.4 0.3 0 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_greintvaldian 
+	language = language_greintvaldian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chivalry
+		tradition_stand_and_fight
+		tradition_maritime_mercantilism
+		tradition_martial_admiration
+		tradition_agrarian
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
 westvaldian = {
 	color = { 0.5 0.9 0.6 }
 	

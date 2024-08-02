@@ -1,0 +1,62 @@
+k_reinvald = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+	1066.9.14 = { holder = 756976543 }
+}
+d_danrerua = {
+	1066.9.14 = { holder = 756976543 }
+}
+d_adelja = {
+	1066.9.14 = { 
+		holder = slon
+		liege = k_reinvald
+	}
+}
+d_dubrava = {
+	1066.9.14 = { 
+		holder = konstantin
+		liege = "k_reinvald"
+	}
+}
+d_kinglod = {
+	1066.9.14 = { 
+		holder = jabb
+		liege = "k_reinvald"
+	}
+}
+c_danrerualeft = {
+	1066.9.14 = { 
+		holder = slime_cat
+		liege = "d_danrerua"
+	}
+}
+c_harsia6 = {
+	1066.9.14 = { 
+		holder = slime_cat
+		liege = "d_danrerua"
+	}
+}
+c_harsia7 = {
+	1066.1.1 = { 
+		holder = slime_cat
+		liege = "d_danrerua"
+	}
+}
+c_harsia8 = {
+	1066.1.1 = { 
+		holder = slime_cat
+		liege = "d_danrerua"
+	}
+}
+c_chulya = {
+	1066.9.15 = { 
+		holder = weedwagon
+		liege = "k_reinvald"
+	}
+}
+c_harsia22 = {
+	1066.9.15 = { 
+		holder = weedwagon
+		liege = "k_reinvald"
+	}
+}

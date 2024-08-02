@@ -55,6 +55,9 @@
  andorian:0 "Андорцы"
  andorian_prefix:0 "Андорско"
  andorian_collective_noun:1 "Андорск"
+ kerrandinian:0 "Керрандинцы"
+ kerrandinian_prefix:0 "Керрандинско"
+ kerrandinian_collective_noun:1 "Керрандинск"
  
  tradition_kinship_through_blood_name:0 "Кровное родство"
  tradition_kinship_through_blood_desc:1 "Родство и кровь нераздельны в этой культуре, а время проведенное в кругу семьи - самое важное."

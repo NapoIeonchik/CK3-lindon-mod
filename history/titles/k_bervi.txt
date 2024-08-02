@@ -1,0 +1,44 @@
+k_bervi = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 8 }
+	1066.9.14 = {
+		holder = kasha
+	}
+}
+d_chindar = {
+	1066.9.14 = {
+		holder = roman
+		liege = "k_bervi"
+	}
+}
+
+d_middenheim = {
+	1066.9.14 = {
+		holder = vergil
+		liege = "k_bervi"
+	}
+}
+d_coalmine = {
+	1066.9.14 = {
+		holder = misha
+		liege = "k_bervi"
+	}
+}
+d_raperton = {
+	1066.9.14 = {
+		holder = gabrus
+		liege = "k_bervi"
+	}
+}
+d_bribera = {
+	1066.9.14 = {
+		holder = katana
+		liege = "k_bervi"
+	}
+}
+d_eddon = {
+	1066.9.14 = {
+		holder = frederik
+		liege = "k_bervi"
+	}
+}

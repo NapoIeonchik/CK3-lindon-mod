@@ -107,8 +107,8 @@ lego_sister = {
 	intrigue = 4
 	stewardship = 7
 	learning = 8
-	religion = "faceless"
-	culture = paragonese
+	religion = "three"
+	culture = claimorean
 	trait = education_diplomacy_3
 	trait = gregarious
 	trait = honest
@@ -173,7 +173,7 @@ avelina = {
 	intrigue = 6
 	stewardship = 7
 	learning = 8
-	religion = "silversword"
+	religion = "three"
 	culture = paragonese
 	trait = education_martial_3
 	trait = gregarious
@@ -254,6 +254,12 @@ illuzorius = {
 }
 trumeranta = {
 	name = "Trumeranta"
+	dna = trumeranta_dna
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = female_hair_western_03
+		}
+	}
 	dynasty = 2001328 
 	father = gevis_father
 	female = yes
@@ -262,14 +268,15 @@ trumeranta = {
 	intrigue = 6
 	stewardship = 6
 	learning = 3
-	religion = "catholic"
+	prowess = 15
+	religion = "three"
 	culture = reinvaldian
 	trait = education_martial_4
 	trait = stubborn
 	trait = arrogant
 	trait = wrathful
 	trait = brave
-	trait = blademaster_2
+	trait = lifestyle_blademaster 
 	trait = lunatic_1
 	trait = athletic
 	trait = comely
@@ -287,24 +294,35 @@ trumeranta = {
 }
 756976543 = {
 	name = "Gevis"
+	dna = gevis_dna
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_empty
+			custom_hair = male_hair_mena_04
+		}
+	}
 	dynasty = 2001328 
 	father = gevis_father
-	martial = 9
+	martial = 12
 	diplomacy = 3
 	intrigue = 5
 	stewardship = 5
 	learning = 4
-	religion = "silversword"
-	culture = eshfoldian
+	prowess = 15
+	religion = "three"
+	culture = reinvaldian
 	trait = education_martial_4
 	trait = stubborn
 	trait = arrogant
 	trait = ambitious
+	trait = lifestyle_blademaster
+	trait = athletic
 	1049.1.1 = {
 		birth = yes
 		effect = {									
 			add_character_flag = is_gevis			
-		} 					
+		}
+		give_nickname = nick_lion_of_greintvald
 	} 
 	1101.1.1 = {
 		death = yes
@@ -325,7 +343,7 @@ trumeranta = {
 	trait = paranoid
 	trait = gregarious
 	trait = diligent
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	1037.1.1 = {
 		birth = yes
 		effect = { 
@@ -869,7 +887,7 @@ trumeranta = {
 	trait = brave
 	trait = wrathful
 	trait = diligent
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	1034.1.1 = {
 		birth = yes
 	}
@@ -1292,6 +1310,7 @@ trumeranta = {
 		}
 	}
 	dynasty = 2001362	
+	sexuality = heterosexual
 	dna = milton_dna_2
 	martial = 7
 	diplomacy = 7
@@ -1676,6 +1695,9 @@ trumeranta = {
 	trait = ajergus
 	trait = lunatic_1
 	trait = drunkard
+	trait = intellect_bad_1
+	trait = intellect_bad_2
+	trait = intellect_bad_3
 	28.1.1 = {
 		birth = yes
 	}
@@ -1803,23 +1825,32 @@ trumeranta = {
 }
 751898752 = {
 	name = "Scovis"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_empty
+		}
+	}
+	father = scovis_dad
+	sexuality = heterosexual
+	dna = scovis_dna
 	dynasty = 2002373
-	martial = 16
-	diplomacy = 13
+	martial = 8
+	diplomacy = 6
 	intrigue = 10
-	stewardship = 16
+	stewardship = 7
 	learning = 4
-	religion = "catholic"
+	religion = "three"
 	culture = claimorean
-	trait = education_martial_4
-	trait = brave
-	trait = wrathful
-	trait = ambitious
-	trait = blademaster_3
-	trait = ajergus
-	trait = lunatic_1
-	prowess = 20
-	45.1.1 = {
+	trait = education_intrigue_4
+	trait = callous
+	trait = temperate
+	trait = patient
+	trait = lifestyle_blademaster 
+	trait = scarred 
+	trait = strong
+	trait = intellect_good_1
+	prowess = 30
+	1043.1.1 = {
 		birth = yes
 		give_nickname = nick_lion_of_greintvald
 	}
@@ -1970,7 +2001,7 @@ arni_ly = {
 	trait = ambitious
 	trait = brave
 	trait = wrathful
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	1031.4.14 = {
 		birth = yes
 	}
@@ -1997,7 +2028,7 @@ lirih_ly = {
 	trait = arbitrary
 	trait = deceitful
 	trait = wrathful
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	1032.4.14 = {
 		birth = yes
 	}
@@ -2792,7 +2823,7 @@ marnaus = {
 	stewardship = 8
 	learning = 6
 	religion = "three"
-	culture = claimorean
+	culture = kerrandinian
 	trait = education_intrigue_4
 	trait = shy
 	trait = diligent
@@ -2866,7 +2897,7 @@ waltherina = {
 	trait = paranoid
 	trait = gregarious
 	trait = diligent
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	trait = lifestyle_prostitute
 	1037.1.1 = {
 		birth = yes
@@ -3064,6 +3095,7 @@ balistalin = {
 }
 slime_cat = {
 	name = "Daniel"
+	dna = slime_cat_dna
 	dynasty = 2002341
 	sexuality = homosexual
 	martial = 5
@@ -3095,7 +3127,7 @@ bjork = {
 	intrigue = 8
 	stewardship = 5
 	learning = 9
-	religion = "faceless"
+	religion = "three"
 	culture = paragonese
 	trait = education_intrigue_3
 	trait = paranoid
@@ -3222,7 +3254,7 @@ aendor = {
 	trait = brave
 	trait = wrathful
 	trait = just
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	1046.1.1 = {
 		birth = yes
 	}
@@ -3298,7 +3330,7 @@ mother_mar = {
 	stewardship = 2
 	learning = 2
 	religion = "three"
-	culture = claimorean
+	culture = kerrandinian
 	trait = education_martial_4
 	trait = ambitious
 	trait = brave
@@ -3327,12 +3359,12 @@ fis = {
 	stewardship = 4
 	learning = 7
 	religion = "three"
-	culture = claimorean
+	culture = kerrandinian
 	trait = education_martial_4
 	trait = shy
 	trait = temperate
 	trait = content
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	trait = viking
 	trait = military_engineer
 	trait = winter_soldier
@@ -3361,7 +3393,7 @@ lira = {
 	stewardship = 4
 	learning = 8
 	religion = "three"
-	culture = claimorean
+	culture = kerrandinian
 	trait = education_diplomacy_4
 	trait = gregarious
 	trait = temperate
@@ -3402,7 +3434,7 @@ el_cid = {
 	trait = just
 	trait = diligent
 	trait = compassionate
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	trait = ajergus
 	disallow_random_traits = yes
 	48.1.1 = {
@@ -3462,7 +3494,7 @@ konstantin = {
 	stewardship = 7
 	learning = 6
 	religion = "three"
-	culture = westvaldian
+	culture = reinvaldian
 	trait = education_stewardship_4
 	trait = just
 	trait = trusting
@@ -3503,7 +3535,7 @@ adalar = {
 	trait = brave
 	trait = diligent
 	prowess = 8
-	trait = blademaster_2
+	trait = lifestyle_blademaster 
 	disallow_random_traits = yes
 	1041.1.1 = {
 		birth = yes
@@ -3519,7 +3551,14 @@ adalar = {
 }
 harald = {
 	name = "Harald"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = male_hair_northern_01
+			custom_beards = male_beard_fp2_iberian_muslim_01
+		}
+	}
 	father = harald_dad
+	dna = harald_dwarf_dna
 	dynasty = 2002350
 	martial = 5
 	diplomacy = 6
@@ -3533,7 +3572,7 @@ harald = {
 	trait = brave
 	trait = stubborn
 	prowess = 5
-	trait = blademaster_2
+	trait = lifestyle_blademaster 
 	disallow_random_traits = yes
 	1041.1.1 = {
 		birth = yes
@@ -3562,7 +3601,7 @@ harald_dad = {
 	trait = brave
 	trait = stubborn
 	prowess = 5
-	trait = blademaster_2
+	trait = lifestyle_blademaster 
 	disallow_random_traits = yes
 	1000.1.1 = {
 		birth = yes
@@ -3587,7 +3626,7 @@ oliver = {
 	trait = brave
 	trait = stubborn
 	prowess = 10
-	trait = blademaster_3
+	trait = lifestyle_blademaster 
 	trait = physique_good_2
 	disallow_random_traits = yes
 	1043.1.1 = {
@@ -3613,7 +3652,7 @@ sven = {
 	trait = brave
 	trait = stubborn
 	prowess = 5
-	trait = blademaster_1
+	trait = lifestyle_blademaster 
 	disallow_random_traits = yes
 	1045.1.1 = {
 		birth = yes
@@ -3639,7 +3678,7 @@ greze = {
 	trait = arbitrary
 	trait = stubborn
 	prowess = 5
-	trait = blademaster_2
+	trait = lifestyle_blademaster 
 	trait = physique_good_1
 	disallow_random_traits = yes
 	1048.1.1 = {
@@ -3827,7 +3866,7 @@ boris_blade = {
 }
 gabrus = {
 	name = "Gabrus"
-	dynasty = 2002341
+	dynasty = 2002353
 	sexuality = heterosexual
 	martial = 7
 	diplomacy = 2
@@ -3841,6 +3880,381 @@ gabrus = {
 	trait = callous
 	trait = arrogant
 	1046.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+mat_cauthon = {
+	name = "Mathrim"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_empty
+			custom_hair = male_hair_western_09
+		}
+	}
+	sexuality = heterosexual
+	dna = cauthon_dna
+	martial = 10
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 8
+	learning = 3
+	religion = "three"
+	culture = claimorean
+	trait = education_martial_5
+	trait = brave
+	trait = gregarious
+	trait = humble
+	trait = incredible_luck
+	1048.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			set_relation_friend = character:7568918232
+		}
+		
+	}
+	1066.9.15 = { employer = 7568918232 }
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+sabash = {
+	name = "Sabash"
+	dna = sabash_dna
+	sexuality = heterosexual
+	martial = 10
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	prowess = 10
+	religion = "three"
+	culture = claimorean
+	trait = education_martial_4
+	trait = brave
+	trait = eccentric
+	trait = diligent
+	trait = lifestyle_blademaster 
+	1041.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+fishy = {
+	name = "Mira"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = female_hair_fp2_iberian_christian_01
+		}
+	}
+	sexuality = heterosexual
+	female = yes
+	dna = fishy_dna
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	prowess = 5
+	religion = "three"
+	culture = einvaldian
+	trait = education_intrigue_3
+	trait = honest
+	trait = stubborn
+	trait = arbitrary
+	trait = lifestyle_blademaster 
+	disallow_random_traits = yes
+	1054.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+vikentiy = {
+	name = "Vikentiy"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_hair = male_hair_fp2_iberian_christian_02
+			custom_beards = male_empty
+		}
+	}
+	sexuality = homosexual # bisexual # heterosexual # asexual
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	prowess = 5
+	religion = "three"
+	culture = claimorean
+	trait = education_martial_4
+	trait = wrathful
+	trait = paranoid
+	trait = stubborn
+	trait = lifestyle_blademaster 
+	prowess = 17
+	disallow_random_traits = yes
+	1046.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+reyenis = {
+	name = "Reyenis"
+	father = scovis_dad
+	portrait_override={
+		portrait_modifier_overrides={
+			custom_hair = female_hair_western_06
+		}
+	}
+	sexuality = heterosexual
+	female = yes
+	dna = reyenis_dna
+	dynasty = 2002373
+	martial = 8
+	diplomacy = 6
+	intrigue = 10
+	stewardship = 7
+	learning = 4
+	religion = "three"
+	culture = claimorean
+	trait = education_stewardship_4
+	trait = calm
+	trait = temperate
+	trait = just
+	trait = beauty_good_1
+	trait = legitimized_bastard
+	prowess = 5
+	1043.1.1 = {
+		birth = yes
+	}
+	1337.1.1 = {
+		death = yes
+	}
+}
+scovis_dad = {
+	name = "Rolf"
+	sexuality = heterosexual
+	dynasty = 2002373
+	martial = 8
+	diplomacy = 6
+	intrigue = 10
+	stewardship = 7
+	learning = 4
+	religion = "three"
+	culture = claimorean
+	1000.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+
+jabb = {
+	name = "Jabb"
+	dynasty = 2002354
+	sexuality = heterosexual
+	martial = 4
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 10
+	religion = "three"
+	culture = reinvaldian
+	trait = education_learning_4
+	trait = calm
+	trait = patient
+	trait = diligent
+	trait = shrewd 
+	1040.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+weedwagon = {
+	name = "Weedwagon"
+	dynasty = 2002355
+	sexuality = heterosexual
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = reinvaldian
+	trait = education_martial_3
+	trait = eccentric
+	trait = brave
+	trait = lazy
+	trait = drunkard 
+	1048.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+lisxhiting = {
+	name = "Lisxhiting"
+	sexuality = heterosexual
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = westvaldian
+	trait = education_diplomacy_3
+	trait = eccentric
+	trait = gregarious
+	trait = diligent
+	trait = poet
+	prowess = 10
+	1038.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+modja = {
+	name = "Modja"
+	martial = 5
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = reinvaldian
+	trait = education_diplomat_4
+	trait = calm
+	trait = fickle
+	trait = gregarious
+	1040.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+vindet = {
+	name = "Vindet"
+	martial = 6
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	learning = 6
+	religion = "three"
+	culture = westvaldian
+	1043.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+sylvanir = {
+	name = "Sylvanir"
+	sexuality = heterosexual
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = einvaldian
+	trait = education_stewardship_3
+	trait = calm
+	trait = lustful
+	trait = generous
+	trait = trusting
+	1038.1.1 = {
+		birth = yes
+	}
+	1066.9.15 = {
+		employer = marnaus
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+roman = {
+	name = "Roman"
+	sexuality = heterosexual
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 8
+	learning = 5
+	religion = "three"
+	culture = bervian
+	trait = education_stewardship_4
+	trait = temperate
+	trait = diligent
+	trait = just
+	trait = shrewd
+	1035.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+misha = {
+	name = "Michael"
+	sexuality = heterosexual
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 8
+	learning = 5
+	religion = "three"
+	culture = bervian
+	trait = education_stewardship_2
+	trait = cynical
+	trait = arbitrary
+	trait = content
+	1048.1.1 = {
+		birth = yes
+		give_nickname = nick_bombovich
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+katana = {
+	name = "Katana"
+	dynasty = 2002356
+	sexuality = heterosexual
+	martial = 7
+	diplomacy = 5
+	intrigue = 4
+	stewardship = 9
+	learning = 6
+	religion = "three"
+	culture = bervian
+	trait = education_martial_3
+	trait = zealous
+	trait = brave
+	trait = greedy
+	1049.1.1 = {
 		birth = yes
 	}
 	1100.1.1 = {

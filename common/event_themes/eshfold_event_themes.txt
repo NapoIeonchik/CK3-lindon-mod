@@ -19,5 +19,17 @@ greintvald_battle_theme = {
 	}
 }
 
+pravar_scam_theme = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_martial.dds"
+	}
+	sound = {
+		reference = "file:/sound/milton_szadi_szadi.ogg"
+	}
+	background = {
+		event_background = pravar_scam
+	}
+}
+
 
 

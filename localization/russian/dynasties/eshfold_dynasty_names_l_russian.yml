@@ -7,7 +7,7 @@
  ### ROHIRRIM & DUNLENDINGS ###
  Cross:0 "Кросс"
  Hayford:0 "Хайфорд"
- Watkins:0 "Уоткинс"
+ Watkins:0 "Ридус"
  von_Shteiner:0 "фон Штайнер"
  Shmidt:0 "Шмидт"
  Grads:0 "Градс"
@@ -53,7 +53,8 @@
  Noldor:0 "Нолдор"
  of_Balion:0 "из Балиона"
  of_Odessa:0 "из Адессы"
- Boneless:0 "Бескостный"
+ Boneless:0 "фон Варрен"
+ dynn_Boneless_motto:0 "Ударом на удар, кровь за кровь."
  Tenebris:0 "Тенебрис"
  Gruning:0 "Грунинг"
  Sikarius:0 "Сикариус"
@@ -95,6 +96,9 @@
  Alternid:0 "Альтернид"
  Trakand:0 "Траканд"
  los_Vorhan:0 "лос Ворхан"
+ fon_Croix:0 "фон Круа"
+ von_Reinvald:0 "фон Рейнвальд"
+ Durand:0 "Дюранд"
  k_france:0 "Эшфолд"
 
 

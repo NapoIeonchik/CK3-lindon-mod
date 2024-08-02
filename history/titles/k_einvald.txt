@@ -1,0 +1,18 @@
+e_greintvald = {
+	1066.9.14 = {
+		holder = 9999993
+	}
+}
+k_einvald = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 10 }
+	1066.9.14 = {
+		holder = 9999993
+	}
+}
+
+d_noldor = {
+	1066.9.14 = {
+		holder = 61222490
+	}
+}

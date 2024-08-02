@@ -223,12 +223,12 @@ guild_religion = {
 			color = { 1 1 0.1 }
 			graphical_faith = "guild_gfx"
 			religious_head = d_guild 
-			holy_site = paris
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
+			#holy_site = paris
+			#holy_site = rome
+			#holy_site = cologne
+			#holy_site = santiago
+			#holy_site = kent
+			#holy_site = segrada_familia
 			
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian

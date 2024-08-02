@@ -1,0 +1,60 @@
+k_westvald = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 8 }
+	1066.9.14 = {
+		holder = hen
+	}
+}
+d_marjiland = {
+	1066.9.14 = {
+		holder = varian
+		liege = "k_westvald"
+	}
+}
+d_avion = {
+	1066.9.14 = {
+		holder = hen
+	}
+}
+d_anjer = {
+	1066.9.14 = {
+		holder = modja
+		liege = "k_westvald"
+	}
+}
+d_akra = {
+	1066.9.14 = {
+		holder = oliver
+		liege = "k_westvald"
+	}
+}
+c_farrenwood = {
+	1066.9.14 = {
+		holder = lisxhiting
+		liege = "d_marjiland"
+	}
+}
+c_harsia43 = {
+	1066.9.14 = {
+		holder = harald
+		liege = "k_westvald"
+	}
+}
+c_harsia45 = {
+	1066.9.14 = {
+		holder = harald
+		liege = "k_westvald"
+	}
+}
+c_tale = {
+	1066.9.14 = {
+		holder = harald
+		liege = "k_westvald"
+	}
+}
+c_posik = {
+	1066.9.14 = {
+		holder = vindet
+		liege = "k_westvald"
+	}
+}

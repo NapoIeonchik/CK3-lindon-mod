@@ -14,3 +14,4 @@ nick_stormblessed = {}
 nick_ironfoot = {}
 nick_bobissa = {}
 nick_attempter = {}
+nick_bombovich = {}

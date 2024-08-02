@@ -122,18 +122,18 @@ gevis.0103 = {
 			}
 			men_at_arms = {
 				type = bombard
-				stacks = 1
+				stacks = 2
 			}
 			men_at_arms = {
 				type = house_guard
-				stacks = 2
+				stacks = 4
 			}	
 			men_at_arms = {
 				type = armored_horsemen
-				stacks = 1
+				stacks = 3
 			}
 				
-			location = title:c_aachen.title_province
+			location = title:c_adelja.title_province
 		}	
 	}
 	option = { 

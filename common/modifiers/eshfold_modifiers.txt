@@ -23,7 +23,7 @@ balian_reforger = {
 	martial = 3
 	diplomacy = 3
 	monthly_prestige = 2
-	prowess = 17
+	prowess = 10
 	county_opinion_add = 30
 	tax_mult = 0.2
 	development_growth = 4
@@ -35,6 +35,26 @@ candidat_balian_reforger = {
 	diplomacy = 3
 	monthly_prestige = 1
 }
+lion_of_greintvald = {
+	icon = martial_positive
+	diplomacy = 4
+}
+disabled_monthly_support_recipient = {
+	icon = economy_positive
+	monthly_income = 0.5
+}
+disabled_monthly_support_sponsor = {
+	icon = economy_negative
+	monthly_income = -0.5
+	stacking = yes
+}
+fertility_boost = {
+	icon = fertility_positive
+	fertility = 0.15
+	stacking = yes
+}
+
+
 
 # Harmony
 wok_victory_harmony_county_modifier = {

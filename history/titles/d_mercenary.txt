@@ -1,8 +1,0 @@
-d_mercenary  = {
-	1063.9.15 = {
-		holder = lury_ly 
-	}
-}
-
-
-

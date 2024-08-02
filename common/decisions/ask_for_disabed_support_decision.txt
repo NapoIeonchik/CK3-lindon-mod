@@ -1,0 +1,65 @@
+ask_for_disabled_support_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_ask_for_disabled_support.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = ask_for_disabled_support_decision_desc
+	selection_tooltip = ask_for_disabled_support_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = title:e_greintvald
+		culture = { has_cultural_pillar = heritage_greintvaldian }
+		OR = {
+			has_trait = maimed
+			has_trait = one_eyed
+			has_trait = one_legged
+			has_trait = disfigured
+		}
+		NOT = {	#You can only do it once.
+			has_character_modifier = disabled_monthly_support_recipient 
+		}
+	}
+
+	is_valid = {
+		title:e_greintvald.holder = {
+			limit = {
+				is_alive = yes
+			}
+		}
+		OR = {
+			has_trait = maimed
+			has_trait = one_eyed
+			has_trait = one_legged
+			has_trait = disfigured
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		save_scope_as = recipient
+		title:e_greintvald.holder = {	
+			trigger_event = {
+				id = disabled_support.0001
+				days = { 2 5 }
+			}
+		}
+	}
+	cooldown = { years = 4 }
+	cost = {
+		prestige = 150
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

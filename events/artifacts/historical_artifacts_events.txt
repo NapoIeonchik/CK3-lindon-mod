@@ -583,9 +583,9 @@ historical_artifacts.0023 = {
 		}	
 		if = {
 			limit = {
-				exists = title:d_york.holder
+				exists = title:k_claimore.holder
 			}
-			title:d_york.holder = { 
+			title:k_claimore.holder = { 
 				create_artifact_silicon_effect = { OWNER = this }
 			}
 		}

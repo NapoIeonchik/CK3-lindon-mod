@@ -1,0 +1,870 @@
+3 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+4 = {
+	holding = none
+}
+5 = {
+	holding = none
+}
+6 = {
+	holding = none
+}
+7 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+8 = {
+	holding = none
+}
+9 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+10 = {
+	holding = none
+}
+11 = {
+	holding = none
+}
+12 = {
+	holding = none
+}
+13 = {
+	holding = none
+}
+14 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+15 = {
+	holding = none
+}
+16 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+17 = {
+	holding = none
+}
+18 = {
+	holding = none
+}
+19 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+20 = {
+	holding = none
+}
+21 = {
+	holding = none
+}
+22 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+23 = {
+	holding = none
+}
+24 = {
+	holding = none
+}
+25 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+26 = {
+	holding = none
+}
+27 = {
+	holding = none
+}
+28 = {
+	holding = none
+}
+29 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+30 = {
+	holding = none
+}
+31 = {
+	holding = none
+}
+32 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+33 = {
+	holding = none
+}
+34 = {
+	holding = none
+}
+35 = {
+	holding = none
+}
+37 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+38 = {
+	holding = none
+}
+39 = {
+	holding = none
+}
+40 = {
+	holding = none
+}
+41 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+42 = {
+	holding = none
+}
+43 = {
+	holding = none
+}
+44 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+45 = {
+	holding = none
+}
+46 = {
+	holding = none
+}
+47 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+48 = {
+	holding = none
+}
+49 = {
+	holding = none
+}
+50 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+51 = {
+	holding = none
+}
+52 = {
+	holding = none
+}
+53 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+54 = {
+	holding = none
+}
+55 = {
+	holding = none
+}
+56 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+57 = {
+	holding = none
+}
+58 = {
+	holding = none
+}
+59 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+60 = {
+	holding = none
+}
+61 = {
+	holding = none
+}
+62 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+63 = {
+	holding = none
+}
+64 = {
+	holding = none
+}
+65 = {
+	holding = none
+}
+66 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+67 = {
+	holding = none
+}
+68 = {
+	holding = none
+}
+69 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+70 = {
+	holding = none
+}
+71 = {
+	holding = none
+}
+72 = {
+	holding = none
+}
+73 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+74 = {
+	holding = none
+}
+75 = {
+	holding = none
+}
+76 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+77 = {
+	holding = none
+}
+78 = {
+	holding = none
+}
+79 = {
+	holding = none
+}
+80 = {
+	holding = none
+}
+81 = {
+	holding = none
+}
+82 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+83 = {
+	holding = none
+}
+84 = {
+	holding = none
+}
+85 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+86 = {
+	holding = none
+}
+87 = {
+	holding = none
+}
+88 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+89 = {
+	holding = none
+}
+90 = {
+	holding = none
+}
+91 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+92 = {
+	holding = none
+}
+93 = {
+	holding = none
+}
+94 = {
+	holding = none
+}
+95 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+96 = {
+	holding = none
+}
+97 = {
+	holding = none
+}
+98 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+99 = {
+	holding = none
+}
+100 = {
+	holding = none
+}
+101 = {
+	holding = none
+}
+102 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+103 = {
+	holding = none
+}
+104 = {
+	holding = none
+}
+105 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+106 = {
+	holding = none
+}
+107 = {
+	holding = none
+}
+108 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+109 = {
+	holding = none
+}
+110 = {
+	holding = none
+}
+111 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+112 = {
+	holding = none
+}
+113 = {
+	holding = none
+}
+114 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+115 = {
+	holding = none
+}
+116 = {
+	holding = none
+}
+117 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+118 = {
+	holding = none
+}
+119 = {
+	holding = none
+}
+120 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+121 = {
+	holding = none
+}
+122 = {
+	holding = none
+}
+123 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+124 = {
+	holding = none
+}
+125 = {
+	holding = none
+}
+126 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+127 = {
+	holding = none
+}
+128 = {
+	holding = none
+}
+129 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+130 = {
+	holding = none
+}
+131 = {
+	holding = none
+}
+132 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+133 = {
+	holding = none
+}
+134 = {
+	holding = none
+}
+135 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+136 = {
+	holding = none
+}
+137 = {
+	holding = none
+}
+138 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+139 = {
+	holding = none
+}
+140 = {
+	holding = none
+}
+141 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+142 = {
+	holding = none
+}
+143 = {
+	holding = none
+}
+144 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+145 = {
+	holding = none
+}
+146 = {
+	holding = none
+}
+147 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+148 = {
+	holding = none
+}
+149 = {
+	holding = none
+}
+150 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+151 = {
+	holding = none
+}
+152 = {
+	holding = none
+}
+153 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+154 = {
+	holding = none
+}
+155 = {
+	holding = none
+}
+156 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+157 = {
+	holding = none
+}
+158 = {
+	holding = none
+}
+159 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+160 = {
+	holding = none
+}
+161 = {
+	holding = none
+}
+162 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+163 = {
+	holding = none
+}
+164 = {
+	holding = none
+}
+165 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+166 = {
+	holding = none
+}
+167 = {
+	holding = none
+}
+168 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+169 = {
+	holding = none
+}
+170 = {
+	holding = none
+}
+171 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+172 = {
+	holding = none
+}
+173 = {
+	holding = none
+}
+174 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+175 = {
+	holding = none
+}
+176 = {
+	holding = none
+}
+177 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+178 = {
+	holding = none
+}
+179 = {
+	holding = none
+}
+180 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+181 = {
+	holding = none
+}
+182 = {
+	holding = none
+}
+183 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+184 = {
+	holding = none
+}
+185 = {
+	holding = none
+}
+186 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+187 = {
+	holding = none
+}
+188 = {
+	holding = none
+}
+189 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+190 = {
+	holding = none
+}
+191 = {
+	holding = none
+}
+192 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+193 = {
+	holding = none
+}
+194 = {
+	holding = none
+}
+195 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+196 = {
+	holding = none
+}
+197 = {
+	holding = none
+}
+198 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+199 = {
+	holding = none
+}
+200 = {
+	holding = none
+}
+201 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+202 = {
+	holding = none
+}
+203 = {
+	holding = none
+}
+204 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+205 = {
+	holding = none
+}
+206 = {
+	holding = none
+}
+207 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+208 = {
+	holding = none
+}
+209 = {
+	holding = none
+}
+210 = {
+	culture = kerrandinian
+	religion = three
+	holding = castle_holding
+}
+211 = {
+	holding = none
+}
+212 = {
+	holding = none
+}
+213 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+214 = {
+	holding = none
+}
+215 = {
+	holding = none
+}
+216 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+217 = {
+	holding = none
+}
+218 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+219 = {
+	holding = none
+}
+220 = {
+	holding = none
+}
+221 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+222 = {
+	holding = none
+}
+223 = {
+	holding = none
+}
+224 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+225 = {
+	holding = none
+}
+226 = {
+	holding = none
+}
+227 = {
+	holding = none
+}
+228 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+229 = {
+	holding = none
+}
+230 = {
+	holding = none
+}
+231 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+232 = {
+	holding = none
+}
+233 = {
+	holding = none
+}
+234 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+235 = {
+	holding = none
+}
+236 = {
+	holding = none
+}
+237 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+238 = {
+	holding = none
+}
+239 = {
+	holding = none
+}
+240 = {
+	culture = bervian
+	religion = three
+	holding = castle_holding
+}
+241 = {
+	holding = none
+}
+242 = {
+	holding = none
+}
+

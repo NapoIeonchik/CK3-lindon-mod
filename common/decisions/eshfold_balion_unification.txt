@@ -15,181 +15,182 @@
 ##################
 # Reunite chevalie
 # by ThePinkPanzer
-reunite_balian_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
-	major = yes
-	ai_check_interval = 120
-	desc = reunite_balian_decision_desc
-
-	is_shown = {
-		culture = { has_cultural_pillar = heritage_west_germanic}
-		NOT = {
-			title:e_balian = {
-				is_title_created = yes
-			}
-		}
-	}
-
-	is_valid = {
-		culture = { has_cultural_pillar = heritage_west_germanic}
-		has_character_modifier = candidat_balian_reforger
-		AND = {
-			OR = {
-				has_title = title:k_paragon
-				title:k_paragon = {
-					is_title_created = no
-				}
-			}
-			OR = {
-				has_title = title:k_france
-				title:k_france = {
-					is_title_created = no
-				}
-			}
-			OR = {
-				has_title = title:k_gentrualgon
-				title:k_gentrualgon = {
-					is_title_created = no
-				}
-			}
-			OR = {
-				has_title = title:d_mirkwood
-				title:d_mirkwood = {
-					is_title_created = no
-				}
-			}
-			OR = {
-				has_title = title:k_greintvald
-				title:k_greintvald = {
-					is_title_created = no
-				}
-			}
-		}
-	}
-
-	effect = {
-		save_scope_as = balian_uniter
-		add_character_modifier = balian_reforger
-		show_as_tooltip = { form_balian_scripted_effect = yes } 
-
-		#Events
-		trigger_event = balian.0001 
-
-		every_player = {
-			limit = {
-				any_sub_realm_county = {
-					title_province = { geographical_region = world_europe_west }
-				}
-			}
-			trigger_event = balian.0002
-		}
-
-		#Can only be done once
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:reunite_balian_decision
-		}
-	}
-	
-
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
-
+#reunite_balian_decision = {
+#	picture = "gfx/interface/illustrations/decisions/decision_invite_knights.dds"
+#	major = yes
+#	ai_check_interval = 120
+#	desc = reunite_balian_decision_desc
+#
+#	is_shown = {
+#		culture = { has_cultural_pillar = heritage_west_germanic}
+#		NOT = {
+#			title:e_balian = {
+#				is_title_created = yes
+#			}
+#		}
+#	}
+#
+#	is_valid = {
+#		culture = { has_cultural_pillar = heritage_west_germanic}
+#		has_character_modifier = candidat_balian_reforger
+#		AND = {
+#			OR = {
+#				has_title = title:k_paragon
+#				title:k_paragon = {
+#					is_title_created = no
+#				}
+#			}
+#			OR = {
+#				has_title = title:k_france
+#				title:k_france = {
+#					is_title_created = no
+#				}
+#			}
+#			OR = {
+#				has_title = title:k_gentrualgon
+#				title:k_gentrualgon = {
+#					is_title_created = no
+#				}
+#			}
+#			OR = {
+#				has_title = title:d_mirkwood
+#				title:d_mirkwood = {
+#					is_title_created = no
+#				}
+#			}
+#			OR = {
+#				has_title = title:k_greintvald
+#				title:k_greintvald = {
+#					is_title_created = no
+#				}
+#			}
+#		}
+#	}
+#
+#	effect = {
+#		save_scope_as = balian_uniter
+#		add_character_modifier = balian_reforger
+#		show_as_tooltip = { form_balian_scripted_effect = yes } 
+#
+#		#Events
+#		trigger_event = balian.0001 
+#
+#		every_player = {
+#			limit = {
+#				any_sub_realm_county = {
+#					title_province = { geographical_region = world_europe_west }
+#				}
+#			}
+#			trigger_event = balian.0002
+#		}
+#
+#		#Can only be done once
+#		add_to_global_variable_list = {
+#			name = unavailable_unique_decisions
+#			target = flag:reunite_balian_decision
+#		}
+#	}
+#	
+#
+#	ai_potential = {
+#		always = yes
+#	}
+#
+#	ai_will_do = {
+#		base = 100
+#	}
+#}
+#
 ##################
 # Forge a Claim on Chevalie
 # by ThePinkPanzer
-forge_a_claim_on_balian_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-	major = yes
-	ai_check_interval = 120
-	desc = forge_a_claim_on_balian_decision_desc
-
-	is_shown = {
-		NOT = { title:e_balian = { is_title_created = yes } }
-		OR = {
-			culture = { has_cultural_pillar = heritage_west_germanic}
-		}
-		NOT = {	#You can only do it once.
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_candidat_balian
-			}
-		}
-	}
-
-	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_west_germanic}
-		}
-		any_sub_realm_county = {
-			title_province = { geographical_region = world_europe_west }
-		}
-		OR = {
-			ROOT = {
-				has_claim_on = title:e_balian
-			}
-			prestige >= 1500
-		}
-		AND = {
-			is_capable_adult = yes
-			is_imprisoned = no
-			is_independent_ruler = yes
-		}
-	}
-
-	effect = {
-		#Events
-		save_scope_as = candidat_balian_uniter
-		trigger_event = balian.0003
-		
-		every_player = {
-			limit = {
-				any_sub_realm_county = {
-					title_province = { geographical_region = world_europe_west }
-				}
-			}
-			trigger_event = balian.0004
-		}
-
-		stress_impact = {
-			content = medium_stress_impact_gain
-		}
-		add_character_modifier = candidat_balian_reforger
-		if = {
-			limit = {
-				NOT = {
-					has_claim_on = title:e_balian
-				}
-			}
-			stress_impact = {
-				just = medium_stress_impact_gain
-			}
-		}
-		hidden_effect = {
-			add_to_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_candidat_balian
-			}
-			set_global_variable = {
-				name = flag_candidat_balian
-				value = root
-			}
-		}
-	}
-	
-
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
-
+#forge_a_claim_on_balian_decision = {
+#	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+#	major = yes
+#	ai_check_interval = 120
+#	desc = forge_a_claim_on_balian_decision_desc
+#
+#	is_shown = {
+#		NOT = { title:e_balian = { is_title_created = yes } }
+#		OR = {
+#			culture = { has_cultural_pillar = heritage_west_germanic}
+#		}
+#		NOT = {	#You can only do it once.
+#			is_target_in_global_variable_list = {
+#				name = unavailable_unique_decisions
+#				target = flag:flag_candidat_balian
+#			}
+#		}
+#	}
+#
+#	is_valid = {
+#		OR = {
+#			culture = { has_cultural_pillar = heritage_west_germanic}
+#		}
+#		any_sub_realm_county = {
+#			title_province = { geographical_region = world_europe_west }
+#		}
+#		OR = {
+#			ROOT = {
+#				has_claim_on = title:e_balian
+#			}
+#			prestige >= 1500
+#		}
+#		AND = {
+#			is_capable_adult = yes
+#			is_imprisoned = no
+#			is_independent_ruler = yes
+#		}
+#	}
+#
+#	effect = {
+#		#Events
+#		save_scope_as = candidat_balian_uniter
+#		trigger_event = balian.0003
+#		
+#		every_player = {
+##			limit = {
+#				any_sub_realm_county = {
+#					title_province = { geographical_region = world_europe_west }
+#				}
+#			}
+#			trigger_event = balian.0004
+#		}
+#
+#		stress_impact = {
+#			content = medium_stress_impact_gain
+#		}
+#		add_character_modifier = candidat_balian_reforger
+#		if = {
+#			limit = {
+#				NOT = {
+#					has_claim_on = title:e_balian
+#				}
+#			}
+#			stress_impact = {
+#				just = medium_stress_impact_gain
+#			}
+#		}
+#		hidden_effect = {
+#			add_to_global_variable_list = {
+#				name = unavailable_unique_decisions
+#				target = flag:flag_candidat_balian
+#			}
+#			set_global_variable = {
+#				name = flag_candidat_balian
+#				value = root
+#			}
+#		}
+#	}
+#	
+#
+#	ai_potential = {
+#		always = yes
+#	}
+#
+#	ai_will_do = {
+#		base = 100
+#	}
+#}
+#
+#######

@@ -1,6 +1,0 @@
-k_guild = {
-	1060.1.1 = { change_development_level = 24 }
-	1060.1.1 = {	
-		holder = 9999996 
-	}
-}

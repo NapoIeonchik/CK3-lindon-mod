@@ -1,0 +1,73 @@
+create_katrin_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_create_katrin.dds"
+	major = yes
+
+	ai_check_interval = 120
+
+	desc = create_katrin_decision_desc
+	selection_tooltip = create_katrin_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+		
+		root = character:godi 
+
+		NOT = {	#You can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_created_katrin
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= medium_prestige_level
+		character:godi = { 
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}	
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			create_katrin_decision_scripted_effect = yes
+		}
+		save_scope_as = katrin_creator
+		add_stress = 100
+		trigger_event = {
+			id = katrin.0001
+		}
+	
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_created_katrin
+			}
+			set_global_variable = {
+				name = flag_created_katrin
+				value = root
+			}
+		}
+	}
+
+	cost = {
+		gold = 200
+		prestige = 500
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

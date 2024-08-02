@@ -1,0 +1,16 @@
+namespace = duel_lion_of_greintvald
+duel_lion_of_greintvald.0001 = {
+	type = character_event
+	title = duel_lion_of_greintvald.0001.t
+	desc = duel_lion_of_greintvald.0001.desc
+	theme = prison
+	left_portrait = {
+		character = scope:actor
+		animation = disbelief
+	}
+	right_portrait = {
+		character = scope:recipient
+		animation = personality_honorable
+	}
+	override_background = { reference = throne_room }
+}

@@ -59,3 +59,198 @@
     }
 
 }
+2001328 = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "white"
+	textured_emblem = {
+		texture = "flag_watkins.dds"
+	}
+}
+2002373 = {
+    pattern="pattern_solid.dds"
+    color1=black
+    color2=yellow
+    color3=red
+    colored_emblem={
+        color1=rgb { 142 12 12 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.070000 0.560000 }
+            scale={ 0.130000 0.130000 }
+            depth=8.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 230 228 227 }
+        texture="ce_mena_bend.dds"
+        instance={
+            position={ 0.460000 0.390000 }
+            depth=13.010000
+            rotation=177
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 144 12 12 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.300000 0.830000 }
+            scale={ 0.150000 0.150000 }
+            depth=15.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 133 23 8 }
+        texture="ce_mena_bend.dds"
+        instance={
+            position={ 1.000000 0.250000 }
+            depth=11.010000
+            rotation=175
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 183 180 178 }
+        color2=grey
+        texture="ce_sword_simple.dds"
+        instance={
+            position={ 0.830000 0.130000 }
+            scale={ 0.470000 0.400000 }
+            depth=1.010000
+            rotation=178
+        }
+
+    }
+
+    colored_emblem={
+        color1=yellow
+        texture="ce_snake.dds"
+        instance={
+            position={ 0.830000 0.170000 }
+            scale={ 0.240000 0.270000 }
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 135 13 13 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.500000 0.910000 }
+            scale={ 0.190000 0.170000 }
+            depth=6.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 155 152 152 }
+        color2=rgb { 174 172 172 }
+        texture="ce_sword_simple.dds"
+        instance={
+            position={ 0.430000 0.110000 }
+            scale={ 0.590000 0.650000 }
+            depth=10.010000
+            rotation=46
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 119 10 10 }
+        color2=rgb { 102 17 6 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.210000 0.490000 }
+            scale={ 0.140000 0.140000 }
+            depth=5.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 143 10 10 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.650000 0.850000 }
+            scale={ 0.170000 0.180000 }
+            depth=7.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 165 40 23 }
+        color2=blue
+        texture="ce__empty_designer.dds"
+        instance={
+            depth=14.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 131 12 12 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.170000 0.700000 }
+            scale={ 0.150000 0.120000 }
+            depth=9.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 128 11 11 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.410000 0.700000 }
+            scale={ 0.170000 0.160000 }
+            depth=3.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 236 170 58 }
+        color2=rgb { 147 103 37 }
+        color3=black
+        texture="ce_lion_rampant_forked.dds"
+        instance={
+            position={ 0.520000 0.480000 }
+            scale={ 0.790000 0.780000 }
+            depth=2.010000
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 139 24 9 }
+        texture="ce_mena_bend.dds"
+        instance={
+            position={ 0.730000 0.240000 }
+            depth=12.010000
+            rotation=178
+        }
+
+    }
+
+    colored_emblem={
+        color1=rgb { 110 6 6 }
+        texture="ce_fleur.dds"
+        instance={
+            position={ 0.080000 0.350000 }
+            scale={ 0.140000 0.140000 }
+            depth=4.010000
+        }
+
+    }
+
+}

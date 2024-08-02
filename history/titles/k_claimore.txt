@@ -1,0 +1,46 @@
+k_claimore = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 10 }
+	1066.9.14 = {
+		holder = waltherina
+	}
+}
+
+
+c_lutte = {
+	1066.9.14 = {
+		holder = 7568918232
+		liege = "d_kerrandin"
+	}
+}	
+
+d_kerrandin = {
+	1066.9.14 = {
+		holder = marnaus
+		liege = "k_claimore"
+	}
+}	
+d_westkerrandin = {
+	1066.9.14 = {
+		holder = marnaus
+		liege = "k_claimore"
+	}
+}
+d_varrenstone = {
+	1066.9.14 = {
+		holder = 751898752
+		liege = "k_claimore"
+	}
+}
+d_pristok = {
+	1066.9.14 = {
+		holder = bjork
+		liege = "k_claimore"
+	}
+}
+d_vaden = {
+	1066.9.14 = {
+		holder = erich
+		liege = "k_claimore"
+	}
+}

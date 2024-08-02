@@ -1,0 +1,13 @@
+﻿l_russian:
+ 
+ ### DISABLED EVENTS ###
+ ask_for_disabled_support_decision:0 "Подача пенсионной заявки"
+ ask_for_disabled_support_decision_desc:0 "Мне как инвалиду полагаются ежемесячные выплаты от государства! Так я считаю, так и будет."
+ ask_for_disabled_support_decision_confirm:0 "Подать..."
+ disabled_support.t:0 "Инвалиды просят денег"
+ disabled_support.desc:0 "Этот.. человек.. подал заявку на государственную пенсию, в моих руках перо, а на столе бумага, \nот того поставлю ли я подпись или нет зависит благосостояние несчастного.."
+ disabled_support.a:0 "Так уж и быть."
+ disabled_support.b:0 "Иди к черту, чертила!"
+ 
+ 
+ 

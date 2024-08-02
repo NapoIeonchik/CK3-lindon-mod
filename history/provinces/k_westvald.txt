@@ -1,0 +1,530 @@
+608 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+609 = {
+	holding = none
+}
+610 = {
+	holding = none
+}
+611 = {
+	holding = none
+}
+612 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+613 = {
+	holding = none
+}
+614 = {
+	holding = none
+}
+615 = {
+	holding = none
+}
+616 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+617 = {
+	holding = none
+}
+618 = {
+	holding = none
+}
+619 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+620 = {
+	holding = none
+}
+621 = {
+	holding = none
+}
+622 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+623 = {
+	holding = none
+}
+624 = {
+	holding = none
+}
+625 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+626 = {
+	holding = none
+}
+627 = {
+	holding = none
+}
+628 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+629 = {
+	holding = none
+}
+630 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+631 = {
+	holding = none
+}
+632 = {
+	holding = none
+}
+632 = {
+	holding = none
+}
+633 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+634 = {
+	holding = none
+}
+635 = {
+	holding = none
+}
+636 = {
+	holding = none
+}
+637 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+638 = {
+	holding = none
+}
+639 = {
+	holding = none
+}
+640 = {
+	holding = none
+}
+641 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+642 = {
+	holding = none
+}
+643 = {
+	holding = none
+}
+644 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+645 = {
+	holding = none
+}
+646 = {
+	holding = none
+}
+647 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+648 = {
+	holding = none
+}
+649 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+650 = {
+	holding = none
+}
+651 = {
+	holding = none
+}
+652 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+653 = {
+	holding = none
+}
+654 = {
+	holding = none
+}
+655 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+656 = {
+	holding = none
+}
+657 = {
+	holding = none
+}
+658 = {
+	holding = none
+}
+659 = {
+	holding = none
+}
+660 = {
+	holding = none
+}
+661 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+662 = {
+	holding = none
+}
+676 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+677 = {
+	holding = none
+}
+678 = {
+	holding = none
+}
+679 = {
+	holding = none
+}
+680 = {
+	holding = none
+}
+681 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+682 = {
+	holding = none
+}
+683 = {
+	holding = none
+}
+684 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+685 = {
+	holding = none
+}
+686 = {
+	holding = none
+}
+687 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+688 = {
+	holding = none
+}
+689 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+690 = {
+	holding = none
+}
+691 = {
+	holding = none
+}
+692 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+693 = {
+	holding = none
+}
+694 = {
+	holding = none
+}
+695 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+696 = {
+	holding = none
+}
+697 = {
+	holding = none
+}
+698 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+699 = {
+	holding = none
+}
+700 = {
+	holding = none
+}
+701 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+702 = {
+	holding = none
+}
+703 = {
+	holding = none
+}
+704 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+705 = {
+	holding = none
+}
+706 = {
+	holding = none
+}
+707 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+708 = {
+	holding = none
+}
+709 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+710 = {
+	holding = none
+}
+711 = {
+	holding = none
+}
+712 = {
+	holding = none
+}
+713 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+714 = {
+	holding = none
+}
+715 = {
+	holding = none
+}
+716 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+717 = {
+	holding = none
+}
+718 = {
+	holding = none
+}
+719 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+720 = {
+	holding = none
+}
+721 = {
+	holding = none
+}
+722 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+723 = {
+	holding = none
+}
+724 = {
+	holding = none
+}
+725 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+726 = {
+	holding = none
+}
+727 = {
+	holding = none
+}
+728 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+729 = {
+	holding = none
+}
+730 = {
+	holding = none
+}
+731 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+732 = {
+	holding = none
+}
+733 = {
+	holding = none
+}
+734 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+735 = {
+	holding = none
+}
+736 = {
+	holding = none
+}
+737 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+738 = {
+	holding = none
+}
+739 = {
+	holding = none
+}
+740 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+741 = {
+	holding = none
+}
+742 = {
+	holding = none
+}
+743 = {
+	holding = none
+}
+744 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+745 = {
+	holding = none
+}
+746 = {
+	holding = none
+}
+747 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+748 = {
+	holding = none
+}
+749 = {
+	holding = none
+}
+750 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+751 = {
+	holding = none
+}
+752 = {
+	holding = none
+}
+753 = {
+	holding = none
+}
+754 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+755 = {
+	holding = none
+}
+756 = {
+	holding = none
+}
+757 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+758 = {
+	holding = none
+}
+759 = {
+	holding = none
+}
+760 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+761 = {
+	holding = none
+}
+762 = {
+	holding = none
+}
+763 = {
+	culture = westvaldian
+	religion = three
+	holding = castle_holding
+}
+764 = {
+	holding = none
+}
+765 = {
+	holding = none
+}

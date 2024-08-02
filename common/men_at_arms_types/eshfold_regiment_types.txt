@@ -181,14 +181,14 @@ claimorean_dogs = {
 	high_maintenance_cost = { gold = 1.1 }
 	
 	stack = 100
-	damage = 55
+	damage = 45
 	toughness = 30
 	pursuit = 0
-	screen = 0
+	screen = 15
 	terrain_bonus = {
-		hills = { damage = 15 }
+		hills = { damage = 5 toughness = 15}
 		forest = { damage = 5 }
-		plains = { toughness = -10 }
+		plains = { toughness = -5 }
 		drylands = { toughness = -10 }
 		desert = { toughness = -10 }
 	}
@@ -212,13 +212,13 @@ white_shields = {
 	high_maintenance_cost = { gold = 1.3 }
 	
 	stack = 90
-	damage = 60
+	damage = 40
 	toughness = 30
-	pursuit = 25
-	screen = 0
+	pursuit = 20
+	screen = 20
 	terrain_bonus = {
-		hills = { damage = 20 }
-		forest = { damage = -15 }
+		hills = { damage = 15 toughness = 10 }
+		forest = { damage = 5 }
 		plains = { toughness = -10 }
 		drylands = { toughness = -10 }
 		desert = { toughness = -10 }
@@ -248,7 +248,7 @@ westvald_hunters = {
 	pursuit = 30
 	screen = 30
 	terrain_bonus = {
-		hills = { damage = 10 }
+		hills = { damage = 10 toughness = 10 }
 		forest = { damage = 30 toughness = 20 }
 		plains = { toughness = -10 damage = -15 }
 		drylands = { toughness = -8 }

@@ -1,0 +1,16 @@
+every_kerrandin_county = {
+	min = 0
+	value = global_var:kerrandinian_land_total
+}
+ruler_owns_kerrandin_counties = {
+    min = 0
+    value = primary_title.var:kerrandinian_land_owned
+}
+90_percent_of_kerrandin_land = {
+	# Mathematical operations	
+	value = global_var:kerrandinian_land_total
+	multiply = 0.9
+    min = 1
+
+	round = yes 
+}

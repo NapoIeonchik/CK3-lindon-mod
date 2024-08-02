@@ -10,4 +10,5 @@
  nick_stormblessed:0 "[Select_CString(CHARACTER.IsFemale, 'Благословенная Бурей', 'Благословенный Бурей' )]"
  nick_ironfoot:0 "[Select_CString(CHARACTER.IsFemale, 'Железностопая', 'Железностоп' )]"
  nick_bobissa:0 "[Select_CString(CHARACTER.IsFemale, 'Злая Бобище', 'Злой Мужлан' )]"
- nick_attempter:0 "[Select_CString(CHARACTER.IsFemale, 'Реставратор', 'Реставраторша' )]"
+ nick_attempter:0 "[Select_CString(CHARACTER.IsFemale, 'Реставраторша', 'Реставратор' )]"
+ nick_bombovich:0 "[Select_CString(CHARACTER.IsFemale, 'Бомбович', 'Бомбович' )]"

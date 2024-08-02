@@ -1,0 +1,203 @@
+namespace = katrin
+
+katrin.0001 = {
+    type = character_event
+	title = katrin.0001.t
+	desc = katrin.0001.desc
+    theme = stewardship_duty_focus
+    left_portrait = {
+		character = root
+		animation = stress 
+	}
+    option = {  
+		name = katrin.0001.a
+		trigger_event = { #Successful
+			id = katrin.0002 
+			days = { 90 120 }
+		}
+	}
+}
+katrin.0002 = { # Choose between stewardship and intrigue
+    type = character_event
+	title = katrin.0002.t
+	desc = katrin.0002.desc
+    theme = stewardship_duty_focus
+    left_portrait = {
+		character = root
+		animation = stress 
+	}
+    option = {  
+		name = katrin.0002.a
+        add_character_flag = katrin_stewardship
+        add_stress = 40
+		trigger_event = { # stewardship
+			id = katrin.0003 
+			days = { 30 60 }
+		}
+        ai_chance = {
+			base = 50
+		}
+	}
+    option = {  
+		name = katrin.0002.b
+        add_character_flag = katrin_intrigue
+        add_stress = -40
+		trigger_event = { # intrigue
+			id = katrin.0003 
+			days = { 30 60 }
+		}
+        ai_chance = {
+			base = 50
+		}
+	}
+}
+katrin.0003 = { # Choose between martial and fertility
+    type = character_event
+	title = katrin.0003.t
+	desc = katrin.0003.desc
+    theme = stewardship_duty_focus
+    left_portrait = {
+		character = root
+		animation = stress 
+	}
+    option = {  
+		name = katrin.0003.a
+        add_character_flag = katrin_martial
+        add_stress = -40
+		trigger_event = { # martial
+			id = katrin.0004 
+			days = { 30 60 }
+		}
+        ai_chance = {
+			base = 50
+		}
+	}
+    option = {  
+		name = katrin.0003.b
+        add_character_flag = katrin_fertility
+        add_stress = 40
+		trigger_event = { # fertility
+			id = katrin.0004 
+			days = { 30 60 }
+		}
+        ai_chance = {
+			base = 50
+		}
+	}
+}
+katrin.0004 = {
+    type = character_event
+    title = katrin.0004.t
+    desc = katrin.0004.desc
+    theme = stewardship_duty_focus
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+    
+    immediate = {
+        create_character = {
+            dynasty_house = root.house
+            faith = root.faith
+            culture = root.culture
+            gender_female_chance = 100
+            name = "Katrin"
+            female = yes
+            age = 18
+            employer = root
+            disallow_random_traits = yes
+	        trait = artificial_intelligence
+            save_scope_as = katrin
+        }
+        if = {
+            limit = {
+                has_character_flag = katrin_stewardship
+            }
+            remove_character_flag = katrin_stewardship
+            hidden_effect = {
+                scope:katrin = {
+                    random_list = {
+                        30 = {add_stewardship_skill=6}
+                        70 = {add_stewardship_skill=10}
+                    }
+                    random_list = {
+                        70 = {add_trait=education_stewardship_3}
+                        20 = {add_trait=education_stewardship_4}
+                        10 = {add_trait=education_stewardship_5}
+                    }
+                    random_list = {
+                        30 = {add_learning_skill=4}
+                        70 = {add_learning_skill=6}
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = katrin_intrigue
+            }
+            remove_character_flag = katrin_intrigue
+            hidden_effect = {
+                scope:katrin = {
+                    random_list = {
+                        30 = {add_intrigue_skill = 6}
+                        70 = {add_intrigue_skill = 10}
+                    }
+                    random_list = {
+                        70 = {add_trait=education_intrigue_3}
+                        20 = {add_trait=education_intrigue_4}
+                        10 = {add_trait=education_intrigue_5}
+                    }
+                    random_list = {
+                        30 = {add_diplomacy_skill=4}
+                        70 = {add_diplomacy_skill=6}
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = katrin_martial
+            }
+            remove_character_flag = katrin_martial
+            hidden_effect = {
+                scope:katrin = {
+                    random_list = {
+                        30 = {add_martial_skill=6}
+                        70 = {add_martial_skill=10}
+                    }
+                    random_list = {
+                        70 = {add_prowess_skill=5}
+                        20 = {add_prowess_skill=10}
+                        10 = {add_prowess_skill=15}
+                    }
+                }
+            }
+        }
+        if = {
+            limit = {
+                has_character_flag = katrin_fertility
+            }
+            remove_character_flag = katrin_fertility
+            hidden_effect = {
+                scope:katrin = {
+                    random_list = {
+                        30 = {
+                            add_character_modifier = fertility_boost
+                            add_character_modifier = fertility_boost
+                        }
+                        70 = {add_character_modifier = fertility_boost}
+                    }
+                }
+            }
+        }
+    }
+    left_portrait = {
+        character = katrin
+        animation = happiness
+    }
+    option = {  
+		name = katrin.0004.a
+        add_stress = -40
+	}
+}
