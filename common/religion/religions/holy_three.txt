@@ -5,7 +5,7 @@ holy_three = {
 	doctrine = abrahamic_hostility_doctrine
 
 	#Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_lay_clergy
@@ -14,7 +14,7 @@ holy_three = {
 	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_approval
 	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
 	doctrine = doctrine_homosexuality_shunned
@@ -235,9 +235,9 @@ holy_three = {
 			doctrine = special_doctrine_ecumenical_christian
 
 			#Tenets
-			doctrine = tenet_ritual_celebrations 
-			doctrine = tenet_armed_pilgrimages
-			doctrine = tenet_monasticism
+			doctrine = tenet_adaptive 
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_pursuit_of_power
 
 			holy_order_names = {
 				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
