@@ -240,12 +240,12 @@ holy_three = {
 			doctrine = tenet_pursuit_of_power
 
 			holy_order_names = {
-				{ name = "holy_order_knights_templar" coat_of_arms = "ho_knights_templar" }
-				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
-				{ name = "holy_order_teutonic_order" coat_of_arms = "ho_teutonic_order"  }
-				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
-				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
-				{ name = "holy_order_knights_of_santiago" coat_of_arms = "ho_knights_of_santiago"  }
+				{ name = "holy_order_order_of_the_devoties_of_faith" coat_of_arms = "ho_order_of_alcantara"  }
+				{ name = "holy_order_swords_of_emperor" coat_of_arms = "ho_knights_hospitaller"  }
+				{ name = "holy_order_vald_warriors" coat_of_arms = "ho_knights_templar" }
+				{ name = "holy_order_greintvaldian_will" coat_of_arms = "ho_teutonic_order"  }
+				{ name = "holy_order_holy_army" coat_of_arms = "ho_order_of_calatrava"  }
+				{ name = "holy_order_valderians" coat_of_arms = "ho_knights_of_santiago"  }
 			}
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
