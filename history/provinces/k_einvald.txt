@@ -166,6 +166,455 @@
 815 = {
 	holding = none
 }
+816 = {
+	holding = none
+}
+817 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+818 = {
+	holding = none
+}
+819 = {
+	holding = none
+}
+820 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+821 = {
+	holding = none
+}
+822 = {
+	holding = none
+}
+823 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+824 = {
+	holding = none
+}
+825 = {
+	holding = none
+}
+826 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+827 = {
+	holding = none
+}
+828 = {
+	holding = none
+}
+829 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+830 = {
+	holding = none
+}
+831 = {
+	holding = none
+}
+832 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+833 = {
+	holding = none
+}
+834 = {
+	holding = none
+}
+835 = {
+	holding = none
+}
+836 = {
+	holding = none
+}
+837 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+838 = {
+	holding = none
+}
+839 = {
+	holding = none
+}
+840 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+841 = {
+	holding = none
+}
+842 = {
+	holding = none
+}
+843 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+844 = {
+	holding = none
+}
+845 = {
+	holding = none
+}
+846 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+847 = {
+	holding = none
+}
+848 = {
+	holding = none
+}
+849 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+850 = {
+	holding = none
+}
+851 = {
+	holding = none
+}
+852 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+853 = {
+	holding = none
+}
+854 = {
+	holding = none
+}
+855 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+856 = {
+	holding = none
+}
+857 = {
+	holding = none
+}
+858 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+859 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+860 = {
+	holding = none
+}
+861 = {
+	holding = none
+}
+862 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+863 = {
+	holding = none
+}
+864 = {
+	holding = none
+}
+865 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+866 = {
+	holding = none
+}
+867 = {
+	holding = none
+}
+868 = {
+	holding = none
+}
+869 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+870 = {
+	holding = none
+}
+871 = {
+	holding = none
+}
+872 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+873 = {
+	holding = none
+}
+874 = {
+	holding = none
+}
+875 = {
+	holding = none
+}
+876 = {
+	holding = none
+}
+877 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+878 = {
+	holding = none
+}
+879 = {
+	holding = none
+}
+880 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+881 = {
+	holding = none
+}
+882 = {
+	holding = none
+}
+883 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+884 = {
+	holding = none
+}
+885 = {
+	holding = none
+}
+886 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+887 = {
+	holding = none
+}
+888 = {
+	holding = none
+}
+889 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+890 = {
+	holding = none
+}
+891 = {
+	holding = none
+}
+892 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+893 = {
+	holding = none
+}
+894 = {
+	holding = none
+}
+895 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+896 = {
+	holding = none
+}
+897 = {
+	holding = none
+}
+898 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+899 = {
+	holding = none
+}
+900 = {
+	holding = none
+}
+901 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+902 = {
+	holding = none
+}
+903 = {
+	holding = none
+}
+904 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+905 = {
+	holding = none
+}
+906 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+907 = {
+	holding = none
+}
+908 = {
+	holding = none
+}
+909 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+910 = {
+	holding = none
+}
+911 = {
+	holding = none
+}
+912 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+913 = {
+	holding = none
+}
+914 = {
+	holding = none
+}
+915 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+916 = {
+	holding = none
+}
+917 = {
+	holding = none
+}
+918 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+919 = {
+	holding = none
+}
+920 = {
+	holding = none
+}
+921 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+922 = {
+	holding = none
+}
+923 = {
+	holding = none
+}
+924 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+925 = {
+	holding = none
+}
+926 = {
+	holding = none
+}
+927 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+928 = {
+	holding = none
+}
+929 = {
+	holding = none
+}
+930 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+931 = {
+	holding = none
+}
+932 = {
+	holding = none
+}
+933 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+934 = {
+	holding = none
+}
+935 = {
+	holding = none
+}
+936 = {
+	culture = einvaldian
+	religion = three
+	holding = castle_holding
+}
+937 = {
+	holding = none
+}
+938 = {
+	holding = none
+}
 939 = {
 	culture = elvish
 	religion = three
