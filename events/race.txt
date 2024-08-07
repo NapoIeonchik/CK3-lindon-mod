@@ -1,5 +1,5 @@
 namespace = race
-scripted_trigger not_elf = {
+scripted_trigger not_elf_race = {
 	culture = culture:elvish
 	NOT = { 
 		OR = {
@@ -22,21 +22,15 @@ race.0001 = {
 	trigger = {
 		is_from_ruler_designer = no
 		OR = {
-			not_elf = yes
+			not_elf_race = yes
 		}
 	}
 
 
 	immediate = {
-		#if = {
-		#	limit = {
-		#		not_valar = yes
-		#	}
-		#	death = natural
-		#}
 		if = {
 			limit = {
-				not_nazgul = yes
+				not_elf_race = yes
 			}
 			add_trait = elf
 		}
@@ -115,15 +109,7 @@ race.0003 = {
 
 
 	immediate = {
-		#if = {
-		#	limit = {
-		#		not_valar = yes
-		#	}
-		#	death = natural
-		#}
-		if = {
-			add_trait = fertility_decline
-		}
+		add_trait = fertility_decline
 	}
 
 }
