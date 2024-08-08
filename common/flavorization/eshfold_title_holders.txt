@@ -192,6 +192,38 @@ title_greintqueen = {
 	priority = 102
 	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
+title_einvaldking = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = holder
+	priority = 102
+	titles = { k_einvald }
+}
+title_einvaldqueen = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = holder
+	priority = 102
+	titles = { k_einvald }
+}
+title_greintking_prince = {
+	type = character
+	tier = kingdom
+	gender = male
+	special = ruler_child
+	priority = 102
+	titles = { k_claimore k_westvald k_reinvald k_bervi k_einvald }
+}
+title_greintking_princess = {
+	type = character
+	tier = kingdom
+	gender = female
+	special = ruler_child
+	priority = 102
+	titles = { k_claimore k_westvald k_reinvald k_bervi k_einvald }
+}
 title_greintkingdom_simple = {
 	type = title
 	tier = kingdom
