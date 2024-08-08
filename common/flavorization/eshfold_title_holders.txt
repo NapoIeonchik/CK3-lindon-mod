@@ -210,19 +210,19 @@ title_einvaldqueen = {
 }
 title_greintking_prince = {
 	type = character
-	tier = kingdom
 	gender = male
 	special = ruler_child
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi k_einvald }
+	tier = kingdom
+	governments = { feudal_government clan_government }
+	priority = 200
 }
 title_greintking_princess = {
 	type = character
-	tier = kingdom
-	gender = female
+	gender = male
 	special = ruler_child
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi k_einvald }
+	tier = kingdom
+	governments = { feudal_government clan_government }
+	priority = 200
 }
 title_greintkingdom_simple = {
 	type = title
@@ -230,38 +230,7 @@ title_greintkingdom_simple = {
 	priority = 102
 	titles = { k_claimore k_westvald k_reinvald k_bervi }
 }
-title_greintduke = {
-	type = character
-	tier = duchy
-	gender = male
-	special = holder
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi }
-}
-title_greintdukef = {
-	type = character
-	tier = duchy
-	gender = female
-	special = holder
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi }
-}
-title_greintcount = {
-	type = character
-	tier = county
-	gender = male
-	special = holder
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi }
-}
-title_greintcountf = {
-	type = character
-	tier = county
-	gender = female
-	special = holder
-	priority = 102
-	titles = { k_claimore k_westvald k_reinvald k_bervi }
-}
+
 title_paragon_baroness = {
 	type = character
 	tier = county
