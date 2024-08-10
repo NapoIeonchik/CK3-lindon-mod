@@ -1,6 +1,5 @@
 holy_three = {
 	family = rf_vald
-	graphical_faith = catholic_gfx
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
 	doctrine = abrahamic_hostility_doctrine

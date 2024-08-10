@@ -254,54 +254,30 @@
     }
 
 }
-d_evalberg = {
-	pattern="pattern_horizontal_stripes_01.dds"
-	color1=black
-	color2=rgb { 18 84 89 }
+2001327 = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=white
 	color3=blue
 	colored_emblem={
-		color1=black
-		color3=white
-		texture="ce_leopard_passant_guardant.dds"
+		color1=white
+		color2=purple
+		texture="ce_border_shield_compony_invert.dds"
 		instance={
-			position={ 0.240000 0.500000 }
-			scale={ -0.510000 0.510000 }
-			depth=3.010000
+			depth=1.010000
 		}
 
 	}
 
 	colored_emblem={
 		color1=white
-		texture="ce_fleur.dds"
+		texture="ce_fleur_florence.dds"
 		instance={
-			position={ 0.510000 0.510000 }
-			scale={ 0.270000 0.270000 }
-		}
-
-		instance={
-			position={ 0.750000 0.190000 }
-			scale={ 0.270000 0.270000 }
-			depth=1.010000
-		}
-
-		instance={
-			position={ 0.250000 0.200000 }
-			scale={ 0.270000 0.270000 }
-			depth=4.010000
+			position={ 0.500000 0.460000 }
+			scale={ 0.690000 0.690000 }
 		}
 
 	}
 
-	colored_emblem={
-		color1=black
-		color2=black
-		color3=white
-		texture="ce_leopard_passant_guardant.dds"
-		instance={
-			position={ 0.770000 0.500000 }
-			scale={ 0.490000 0.490000 }
-			depth=2.010000
-		}
-	}
 }
+

@@ -485,7 +485,7 @@
 138 = {
 	culture = bervian
 	religion = three
-	holding = castle_holding
+	holding = city_holding
 }
 139 = {
 	holding = none

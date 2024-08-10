@@ -218,7 +218,7 @@ title_greintking_prince = {
 }
 title_greintking_princess = {
 	type = character
-	gender = male
+	gender = female
 	special = ruler_child
 	tier = kingdom
 	governments = { feudal_government clan_government }

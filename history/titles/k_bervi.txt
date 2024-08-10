@@ -42,3 +42,9 @@ d_eddon = {
 		liege = "k_bervi"
 	}
 }
+c_mogylnik = {
+	1066.9.14 = {
+		liege = "k_bervi"
+		holder = ulfhednar
+	}
+}

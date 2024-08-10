@@ -1326,7 +1326,7 @@ trumeranta = {
 	trait = wrathful
 	trait = forgiving
 	trait = hashishiyah
-	1046.1.1 = {
+	1042.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
@@ -4255,6 +4255,35 @@ katana = {
 	trait = brave
 	trait = greedy
 	1049.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+ulfhednar = {
+	name = "Ulfhednar"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_beard_fp2_iberian_christian_03
+			custom_hair = male_hair_western_09
+		}
+	}
+	dna = ulfhednar_dna
+	sexuality = heterosexual
+	martial = 5
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 9
+	learning = 4
+	religion = "three"
+	culture = bervian
+	trait = education_stewardship_4
+	trait = ambitious
+	trait = diligent
+	trait = stubborn
+	trait = education_republican_knowledge_3
+	1033.1.1 = {
 		birth = yes
 	}
 	1100.1.1 = {
