@@ -4290,3 +4290,26 @@ ulfhednar = {
 		death = yes
 	}
 }
+dima_negrov = {
+	name = "Dmitriy"
+	dynasty = 2002357
+	dna = negrov_dna
+	sexuality = heterosexual
+	martial = 8
+	diplomacy = 8
+	intrigue = 2
+	stewardship = 5
+	learning = 3
+	religion = "three"
+	culture = claimorean
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = fickle
+	1049.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

@@ -34,13 +34,19 @@ d_varrenstone = {
 }
 d_pristok = {
 	1066.9.14 = {
-		holder = bjork
+		holder = dima_negrov
 		liege = "k_claimore"
 	}
 }
 d_vaden = {
 	1066.9.14 = {
 		holder = erich
+		liege = "k_claimore"
+	}
+}
+d_claimore2 = {
+	1066.9.14 = {
+		holder = bjork
 		liege = "k_claimore"
 	}
 }
