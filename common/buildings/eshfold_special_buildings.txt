@@ -248,3 +248,35 @@ wise_tree = {
 	
 	type = special
 }
+fence_plant = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_golden_Gate_of_kiev.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_battlements
+		}
+	}
+	
+	cost_gold = 200
+
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_2
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	county_modifier = {
+		development_growth_factor = 0.5
+		development_growth = 0.5
+	}
+	
+	ai_value = {
+		base = 200
+	}
+	
+	type = special
+}

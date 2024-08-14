@@ -5,3 +5,15 @@ elven_refugees_modifier = {
 	tax_mult = -0.5
 	levy_size = -0.5
 }
+fences_1 = {
+	icon = outdoors_positive
+	fort_level = good_building_fort_level_tier_2
+}
+fences_2 = {
+	icon = outdoors_positive
+	fort_level = good_building_fort_level_tier_3
+}
+fences_3 = {
+	icon = outdoors_positive
+	fort_level = good_building_fort_level_tier_4
+}

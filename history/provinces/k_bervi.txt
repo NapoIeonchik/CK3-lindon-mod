@@ -486,6 +486,10 @@
 	culture = bervian
 	religion = three
 	holding = city_holding
+	1066.1.1 = {
+		special_building_slot = fence_plant	
+		special_building = fence_plant
+	}
 }
 139 = {
 	holding = none

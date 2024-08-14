@@ -1,0 +1,66 @@
+namespace = ulfhednar_fence
+####
+ulfhednar_fence.0001 = {  
+	title = ulfhednar_fence.0001.t
+	desc = ulfhednar_fence.0001.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	
+	option = { 
+		name = ulfhednar_fence.0001.a	
+        add_gold = -100
+        scope:capital_county_scope = {
+            add_county_modifier = {
+                modifier = fences_1
+                years = 5
+            }
+        }
+        scope:fence_builder = {
+            add_gold = 100
+        }
+        ai_chance = {
+			base = 50 
+		}
+	}
+    option = { 
+		name = ulfhednar_fence.0001.b	
+        add_gold = -175
+        scope:capital_county_scope = {
+            add_county_modifier = {
+                modifier = fences_2
+                years = 5
+            }
+        }
+        scope:fence_builder = {
+            add_gold = 175
+        }
+        ai_chance = {
+			base = 25 
+		}
+	}
+    option = { 
+		name = ulfhednar_fence.0001.c	
+        add_gold = -250
+        scope:capital_county_scope = {
+            add_county_modifier = {
+                modifier = fences_3
+                years = 5
+            }
+        }
+        scope:fence_builder = {
+            add_gold = 250
+        }
+        ai_chance = {
+			base = 25
+		}
+	}
+    option = { 
+		name = ulfhednar_fence.0001.d	
+        ai_chance = {
+			base = 0
+		}
+	}
+}

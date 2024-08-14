@@ -1,0 +1,57 @@
+ulfhednar_fence_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_ulfhednar_fence.dds"
+	major = yes
+
+	ai_check_interval = 120
+	ai_will_do = {
+		base = 100
+	}
+
+	desc = ulfhednar_fence_decision_desc
+	selection_tooltip = ulfhednar_fence_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+		OR = {
+			culture = { has_cultural_pillar = heritage_greintvaldian}
+		}
+        title:c_mogylnik = { 
+			title_province = {
+				has_building = fence_plant
+			}
+		}
+	}
+	cooldown = { days = 1825 }
+	is_valid = {
+		exists = title:c_mogylnik.holder
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			ulfhednar_fence_decision = yes
+		}
+		save_scope_as = buyer
+		capital_county = {
+			save_scope_as = capital_county_scope
+		}
+		title:c_mogylnik.holder = {
+			save_scope_as = fence_builder
+		}
+		trigger_event = { id = ulfhednar_fence.0001 }
+	}
+
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
