@@ -471,7 +471,7 @@ geneticheskii = {
 
 	index = 458
 	
-	birth = 0.15
+	birth = 0
 	random_creation = 0
 	learning = -3
 	diplomacy = -2
