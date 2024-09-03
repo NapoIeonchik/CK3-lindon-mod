@@ -374,6 +374,10 @@
 	culture = einvaldian
 	religion = three
 	holding = castle_holding
+	1066.1.1 = {
+		special_building_slot = evalberg_palace
+		special_building = evalberg_palace
+	}
 }
 873 = {
 	holding = none
