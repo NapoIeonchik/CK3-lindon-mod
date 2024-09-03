@@ -1,8 +1,20 @@
 ﻿heritage_greintvaldian = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_greintvaldian 
+		}
+	}
+	audio_parameter = european
 }
 heritage_anlyudian = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_anlyudian 
+		}
+	}
+	audio_parameter = european
 }
 
 
