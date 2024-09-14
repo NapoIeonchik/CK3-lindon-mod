@@ -7,6 +7,15 @@
 	}
 	audio_parameter = european
 }
+heritage_kasogian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kasogian
+		}
+	}
+	audio_parameter = european
+}
 heritage_anlyudian = {
 	type = heritage
 	is_shown = {

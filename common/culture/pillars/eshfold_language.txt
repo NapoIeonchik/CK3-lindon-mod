@@ -15,4 +15,22 @@
 	
 	color = english
 }
+language_kasogian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kasogian 
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = heritage_kasogian }
+			multiply = 20
+		}
+	}
+	
+	color = english
+}
+
 

@@ -1,0 +1,28 @@
+kraiholmian = {
+	color = { 0.7 0.9 0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_kasogian
+	language = heritage_kasogian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ancient_miners
+		tradition_maritime_mercantilism 
+		tradition_stalwart_defenders 
+		tradition_druzhina
+	}
+	
+	name_list = name_list_greintvaldian 
+	
+	coa_gfx = { norman_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		45 = caucasian_blond
+		5 = caucasian_ginger
+		10 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}
