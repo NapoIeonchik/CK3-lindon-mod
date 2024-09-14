@@ -3,7 +3,7 @@ kraiholmian = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_kasogian
-	language = heritage_kasogian
+	language = language_kasogian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_ancient_miners
