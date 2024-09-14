@@ -1,0 +1,6 @@
+k_kraishe = {
+	1066.1.1 = { change_development_level = 9 }
+	1066.9.14 = {
+		holder = marhia_gotfried
+	}
+}

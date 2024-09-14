@@ -4313,3 +4313,24 @@ dima_negrov = {
 		death = yes
 	}
 }
+marhia_gotfried = {
+	name = "Gotfried"
+	dynasty = 2002358
+	martial = 8
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = einvaldian
+	trait = education_martial_4
+	trait = arbitrary
+	trait = deceitful
+	trait = wrathful
+	1036.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
