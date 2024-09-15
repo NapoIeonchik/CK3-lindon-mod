@@ -16,37 +16,37 @@ c_lutte = {
 
 d_kerrandin = {
 	1066.9.14 = {
-		liege = "k_claimore"
+		#liege = "k_claimore"
 		holder = marnaus
 	}
 }	
 d_westkerrandin = {
 	1066.9.14 = {
 		holder = marnaus
-		liege = "k_claimore"
+		#liege = "k_claimore"
 	}
 }
 d_varrenstone = {
 	1066.9.14 = {
 		holder = 751898752
-		liege = "k_claimore"
+		#liege = "k_claimore"
 	}
 }
 d_pristok = {
 	1066.9.14 = {
 		holder = dima_negrov
-		liege = "k_claimore"
+		#liege = "k_claimore"
 	}
 }
 d_vaden = {
 	1066.9.14 = {
 		holder = erich
-		liege = "k_claimore"
+		#liege = "k_claimore"
 	}
 }
 d_claimore2 = {
 	1066.9.14 = {
 		holder = bjork
-		liege = "k_claimore"
+		#liege = "k_claimore"
 	}
 }

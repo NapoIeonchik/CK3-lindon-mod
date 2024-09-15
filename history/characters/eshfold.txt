@@ -3832,6 +3832,7 @@ vergil = {
 }
 boris_blade = {
 	name = "Boris"
+	dynasty = 2002360
 	dna = boris_dna
 	sexuality = bisexual
 	martial = 5
@@ -4328,6 +4329,48 @@ marhia_gotfried = {
 	trait = deceitful
 	trait = wrathful
 	1036.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+einvald_tarl = {
+	name = "Tarl"
+	dynasty = 2002359
+	martial = 5
+	diplomacy = 9
+	intrigue = 5
+	stewardship = 7
+	learning = 5
+	religion = "three"
+	culture = einvaldian
+	trait = education_diplomacy_4
+	trait = diligent
+	trait = temperate
+	trait = calm
+	1035.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+einvald_drogfess = {
+	name = "Drogfess"
+	dynasty = 2002361
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	learning = 5
+	religion = "three"
+	culture = einvaldian
+	trait = education_martial_3
+	trait = brave
+	trait = fickle
+	trait = calm
+	1045.1.1 = {
 		birth = yes
 	}
 	1120.1.1 = {

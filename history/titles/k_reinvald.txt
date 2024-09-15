@@ -9,19 +9,19 @@ d_danrerua = {
 d_adelja = {
 	1066.9.14 = { 
 		holder = slon
-		liege = k_reinvald
+		#liege = k_reinvald
 	}
 }
 d_dubrava = {
 	1066.9.14 = { 
 		holder = konstantin
-		liege = "k_reinvald"
+		#liege = "k_reinvald"
 	}
 }
 d_kinglod = {
 	1066.9.14 = { 
 		holder = jabb
-		liege = "k_reinvald"
+		#liege = "k_reinvald"
 	}
 }
 c_danrerualeft = {
@@ -51,12 +51,12 @@ c_harsia8 = {
 c_chulya = {
 	1066.9.15 = { 
 		holder = weedwagon
-		liege = "k_reinvald"
+		#liege = "k_reinvald"
 	}
 }
 c_harsia22 = {
 	1066.9.15 = { 
 		holder = weedwagon
-		liege = "k_reinvald"
+		#liege = "k_reinvald"
 	}
 }

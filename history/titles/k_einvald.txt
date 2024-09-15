@@ -10,9 +10,34 @@ k_einvald = {
 		holder = 9999993
 	}
 }
-
+d_whales_grave = {
+	1066.9.14 = {
+		holder = 757498567
+	}
+}
+d_okolars = {
+	1066.9.14 = {
+		holder = einvald_tarl
+	}
+}
+d_tohlobarka = {
+	1066.9.14 = {
+		holder = boris_blade
+	}
+}
+d_aisenfjyal = {
+	1066.9.14 = {
+		holder = einvald_drogfess
+	}
+}
+d_alternid = {
+	1066.9.14 = {
+		holder = godi
+	}
+}
 d_noldor = {
 	1066.9.14 = {
 		holder = 61222490
 	}
 }
+

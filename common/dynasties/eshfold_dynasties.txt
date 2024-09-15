@@ -372,3 +372,15 @@
 	name = "Reyne"
 	culture = "french"
 }
+2002359 = {	
+	name = "de_Bortello"
+	culture = "french"
+}
+2002360 = {	
+	name = "Blade"
+	culture = "french"
+}
+2002361 = {	
+	name = "de_Blanc"
+	culture = "french"
+}

@@ -8,43 +8,43 @@ k_bervi = {
 d_chindar = {
 	1066.9.14 = {
 		holder = roman
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 
 d_middenheim = {
 	1066.9.14 = {
 		holder = vergil
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 d_coalmine = {
 	1066.9.14 = {
 		holder = misha
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 d_raperton = {
 	1066.9.14 = {
 		holder = gabrus
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 d_bribera = {
 	1066.9.14 = {
 		holder = katana
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 d_eddon = {
 	1066.9.14 = {
 		holder = frederik
-		liege = "k_bervi"
+		#liege = "k_bervi"
 	}
 }
 c_mogylnik = {
 	1066.9.14 = {
-		liege = "k_bervi"
+		#liege = "k_bervi"
 		holder = ulfhednar
 	}
 }
