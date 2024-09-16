@@ -31,5 +31,15 @@ pravar_scam_theme = {
 	}
 }
 
-
+harsia_resurgence_theme = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_martial.dds"
+	}
+	sound = {
+		reference = "@generic_event_theme_sound"
+	}
+	background = {
+		event_background = harsia_resurgence
+	}
+}
 

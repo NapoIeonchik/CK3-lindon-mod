@@ -52,6 +52,6 @@ ulfhednar_fence_decision = {
 	}
 
 	ai_will_do = {
-		base = 100
+		base = 80
 	}
 }

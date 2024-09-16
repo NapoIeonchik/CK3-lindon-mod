@@ -5,10 +5,22 @@ global_news.0001 = {
 	window = fullscreen_event
 	title = global_news.0001.t
 	desc = global_news.0001.desc
-	theme = crown
+	theme = pravar_scam_theme
 	override_background = { reference = pravar_scam }
 	
 	option = { 
 		name = global_news.0001.a 
+	}
+}
+global_news.0002 = {
+	type = character_event
+	window = fullscreen_event
+	title = global_news.0002.t
+	desc = global_news.0002.desc
+	theme = crown
+	override_background = { reference = harsia_resurgence }
+	
+	option = { 
+		name = global_news.0002.a 
 	}
 }
