@@ -4,7 +4,7 @@ ulfhednar_fence_decision = {
 
 	ai_check_interval = 120
 	ai_will_do = {
-		base = 100
+		base = 80
 	}
 
 	desc = ulfhednar_fence_decision_desc
