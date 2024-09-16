@@ -384,3 +384,7 @@
 	name = "de_Blanc"
 	culture = "french"
 }
+2002362 = {	
+	name = "Rotbard"
+	culture = "french"
+}

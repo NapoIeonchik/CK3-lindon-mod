@@ -21,10 +21,7 @@ count_mace_template = {
 		always = yes
 	}
 	can_benefit = {
-		AND = {
-			has_title = title:k_paragon
-			has_title = title:c_dublin
-		}
+		always = yes
 	}
 	can_reforge = {
 		culture = { has_cultural_pillar = heritage_greintvaldian }

@@ -5,3 +5,10 @@ k_kerrandin = {
 	always_follows_primary_heir = yes
 	capital = c_kerrandin
 }
+k_harsia = {
+	color = { 100 250 180 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_avion
+}

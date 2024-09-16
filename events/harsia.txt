@@ -1,0 +1,20 @@
+namespace = harsia
+#####
+harsia.0001 = {
+	type = character_event
+	title = harsia.0001.t
+	desc = harsia.0001.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = scope:harsia_creator
+		animation = personality_honorable
+	}
+
+
+	immediate = { restore_harsia_decision_scripted_effect = yes }
+
+	option = {
+		name = harsia.0001.a
+		add_prestige = large_prestige_gain
+	}
+}

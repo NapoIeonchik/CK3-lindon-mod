@@ -4377,3 +4377,33 @@ einvald_drogfess = {
 		death = yes
 	}
 }
+bervi_kaiser =  {
+	name = "Kaiser_Friedrich"
+	portrait_override = {
+		portrait_modifier_overrides = {
+			custom_beards = male_beard_fp2_iberian_muslim_01
+			custom_hair = male_hair_mena_04
+		}
+	}
+	dna = kaiser_dna
+	dynasty = 2002362
+	martial = 0
+	diplomacy = 0
+	intrigue = 0
+	stewardship = 21
+	learning = 0
+	religion = "three"
+	culture = einvaldian
+	trait = education_stewardship_4
+	trait = diligent
+	trait = greedy
+	trait = eccentric
+	trait = flagellant
+	trait = inappetetic 
+	1041.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}

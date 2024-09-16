@@ -38,6 +38,12 @@ d_bribera = {
 }
 d_eddon = {
 	1066.9.14 = {
+		holder = bervi_kaiser
+		#liege = "k_bervi"
+	}
+}
+d_godymash = {
+	1066.9.14 = {
 		holder = frederik
 		#liege = "k_bervi"
 	}
