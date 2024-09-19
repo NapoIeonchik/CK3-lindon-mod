@@ -2877,6 +2877,7 @@ hen = {
 }
 waltherina = {
 	name = "Waltherina"
+	sexuality = heterosexual
 	portrait_override = {
 		portrait_modifier_overrides = {
 			custom_hair = female_hair_fp2_iberian_christian_03

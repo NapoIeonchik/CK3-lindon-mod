@@ -1,0 +1,83 @@
+integrate_kraishe_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_integrate_kraishe.dds"
+	major = yes
+
+	ai_check_interval = 72
+
+	desc = integrate_kraishe_decision_desc
+	selection_tooltip = integrate_kraishe_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty # Everyone should have a dynasty, but in case they don't...
+		OR = {
+			has_title = title:k_einvald
+			culture = culture:einvaldian
+		}
+		NOT = {	
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_integrated_kraishe
+			}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= high_prestige_level
+		completely_controls = title:k_kraishe
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+		is_imprisoned = no
+	}
+
+	effect = {
+		title:d_kraishe = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_shelebest = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_kraishe = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_ekrund = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_einvald5 = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_castleward = {
+			set_de_jure_liege_title = title:k_einvald
+		}
+		title:d_evalberg = {
+			change_development_level = 5
+		}
+		destroy_title = title:k_kraishe
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_integrated_kraishe
+			}
+			set_global_variable = {
+				name = flag_integrated_kraishe
+				value = root
+			}
+		}
+	}
+
+	cost = {
+		gold = 200
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
