@@ -15,3 +15,9 @@ silicon_implants_modifier = {
 	monthly_prestige = 0.35
 	attraction_opinion = 30
 }
+imperial_crown = {
+	diplomacy = 3
+	monthly_prestige = 2
+	court_grandeur_baseline_add = 20
+	vassal_opinion = 10
+}

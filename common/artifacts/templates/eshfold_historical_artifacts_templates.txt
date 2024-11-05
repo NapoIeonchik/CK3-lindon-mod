@@ -49,3 +49,18 @@ silicon_template = {
 	}
 	unique = yes
 }
+imperial_crown_template = {
+	can_equip = {
+		always = yes
+	}
+	can_benefit = {
+		always = yes
+	}
+	can_reforge = {
+		always = yes
+	}
+	fallback = {
+		powerful_vassal_opinion = 2
+	}
+	unique = yes
+}

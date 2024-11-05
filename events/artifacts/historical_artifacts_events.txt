@@ -589,6 +589,14 @@ historical_artifacts.0023 = {
 				create_artifact_silicon_effect = { OWNER = this }
 			}
 		}
+		if = {
+			limit = {
+				exists = title:k_einvald.holder
+			}
+			title:k_einvald.holder = { 
+				create_artifact_imperial_crown_effect = { OWNER = this }
+			}
+		}
 	}
 }
 
